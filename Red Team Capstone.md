@@ -1,3 +1,17 @@
+## Welcome
+This is an in-depth network challenge simulating a Red Teaming engagement. The challenge includes several phases structured around the cyber kill chain that will require you to enumerate a perimeter, breach the organisation, perform lateral movement, and finally perform goal execution to show impact. To best simulate how these engagements usually occur, there is no single right answer. Instead, there are multiple paths that can be used to achieve the final goal.
+
+### Tested Learning Objectives  
+
+- OSINT (Simulated)
+- Enumeration & Fuzzing
+- Phishing
+- AV Evasion
+- Lateral Movement
+- AD Exploitation
+- Linux and Windows Security Testing
+- Privilege Escalation
+- Post-Compromise Exploitation
 ## Overview
 TryHackMe, a cybersecurity consultancy firm, has been approached by the government of Trimento to perform a red team engagement against their Reserve Bank (TheReserve).![Trimento Logo](https://tryhackme-images.s3.amazonaws.com/user-uploads/6093e17fa004d20049b6933e/room-content/a29cffb908b62b9564316df5a43f69e9.png) 
 Trimento is an island country situated in the Pacific. While they may be small in size, they are by no means not wealthy due to foreign investment. Their reserve bank has two main divisions:
