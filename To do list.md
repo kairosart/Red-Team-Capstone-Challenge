@@ -1,0 +1,8 @@
+- Start the machine.
+- Connect kairosdev-redteamcapstonechallenge.ovpn.
+- Connect corpUsername.ovpn.
+- Connect hacker.ovpn.
+- Create a [[Reverse Shell]]
+- [[Privilege Escalation]]
+- 
+- 
