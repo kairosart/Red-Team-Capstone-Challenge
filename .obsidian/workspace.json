@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2a4926dd5d9d4e8b",
+            "id": "286ed35dd394b83f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "VPN Server(10.200.17.12).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "VPN Server(10.200.17.12).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "VPN Server(10.200.17.12).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "VPN Server(10.200.17.12).md"
+              }
             }
           }
         ]
@@ -138,6 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a4926dd5d9d4e8b",
-  "lastOpenFiles": []
+  "active": "286ed35dd394b83f",
+  "lastOpenFiles": [
+    "Web Server (10.200.17.13).md",
+    "WebMail (10.200.17.11).md",
+    "Enumeration.md",
+    "Evolution configuration.canvas",
+    "SWIFT.md",
+    "Red Team Capstone.md",
+    "Trimento.md",
+    "Project scope.md",
+    "Project Registration.md",
+    "Project Goal.md",
+    "To do list.md",
+    "thereserve.png",
+    "images/the_team.png",
+    "Chisel (Linux and Windows).md",
+    "images",
+    "images/evolution1.png"
+  ]
 }
