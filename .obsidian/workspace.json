@@ -1,21 +1,31 @@
 {
   "main": {
-    "id": "6e6a3b2d585ebdab",
+    "id": "68cd2d217ee4f419",
     "type": "split",
     "children": [
       {
-        "id": "b5a8f6759d1ee8d0",
+        "id": "fdf4513ffe1b8b83",
         "type": "tabs",
         "children": [
           {
-            "id": "286ed35dd394b83f",
+            "id": "53d55867090d8f4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Team Capstone.md",
+                "file": "External Servers/VPN Scanning/Reverse Shell.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "af4cbd80f66b284c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/thereserve 1.png"
               }
             }
           }
@@ -25,15 +35,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "14e907cb493a34b1",
+    "id": "fc11cc5a4fefef56",
     "type": "split",
     "children": [
       {
-        "id": "500ffbe6e52b4b99",
+        "id": "9c68ced6e8466e74",
         "type": "tabs",
         "children": [
           {
-            "id": "d0ae3746ff5ee505",
+            "id": "c68527ebe0e9bfce",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +53,7 @@
             }
           },
           {
-            "id": "0888f4adfa9fbeb0",
+            "id": "c579953005a58ff0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +68,7 @@
             }
           },
           {
-            "id": "decc047084ce43a4",
+            "id": "cc41e238516ea428",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +82,20 @@
     "width": 300
   },
   "right": {
-    "id": "22433bb1549ad04e",
+    "id": "4ed4eb02731b2fdf",
     "type": "split",
     "children": [
       {
-        "id": "e9f65b194230e224",
+        "id": "096bfd1782c2defe",
         "type": "tabs",
         "children": [
           {
-            "id": "23421671370ebdde",
+            "id": "bd312ea3697c1413",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Team Capstone.md",
+                "file": "External Servers/VPN Scanning/Reverse Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +107,19 @@
             }
           },
           {
-            "id": "27d406398fd40329",
+            "id": "0f3c132706d92ebb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Team Capstone.md",
+                "file": "External Servers/VPN Scanning/Reverse Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "01e82841b16c6397",
+            "id": "04b6fab828c36fe5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +130,29 @@
             }
           },
           {
-            "id": "141b177a5fa562b0",
+            "id": "3adaf689b2b22ae9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Team Capstone.md"
+                "file": "External Servers/VPN Scanning/Reverse Shell.md"
               }
+            }
+          },
+          {
+            "id": "33e04c8c5b790c90",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "c28e62ee5691242c",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
             }
           }
         ]
@@ -138,6 +164,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "copilot:Copilot Chat": false,
+      "juggl:Juggl global graph": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -146,25 +174,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "286ed35dd394b83f",
+  "active": "53d55867090d8f4f",
   "lastOpenFiles": [
-    "SWIFT.md",
-    "Evolution configuration.canvas",
-    "Enumeration.md",
+    "External Servers/VPN Scanning/Log in TheReserve.md",
+    "External Servers/VPN Scanning/Reverse Shell.md",
+    "External Servers/VPN Scanning/Privilege Escalation.md",
+    "External Servers/VPN Scanning/Routing.md",
+    "Steps/0x03 - Initial Compromise of Active Directory.md",
+    "Machines/WRK1/Connect to WRK1 via RDP.md",
+    "Steps/0x02 - Perimeter Breach.md",
+    "Steps/0x03 - Initial Active Directory Access.md",
+    "Steps/0x01 - OSINT.md",
+    "External Servers/VPN Scanning/Enumeration.md",
+    "Images/thereserve 1.png",
+    "External Servers/VPN Scanning/Log in.md",
+    "External Servers/VPN Scanning/SSH (10.200.X.12).md",
+    "External Servers/VPN Scanning/VPN Enumeration.md",
+    "External Servers/VPN Scanning/VPN Server (10.200.X.12).md",
     "WebMail (10.200.17.11).md",
-    "Web Server (10.200.17.13).md",
     "VPN Server(10.200.17.12).md",
-    "Chisel (Linux and Windows).md",
-    "README.md",
-    "Red Team Capstone.md",
-    "Trimento.md",
-    "Project scope.md",
-    "Project Registration.md",
+    "Abstract/Red Team Capstone.md",
     "Project Goal.md",
-    "To do list.md",
-    "thereserve.png",
-    "images/the_team.png",
-    "images",
-    "images/evolution1.png"
+    "SWIFT.md"
   ]
 }

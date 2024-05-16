@@ -1,3 +1,10 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "theme": "obsidian",
+  "cssTheme": "",
+  "nativeMenus": true,
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "snippet"
+  ]
 }
