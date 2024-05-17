@@ -1,7 +1,7 @@
 
 After registering you can start the OSINT research on the three public servers.
 [[VPN Enumeration]]
-[[Web 10.200.X.13 (80)]]
+[[Website content]]
 [[WebMail 10.200.X.11]]
 
 ![[0x01.png]]

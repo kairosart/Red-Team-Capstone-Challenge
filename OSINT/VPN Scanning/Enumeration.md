@@ -12,13 +12,14 @@
 
 Posible user/password attack.
 ## Gobuster
-	http://10.200.X.12/vpn
+	http://vpn.thereserve.loc/vpn
 		Found config VPN
 		
-		http://10.200.X.12/vpn/corpUsername.ovpn
+		http://vpn.thereserve.loc/vpn/corpUsername.ovpn
 		
-	http://10.200.X.12/vpns
-	
+	http://vpn.thereserve.loc/vpns
+
+![[corpusernamevpn.png]]
 ## Connect to the VPN
 corpUsername.vpn
 	- Create a file on your Attacking Machine with the content of corpUsername.ovpn.

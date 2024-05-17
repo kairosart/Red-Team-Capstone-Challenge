@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "External Servers/VPN Scanning/Reverse Shell.md",
+                "file": "OSINT/VPN Scanning/Reverse Shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,13 +23,40 @@
             "id": "af4cbd80f66b284c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/thereserve 1.png"
+                "file": "OSINT/WebMail Scanning/Brute force SMTP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e1c6cb2aef526be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSINT/Web Scanning/Hosts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64374b52cbaf3d89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSINT/Web Scanning/Hosts.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -95,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "External Servers/VPN Scanning/Reverse Shell.md",
+                "file": "OSINT/Web Scanning/Hosts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "External Servers/VPN Scanning/Reverse Shell.md",
+                "file": "OSINT/Web Scanning/Hosts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "External Servers/VPN Scanning/Reverse Shell.md"
+                "file": "OSINT/Web Scanning/Hosts.md"
               }
             }
           },
@@ -174,27 +201,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53d55867090d8f4f",
+  "active": "64374b52cbaf3d89",
   "lastOpenFiles": [
-    "External Servers/VPN Scanning/Log in TheReserve.md",
-    "External Servers/VPN Scanning/Reverse Shell.md",
-    "External Servers/VPN Scanning/Privilege Escalation.md",
-    "External Servers/VPN Scanning/Routing.md",
+    "OSINT/Web Scanning/Technologies of the website.md",
+    "OSINT/Web Scanning/Hosts.md",
+    "OSINT/Web Scanning/SSH (22).md",
+    "OSINT/Web Scanning/Website content.md",
+    "OSINT/Web Scanning/October CMS.md",
+    "OSINT/VPN Scanning/Enumeration.md",
+    "OSINT/VPN Scanning/VPN Enumeration.md",
+    "OSINT/VPN Scanning/VPN Server (10.200.X.12).md",
+    "OSINT/VPN Scanning/Reverse Shell.md",
+    "OSINT/VPN Scanning/Privilege Escalation.md",
+    "OSINT/VPN Scanning/Log in TheReserve.md",
+    "OSINT/VPN Scanning/corpUsername.ovpn.md",
+    "Images/corpusernamevpn.png",
+    "Evolution configuration.canvas",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Images/evolution1.png",
+    "Images/clear_database.png",
+    "Images/burp_vpn.png",
+    "Images/0x03.png",
+    "Images/0x02.png",
+    "Images/0x01.png",
+    "Images/wappalyzer.png",
+    "Images/VPN_request 1.png",
+    "Images/VPN_request.png",
+    "OSINT/VPN Scanning/Routing.md",
+    "OSINT/VPN Scanning/Scanning other hosts.md",
+    "OSINT/VPN Scanning/SSH (10.200.X.12).md",
+    "External Servers/Web Scanning/Web 10.200.X.12 (80).md",
+    "OSINT/WebMail Scanning/Brute force SMTP.md",
     "Steps/0x03 - Initial Compromise of Active Directory.md",
     "Machines/WRK1/Connect to WRK1 via RDP.md",
     "Steps/0x02 - Perimeter Breach.md",
     "Steps/0x03 - Initial Active Directory Access.md",
     "Steps/0x01 - OSINT.md",
-    "External Servers/VPN Scanning/Enumeration.md",
-    "Images/thereserve 1.png",
     "External Servers/VPN Scanning/Log in.md",
-    "External Servers/VPN Scanning/SSH (10.200.X.12).md",
-    "External Servers/VPN Scanning/VPN Enumeration.md",
-    "External Servers/VPN Scanning/VPN Server (10.200.X.12).md",
     "WebMail (10.200.17.11).md",
-    "VPN Server(10.200.17.12).md",
-    "Abstract/Red Team Capstone.md",
-    "Project Goal.md",
-    "SWIFT.md"
+    "VPN Server(10.200.17.12).md"
   ]
 }

@@ -1,6 +1,6 @@
 
 ### Domain
-Add domain to end of every [[Web 10.200.X.13 (80)#Create a file with the names (users.txt)]]
+Add domain to end of every [[Website content#Create a file with the names (users.txt)]]
 ```
 sed -i 's/$/@corp.thereserve.loc/' users.txt
 ```

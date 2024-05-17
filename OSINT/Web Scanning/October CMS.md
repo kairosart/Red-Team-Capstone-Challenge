@@ -1,4 +1,4 @@
-http://thereserve.loc/october/index.php code.
+http://web.thereserve.loc/october/index.php code.
 ```
  <meta name="generator" content="**OctoberCMS**">
 ```
@@ -7,7 +7,7 @@ http://thereserve.loc/october/index.php code.
 https://octobercms.com/features
 
 ### Admin Panel
-http://thereserve.loc/october/index.php/backend/backend/auth/signin
+http://web.thereserve.loc/october/index.php/backend/backend/auth/signin
 ![[octobercms_admin_panel 1.png]]
 
 ### Accessing with default credentials (admin/admin)
