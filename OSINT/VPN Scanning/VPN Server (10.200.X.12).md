@@ -2,7 +2,7 @@
 
 - Connect to [[kairosdev-redteamcapstonechallenge.ovpn]].
 - [[VPN Enumeration]]
-- [[Log in TheReserve]]
+- [[Web vpn.theteserve.loc]]
 - [[Reverse Shell]]
 - [[SSH (10.200.X.12)]]
 - [[Privilege Escalation]]

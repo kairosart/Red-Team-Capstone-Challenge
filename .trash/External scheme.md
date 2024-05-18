@@ -15,6 +15,6 @@ Nmap done: 255 IP addresses (4 hosts up) scanned in 12.00 seconds
 
 [[VPN Server (10.200.X.12)]]
 [[Website content]]
-[[WebMail 10.200.X.11]]
+[[OSINT/WebMail Scanning/Enumeration]]
 
 

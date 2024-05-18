@@ -1,8 +1,7 @@
-## Enumeration
 ## All ports 
 
 ```
-sudo nmap -sV -sT -O -p 1-65535 10.200.103.11
+sudo nmap -sV -sT -O -p 1-65535 10.200.X.11
 
 ```
 
