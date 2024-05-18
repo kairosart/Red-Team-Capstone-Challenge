@@ -8,34 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "53d55867090d8f4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSINT/WebMail Scanning/Enumeration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32c7123e8788222c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/VPN_request 1.png"
-              }
-            }
-          },
-          {
             "id": "258aaa1676aa86f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Perimeter Breach/Active enumeration of the 3 servers.md",
+                "file": "Perimeter Breach/Brute force SMTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSINT/WebMail Scanning/Brute force SMTP.md",
+                "file": "Perimeter Breach/Brute force SMTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSINT/WebMail Scanning/Web mail.thereserve.loc.md",
+                "file": "Perimeter Breach/Active enumeration of the 3 servers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -223,38 +201,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c68527ebe0e9bfce",
+  "active": "d523207b62df374c",
   "lastOpenFiles": [
-    "Images/VPN_request 1.png",
+    "OSINT/Web Scanning/Website web.thereserve.loc.md",
+    "OSINT/VPN Scanning/Enumeration.md",
+    "OSINT/VPN Scanning/Routing.md",
+    "OSINT/VPN Scanning/Scanning other hosts.md",
+    "OSINT/VPN Scanning/SSH (10.200.X.12).md",
+    "OSINT/VPN Scanning/VPN Enumeration.md",
+    "OSINT/VPN Scanning/VPN Server (10.200.X.12).md",
+    "OSINT/VPN Scanning/Web vpn.theteserve.loc.md",
+    "Perimeter Breach/Brute force SMTP.md",
     "Perimeter Breach/Active enumeration of the 3 servers.md",
+    "OSINT/Web Scanning/Hosts.md",
+    "OSINT/WebMail Scanning/Technologies of the website.md",
+    "OSINT/WebMail Scanning/Web mail.thereserve.loc.md",
+    "OSINT/WebMail Scanning/Enumeration.md",
+    "Images/VPN_request 1.png",
+    "Brute force SMTP-20240518135026786.webp",
+    "Brute force SMTP-20240518134435690.webp",
+    "Brute force SMTP-20240518134723113.webp",
+    "Images/nmap_mail.png",
+    "Images/nmap_vpn 1.png",
+    "Images/nmap_vpn.png",
+    "Images/nmap_web.png",
     "Perimeter Breach",
     "VPN Server(10.200.17.12).md",
     "Images/VPN_request.png",
     "Images/the_team 1.png",
-    "Images/the_team.png",
-    "Images/perimeter.png",
-    "Images/Pasted image 20240309052117.png",
-    "Images/Pasted image 20240309051550.png",
-    "Images/octobercms_admin_panel 1.png",
-    "Images/images 1.png",
-    "Images/images.png",
-    "OSINT/VPN Scanning/Web vpn.theteserve.loc.md",
-    "OSINT/Web Scanning/Hosts.md",
     "OSINT/Web Scanning/October CMS.md",
-    "OSINT/WebMail Scanning/Brute force SMTP.md",
-    "OSINT/WebMail Scanning/Enumeration.md",
-    "OSINT/WebMail Scanning/Technologies of the website.md",
     "OSINT/WebMail Scanning/Evolution Email Client.md",
     "OSINT/Web Scanning/Technologies of the website.md",
-    "OSINT/Web Scanning/Website web.thereserve.loc.md",
-    "OSINT/VPN Scanning/VPN Server (10.200.X.12).md",
-    "OSINT/VPN Scanning/VPN Enumeration.md",
-    "OSINT/VPN Scanning/Scanning other hosts.md",
-    "OSINT/VPN Scanning/Routing.md",
     "OSINT/VPN Scanning/Reverse Shell.md",
     "OSINT/VPN Scanning/Privilege Escalation.md",
-    "OSINT/VPN Scanning/Enumeration.md",
-    "OSINT/WebMail Scanning/Web mail.thereserve.loc.md",
     "Welcome.md",
     "Web Server (10.200.17.13).md",
     "WebMail (10.200.17.11).md",
@@ -262,7 +241,6 @@
     "OSINT/VPN Scanning/corpUsername.ovpn.md",
     "Evolution configuration.canvas",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "OSINT/VPN Scanning/SSH (10.200.X.12).md"
+    "Untitled 1.canvas"
   ]
 }
