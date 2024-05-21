@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSINT/Web Scanning/Hosts.md",
+                "file": "OSINT/WebMail Scanning/Technologies of the website.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4c4794b14b80d3fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Perimeter Breach/Brute force SMTP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Perimeter Breach/Active enumeration of the 3 servers.md",
+                "file": "Perimeter Breach/Brute force SMTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Perimeter Breach/Active enumeration of the 3 servers.md",
+                "file": "Perimeter Breach/Brute force SMTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Perimeter Breach/Active enumeration of the 3 servers.md"
+                "file": "Perimeter Breach/Brute force SMTP.md"
               }
             }
           },
@@ -201,21 +213,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d523207b62df374c",
+  "active": "4c4794b14b80d3fc",
   "lastOpenFiles": [
-    "OSINT/Web Scanning/Website web.thereserve.loc.md",
-    "OSINT/VPN Scanning/Enumeration.md",
-    "OSINT/VPN Scanning/Routing.md",
-    "OSINT/VPN Scanning/Scanning other hosts.md",
-    "OSINT/VPN Scanning/SSH (10.200.X.12).md",
-    "OSINT/VPN Scanning/VPN Enumeration.md",
-    "OSINT/VPN Scanning/VPN Server (10.200.X.12).md",
-    "OSINT/VPN Scanning/Web vpn.theteserve.loc.md",
-    "Perimeter Breach/Brute force SMTP.md",
     "Perimeter Breach/Active enumeration of the 3 servers.md",
+    "Perimeter Breach/Brute force SMTP.md",
+    "OSINT/VPN Scanning/VPN Enumeration.md",
+    "Steps/0x01 - OSINT.md",
+    "OSINT/VPN Scanning/corpUsername.ovpn.md",
+    "Steps/0x02 - Perimeter Breach.md",
+    "OSINT/VPN Scanning/Web vpn.theteserve.loc.md",
+    "OSINT/VPN Scanning/VPN Server (10.200.X.12).md",
     "OSINT/Web Scanning/Hosts.md",
     "OSINT/WebMail Scanning/Technologies of the website.md",
+    "OSINT/VPN Scanning/SSH (10.200.X.12).md",
+    "OSINT/VPN Scanning/Scanning other hosts.md",
+    "OSINT/VPN Scanning/Routing.md",
     "OSINT/WebMail Scanning/Web mail.thereserve.loc.md",
+    "OSINT/Web Scanning/Website web.thereserve.loc.md",
+    "OSINT/VPN Scanning/Enumeration.md",
     "OSINT/WebMail Scanning/Enumeration.md",
     "Images/VPN_request 1.png",
     "Brute force SMTP-20240518135026786.webp",
@@ -237,8 +252,6 @@
     "Welcome.md",
     "Web Server (10.200.17.13).md",
     "WebMail (10.200.17.11).md",
-    "OSINT/Web Scanning/SSH (22).md",
-    "OSINT/VPN Scanning/corpUsername.ovpn.md",
     "Evolution configuration.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"

