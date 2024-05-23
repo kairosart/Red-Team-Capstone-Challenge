@@ -3,7 +3,7 @@
   "theme": "obsidian",
   "cssTheme": "Obsidianite",
   "nativeMenus": true,
-  "baseFontSize": 16,
+  "baseFontSize": 20,
   "enabledCssSnippets": [
     "snippet"
   ]

@@ -17,16 +17,14 @@ Certificate:
 This means that the file might not be useful to connect to an internal network without modifications, like defining the remote IP correctly and adding the username to the CN field.
 ## Connect
 ```
-sudo openvpn corpUsername.ovpn
+sudo openvpn <filename>.ovpn
 ```
-2024-03-13 06:21:28 net_route_v4_add: **10.200.10.21/32** via 12.100.1.1 dev [NULL] table 0 metric 1000
-2024-03-13 06:21:28 net_route_v4_add: **10.200.10.22/32** via 12.100.1.1 dev [NULL] table 0 metric 1000
+2024-03-13 06:21:28 net_route_v4_add: **10.200.X.21/32** via 12.100.1.1 dev [NULL] table 0 metric 1000
+2024-03-13 06:21:28 net_route_v4_add: **10.200.X.22/32** via 12.100.1.1 dev [NULL] table 0 metric 1000
 
 ## VPN Connections
 
-^52534d
-
 [[WRK1.corp.thereserve.loc 10.200.X.21]]
-[[WRK2 Enumeration 10.200.X.22]]
+[[WRK2 Enumeration]]
 
 

@@ -27,7 +27,7 @@ dirb http://10.200.X.12:80 /usr/share/wordlists/dirb/big.txt
 http://10.200.X.12/vpn/corpUsername.ovpn
 
 ## Connect to the VPN
-[[corpUsername.ovpn]]
+[[ovpn file]]
 
 
 - Create a file on your Attacking Machine with the content of corpUsername.ovpn.

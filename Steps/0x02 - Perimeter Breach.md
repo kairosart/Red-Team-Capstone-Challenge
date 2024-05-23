@@ -2,7 +2,7 @@
 Since the VPN service was linked to Active Directory, this also provided the initial compromise of the corporate workstations. 
 You have low-privilegee access to CORPDC, WRK1 and WRK2. 
 
-[[corpUsername.ovpn|New VPN discovered]]
+[[ovpn file|New VPN discovered]]
 [[Connect to WRK1 via RDP]]
 [[Flag-1 Breaching the Perimeter]]
 [[Connect to WRK2 via RDP]]

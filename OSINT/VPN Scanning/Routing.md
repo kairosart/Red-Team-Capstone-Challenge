@@ -1,4 +1,4 @@
-==If [[corpUsername.ovpn]] doesn't work fine, use this method.==
+==If [[ovpn file]] doesn't work fine, use this method.==
 
 
 > The `ip route` command is used in Linux systems to manage the kernel's IP routing table. It allows you to view, add, modify, or delete routing entries. Here are some common uses of the `ip route` command:

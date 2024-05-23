@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "af4cbd80f66b284c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Perimeter Breach/Brute force SMTP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2e1c6cb2aef526be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSINT/WebMail Scanning/Technologies of the website.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d523207b62df374c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Perimeter Breach/Active enumeration of the 3 servers.md",
+                "file": "OSINT/VPN Scanning/Web vpn.theteserve.loc.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Perimeter Breach/Brute force SMTP.md",
+                "file": "Initial Active Directory Access/CORP Tier 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13c62800909cf5b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Steps/0x03 - Initial Active Directory Access.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b394005db60dbd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Steps/0x02 - Perimeter Breach.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Perimeter Breach/Brute force SMTP.md",
+                "file": "Initial Active Directory Access/CORP Tier 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Perimeter Breach/Brute force SMTP.md",
+                "file": "Initial Active Directory Access/CORP Tier 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Perimeter Breach/Brute force SMTP.md"
+                "file": "Initial Active Directory Access/CORP Tier 1.md"
               }
             }
           },
@@ -215,43 +215,45 @@
   },
   "active": "4c4794b14b80d3fc",
   "lastOpenFiles": [
-    "Perimeter Breach/Active enumeration of the 3 servers.md",
-    "Perimeter Breach/Brute force SMTP.md",
-    "OSINT/VPN Scanning/VPN Enumeration.md",
-    "Steps/0x01 - OSINT.md",
-    "OSINT/VPN Scanning/corpUsername.ovpn.md",
+    "Machines/CORPDC/CORPDC (10.200.X.102).md",
+    "Initial Active Directory Access/CORP Tier 1.md",
+    "Steps/0x03 - Initial Active Directory Access.md",
+    "Initial Active Directory Access",
+    "Untitled",
     "Steps/0x02 - Perimeter Breach.md",
+    "Machines/WRK2/WRK2 Enumeration.md",
+    "Machines/WRK2/WRK2.corp.thereserve.loc 10.200.X.22.md",
+    "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
+    "Machines/WRK2/Domain Escalation.md",
+    "Machines/WRK2/Connect to WRK2 via RDP.md",
+    "Connect to WRK2 via RDP-20240523151848275.webp",
+    "Machines/WRK1/Connect to WRK1 via RDP.md",
+    "OSINT/VPN Scanning/ovpn file.md",
+    "Project brief/SSH connection to the e-Citizen.md",
+    "Images/Connect to WRK1 via RDP-20240523151500184.webp",
+    "Machines/WRK1/WRK1 Enumeration/SSH (22).md",
+    "Machines/WRK1/WRK1 Enumeration/SMB (135.139.445).md",
+    "Machines/WRK1/WRK1 Enumeration/RDP (3389).md",
     "OSINT/VPN Scanning/Web vpn.theteserve.loc.md",
-    "OSINT/VPN Scanning/VPN Server (10.200.X.12).md",
-    "OSINT/Web Scanning/Hosts.md",
-    "OSINT/WebMail Scanning/Technologies of the website.md",
-    "OSINT/VPN Scanning/SSH (10.200.X.12).md",
-    "OSINT/VPN Scanning/Scanning other hosts.md",
-    "OSINT/VPN Scanning/Routing.md",
-    "OSINT/WebMail Scanning/Web mail.thereserve.loc.md",
+    "OSINT/VPN Scanning/Steps.md",
+    "Perimeter Breach/Brute force SMTP.md",
     "OSINT/Web Scanning/Website web.thereserve.loc.md",
+    "Perimeter Breach/Active enumeration of the 3 servers.md",
+    "OSINT/WebMail Scanning/Web mail.thereserve.loc.md",
+    "OSINT/WebMail Scanning/Technologies of the website.md",
+    "OSINT/VPN Scanning/VPN Enumeration.md",
     "OSINT/VPN Scanning/Enumeration.md",
-    "OSINT/WebMail Scanning/Enumeration.md",
+    "Images/Brute force SMTP-20240518135026786.webp",
+    "credentials.md",
+    "Brute.md",
     "Images/VPN_request 1.png",
-    "Brute force SMTP-20240518135026786.webp",
-    "Brute force SMTP-20240518134435690.webp",
+    "Images/Brute force SMTP-20240518134435690.webp",
     "Brute force SMTP-20240518134723113.webp",
     "Images/nmap_mail.png",
     "Images/nmap_vpn 1.png",
     "Images/nmap_vpn.png",
     "Images/nmap_web.png",
     "Perimeter Breach",
-    "VPN Server(10.200.17.12).md",
-    "Images/VPN_request.png",
-    "Images/the_team 1.png",
-    "OSINT/Web Scanning/October CMS.md",
-    "OSINT/WebMail Scanning/Evolution Email Client.md",
-    "OSINT/Web Scanning/Technologies of the website.md",
-    "OSINT/VPN Scanning/Reverse Shell.md",
-    "OSINT/VPN Scanning/Privilege Escalation.md",
-    "Welcome.md",
-    "Web Server (10.200.17.13).md",
-    "WebMail (10.200.17.11).md",
     "Evolution configuration.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
