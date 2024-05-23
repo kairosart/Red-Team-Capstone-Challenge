@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Initial Active Directory Access/CORP Tier 1.md",
+                "file": "Machines/WRK2/WRK2 Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Initial Active Directory Access/CORP Tier 1.md",
+                "file": "Machines/WRK2/WRK2 Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Initial Active Directory Access/CORP Tier 1.md",
+                "file": "Machines/WRK2/WRK2 Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Initial Active Directory Access/CORP Tier 1.md"
+                "file": "Machines/WRK2/WRK2 Enumeration.md"
               }
             }
           },
@@ -215,8 +215,13 @@
   },
   "active": "4c4794b14b80d3fc",
   "lastOpenFiles": [
-    "Machines/CORPDC/CORPDC (10.200.X.102).md",
     "Initial Active Directory Access/CORP Tier 1.md",
+    "Machines/12.100.1.1.md",
+    "Machines/12.100.1.8.md",
+    "Machines/12.100.1.9.md",
+    "Machines/WRK2.corp.thereserve.loc 10.200.X.21.md",
+    "Machines/WRK1.corp.thereserve.loc 10.200.X.21.md",
+    "Machines/CORPDC/CORPDC (10.200.X.102).md",
     "Steps/0x03 - Initial Active Directory Access.md",
     "Initial Active Directory Access",
     "Untitled",
@@ -240,12 +245,7 @@
     "OSINT/Web Scanning/Website web.thereserve.loc.md",
     "Perimeter Breach/Active enumeration of the 3 servers.md",
     "OSINT/WebMail Scanning/Web mail.thereserve.loc.md",
-    "OSINT/WebMail Scanning/Technologies of the website.md",
-    "OSINT/VPN Scanning/VPN Enumeration.md",
-    "OSINT/VPN Scanning/Enumeration.md",
     "Images/Brute force SMTP-20240518135026786.webp",
-    "credentials.md",
-    "Brute.md",
     "Images/VPN_request 1.png",
     "Images/Brute force SMTP-20240518134435690.webp",
     "Brute force SMTP-20240518134723113.webp",
