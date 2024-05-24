@@ -7,7 +7,7 @@ Accessing the VPN server, a login page is presented, which requires an internal 
 - Log in with the  credentials you found in [[Brute force SMTP]].
 - Click on the "Submit" button and an "ovpn" file will be download.
 - Check the [[ovpn file]] to see if you have to change the IP and connect it.
-- Create a [[Reverse Shell]]
+
 
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Perimeter Breach/Brute force SMTP.md",
+                "file": "PERIMETER BREACH/Brute force SMTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSINT/VPN Scanning/Web vpn.theteserve.loc.md",
+                "file": "OSINT/VPN Scanning/vpn.thereserve.loc.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,19 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machines/WRK2/WRK2 Enumeration.md",
+                "file": "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "13c62800909cf5b2",
+            "id": "530bb97f39e6818c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Steps/0x03 - Initial Active Directory Access.md",
+                "file": "DOMAIN ESCALATION/Domain Escalation.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,14 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Steps/0x02 - Perimeter Breach.md",
+                "file": "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c52251eb076aec29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machines/WRK2/WRK2 Enumeration.md",
+                "file": "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machines/WRK2/WRK2 Enumeration.md",
+                "file": "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machines/WRK2/WRK2 Enumeration.md"
+                "file": "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md"
               }
             }
           },
@@ -213,38 +225,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c4794b14b80d3fc",
+  "active": "8b394005db60dbd1",
   "lastOpenFiles": [
-    "Initial Active Directory Access/CORP Tier 1.md",
+    "INITIAL ACTIVE DIRECTORY ACCESS/CORP Tier 1.md",
+    "Steps/0x03 - Initial Compromise of Active Directory.md",
+    "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
+    "Steps/0x02 - Perimeter Breach.md",
+    "DOMAIN ESCALATION/Domain Escalation.md",
+    "DOMAIN ESCALATION",
+    "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
+    "Machines/WRK2/Flag-3 Foothold on Corporate Division Tier 2 Infrastructure.md",
+    "Steps/0x03 - Initial Active Directory Access.md",
+    "Steps/0x01 - Initial Active Directory Access.md",
+    "OSINT/WebMail Scanning/Web mail.thereserve.loc.md",
+    "OSINT/VPN Scanning/vpn.thereserve.loc.md",
+    "Steps/0x00 - OSINT.md",
+    "Scanning Webmail.md",
+    "VPN Scanning.md",
+    "OSINT/WebMail Scanning/Technologies of the website.md",
+    "OSINT/WebMail Scanning/Enumeration.md",
+    "WebMail Scanning/Enumeration.md",
+    "WebMail Scanning",
+    "0x00 --20240524054742287.webp",
+    "To do list.md",
+    "Machines/WRK2/WRK2 Enumeration.md",
     "Machines/12.100.1.1.md",
     "Machines/12.100.1.8.md",
     "Machines/12.100.1.9.md",
     "Machines/WRK2.corp.thereserve.loc 10.200.X.21.md",
     "Machines/WRK1.corp.thereserve.loc 10.200.X.21.md",
     "Machines/CORPDC/CORPDC (10.200.X.102).md",
-    "Steps/0x03 - Initial Active Directory Access.md",
-    "Initial Active Directory Access",
-    "Untitled",
-    "Steps/0x02 - Perimeter Breach.md",
-    "Machines/WRK2/WRK2 Enumeration.md",
+    "INITIAL ACTIVE DIRECTORY ACCESS",
     "Machines/WRK2/WRK2.corp.thereserve.loc 10.200.X.22.md",
-    "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
-    "Machines/WRK2/Domain Escalation.md",
-    "Machines/WRK2/Connect to WRK2 via RDP.md",
     "Connect to WRK2 via RDP-20240523151848275.webp",
-    "Machines/WRK1/Connect to WRK1 via RDP.md",
-    "OSINT/VPN Scanning/ovpn file.md",
-    "Project brief/SSH connection to the e-Citizen.md",
     "Images/Connect to WRK1 via RDP-20240523151500184.webp",
-    "Machines/WRK1/WRK1 Enumeration/SSH (22).md",
-    "Machines/WRK1/WRK1 Enumeration/SMB (135.139.445).md",
-    "Machines/WRK1/WRK1 Enumeration/RDP (3389).md",
-    "OSINT/VPN Scanning/Web vpn.theteserve.loc.md",
-    "OSINT/VPN Scanning/Steps.md",
-    "Perimeter Breach/Brute force SMTP.md",
-    "OSINT/Web Scanning/Website web.thereserve.loc.md",
-    "Perimeter Breach/Active enumeration of the 3 servers.md",
-    "OSINT/WebMail Scanning/Web mail.thereserve.loc.md",
     "Images/Brute force SMTP-20240518135026786.webp",
     "Images/VPN_request 1.png",
     "Images/Brute force SMTP-20240518134435690.webp",
@@ -252,8 +266,7 @@
     "Images/nmap_mail.png",
     "Images/nmap_vpn 1.png",
     "Images/nmap_vpn.png",
-    "Images/nmap_web.png",
-    "Perimeter Breach",
+    "PERIMETER BREACH",
     "Evolution configuration.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
