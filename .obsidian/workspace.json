@@ -4,45 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "fdf4513ffe1b8b83",
+        "id": "ee2696b2b874b4ef",
         "type": "tabs",
         "children": [
-          {
-            "id": "258aaa1676aa86f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PERIMETER BREACH/Brute force SMTP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e1c6cb2aef526be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSINT/VPN Scanning/vpn.thereserve.loc.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c4794b14b80d3fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "530bb97f39e6818c",
             "type": "leaf",
@@ -56,31 +20,18 @@
             }
           },
           {
-            "id": "8b394005db60dbd1",
+            "id": "2cf35dd371783b29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c52251eb076aec29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
+                "file": "INITIAL ACTIVE DIRECTORY ACCESS/CORP Tier 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
+                "file": "DOMAIN ESCALATION/Domain Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
+                "file": "DOMAIN ESCALATION/Domain Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md"
+                "file": "DOMAIN ESCALATION/Domain Escalation.md"
               }
             }
           },
@@ -225,15 +176,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b394005db60dbd1",
+  "active": "530bb97f39e6818c",
   "lastOpenFiles": [
     "INITIAL ACTIVE DIRECTORY ACCESS/CORP Tier 1.md",
-    "Steps/0x03 - Initial Compromise of Active Directory.md",
-    "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
-    "Steps/0x02 - Perimeter Breach.md",
+    "Machines/CORPDC/CORPDC (10.200.X.102).md",
+    "Machines/WRK2/Connect to WRK2 via RDP.md",
     "DOMAIN ESCALATION/Domain Escalation.md",
-    "DOMAIN ESCALATION",
+    "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
     "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
+    "Steps/0x03 - Initial Compromise of Active Directory.md",
+    "Steps/0x02 - Perimeter Breach.md",
+    "DOMAIN ESCALATION",
     "Machines/WRK2/Flag-3 Foothold on Corporate Division Tier 2 Infrastructure.md",
     "Steps/0x03 - Initial Active Directory Access.md",
     "Steps/0x01 - Initial Active Directory Access.md",
@@ -254,9 +207,7 @@
     "Machines/12.100.1.9.md",
     "Machines/WRK2.corp.thereserve.loc 10.200.X.21.md",
     "Machines/WRK1.corp.thereserve.loc 10.200.X.21.md",
-    "Machines/CORPDC/CORPDC (10.200.X.102).md",
     "INITIAL ACTIVE DIRECTORY ACCESS",
-    "Machines/WRK2/WRK2.corp.thereserve.loc 10.200.X.22.md",
     "Connect to WRK2 via RDP-20240523151848275.webp",
     "Images/Connect to WRK1 via RDP-20240523151500184.webp",
     "Images/Brute force SMTP-20240518135026786.webp",

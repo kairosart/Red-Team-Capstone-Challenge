@@ -65,9 +65,12 @@ NT AUTHORITY\SYSTEM:(I)(F)
 BUILTIN\Administrators:(I)(F)
 BUILTIN\Users:(I)(RX)
 
+
 > - Full access on the sync.bat file.
 
 ## Set up a listener with the previously found netcat
+
+With this information, we know that we can set up a listener with the previously found netcat executable, and edit the task to connect with the same executable with administrative privileges, receiving an elevated reverse shell:
 ```
 nc -lnvp 4444
 ```
