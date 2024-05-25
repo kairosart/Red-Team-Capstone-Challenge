@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "INITIAL ACTIVE DIRECTORY ACCESS/CORP Tier 1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -179,9 +179,11 @@
   "active": "530bb97f39e6818c",
   "lastOpenFiles": [
     "INITIAL ACTIVE DIRECTORY ACCESS/CORP Tier 1.md",
-    "Machines/CORPDC/CORPDC (10.200.X.102).md",
-    "Machines/WRK2/Connect to WRK2 via RDP.md",
     "DOMAIN ESCALATION/Domain Escalation.md",
+    "Machines/WRK2/Connect to WRK2 via RDP.md",
+    "Proxychains.md",
+    "Domain Escalation-20240525135655837.webp",
+    "Machines/CORPDC/CORPDC (10.200.X.102).md",
     "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
     "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
     "Steps/0x03 - Initial Compromise of Active Directory.md",
@@ -206,7 +208,6 @@
     "Machines/12.100.1.8.md",
     "Machines/12.100.1.9.md",
     "Machines/WRK2.corp.thereserve.loc 10.200.X.21.md",
-    "Machines/WRK1.corp.thereserve.loc 10.200.X.21.md",
     "INITIAL ACTIVE DIRECTORY ACCESS",
     "Connect to WRK2 via RDP-20240523151848275.webp",
     "Images/Connect to WRK1 via RDP-20240523151500184.webp",
@@ -216,7 +217,6 @@
     "Brute force SMTP-20240518134723113.webp",
     "Images/nmap_mail.png",
     "Images/nmap_vpn 1.png",
-    "Images/nmap_vpn.png",
     "PERIMETER BREACH",
     "Evolution configuration.canvas",
     "Untitled.canvas",

