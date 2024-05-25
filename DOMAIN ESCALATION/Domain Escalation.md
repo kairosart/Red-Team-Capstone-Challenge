@@ -153,3 +153,13 @@ The content is:
 
 ### Crack the hashes.txt file
 
+Use john to crack the hashes file.
+```
+$ john --format=krb5tgs --wordlist=passwords_kerb.txt hashes.kerberoast
+```
+
+Password of user svcScanning cracked
+
+![[Domain Escalation-20240525151453289.webp]]
+
+> With this account, we can now login into SERVER1 and SERVER2.
