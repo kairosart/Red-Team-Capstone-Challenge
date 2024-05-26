@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INITIAL ACTIVE DIRECTORY ACCESS/CORP Tier 1.md",
+                "file": "Machines/WRK2/Connect to WRK2 via RDP.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b457fff6e7a508d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proxychains.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4ed4eb02731b2fdf",
@@ -97,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DOMAIN ESCALATION/Domain Escalation.md",
+                "file": "Proxychains.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DOMAIN ESCALATION/Domain Escalation.md",
+                "file": "Proxychains.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DOMAIN ESCALATION/Domain Escalation.md"
+                "file": "Proxychains.md"
               }
             }
           },
@@ -176,13 +190,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "530bb97f39e6818c",
+  "active": "b457fff6e7a508d4",
   "lastOpenFiles": [
-    "Domain Escalation-20240525151453289.webp",
-    "INITIAL ACTIVE DIRECTORY ACCESS/CORP Tier 1.md",
-    "DOMAIN ESCALATION/Domain Escalation.md",
     "Machines/WRK2/Connect to WRK2 via RDP.md",
+    "DOMAIN ESCALATION/Domain Escalation.md",
+    "INITIAL ACTIVE DIRECTORY ACCESS/CORP Tier 1.md",
     "Proxychains.md",
+    "Machines/SERVER1/Connect to SERVER via RDP.md",
+    "Machines/SERVER1",
+    "Machines/WRK1/Connect to WRK1 via RDP.md",
+    "Machines/SERVER1.md",
+    "Domain Escalation-20240525151453289.webp",
     "Domain Escalation-20240525135655837.webp",
     "Machines/CORPDC/CORPDC (10.200.X.102).md",
     "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
@@ -205,9 +223,6 @@
     "0x00 --20240524054742287.webp",
     "To do list.md",
     "Machines/WRK2/WRK2 Enumeration.md",
-    "Machines/12.100.1.1.md",
-    "Machines/12.100.1.8.md",
-    "Machines/12.100.1.9.md",
     "INITIAL ACTIVE DIRECTORY ACCESS",
     "Connect to WRK2 via RDP-20240523151848275.webp",
     "Images/Connect to WRK1 via RDP-20240523151500184.webp",
@@ -216,7 +231,6 @@
     "Images/Brute force SMTP-20240518134435690.webp",
     "Brute force SMTP-20240518134723113.webp",
     "Images/nmap_mail.png",
-    "Images/nmap_vpn 1.png",
     "PERIMETER BREACH",
     "Evolution configuration.canvas",
     "Untitled.canvas",
