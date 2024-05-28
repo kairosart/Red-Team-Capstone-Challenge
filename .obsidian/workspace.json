@@ -13,38 +13,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOMAIN ESCALATION/Domain Escalation.md",
+                "file": "DOMAIN ESCALATION/Active Directory Enumeration.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2cf35dd371783b29",
+            "id": "b19ecdc90e92e9c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machines/WRK2/Connect to WRK2 via RDP.md",
-                "mode": "preview",
+                "file": "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b457fff6e7a508d4",
+            "id": "94c958bffe219923",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proxychains.md",
+                "file": "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b743d0264e740ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12651f949bbc3377",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PERIMETER BREACH/Brute force SMTP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1745bd14441c647",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machines/WRK2/WRK2 Enumeration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "smbclient",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4ed4eb02731b2fdf",
@@ -111,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Proxychains.md",
+                "file": "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Proxychains.md",
+                "file": "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Proxychains.md"
+                "file": "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md"
               }
             }
           },
@@ -190,13 +225,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b457fff6e7a508d4",
+  "active": "b19ecdc90e92e9c8",
   "lastOpenFiles": [
+    "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
+    "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
+    "PERIMETER BREACH/Brute force SMTP.md",
+    "Machines/WRK2/WRK2 Enumeration.md",
     "Machines/WRK2/Connect to WRK2 via RDP.md",
-    "DOMAIN ESCALATION/Domain Escalation.md",
-    "INITIAL ACTIVE DIRECTORY ACCESS/CORP Tier 1.md",
-    "Proxychains.md",
+    "Machines/WRK1/WRK1.corp.thereserve.loc 10.200.X.21.md",
+    "Machines/WRK1/WRK1 Privilege Escalation.md",
+    "RDP and HTTP enabled hosts on the network.md",
+    "RDP and HTTP enabled hosts on the network-20240528144613713.webp",
+    "RDP enabled hosts on the network-20240528143911389.webp",
+    "DOMAIN ESCALATION/Active Directory Enumeration.md",
     "Machines/SERVER1/Connect to SERVER via RDP.md",
+    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
+    "INITIAL ACTIVE DIRECTORY ACCESS/Untitled Diagram.svg",
+    "Proxychains.md",
     "Machines/SERVER1",
     "Machines/WRK1/Connect to WRK1 via RDP.md",
     "Machines/SERVER1.md",
@@ -215,22 +260,13 @@
     "OSINT/VPN Scanning/vpn.thereserve.loc.md",
     "Steps/0x00 - OSINT.md",
     "Scanning Webmail.md",
-    "VPN Scanning.md",
-    "OSINT/WebMail Scanning/Technologies of the website.md",
-    "OSINT/WebMail Scanning/Enumeration.md",
-    "WebMail Scanning/Enumeration.md",
     "WebMail Scanning",
     "0x00 --20240524054742287.webp",
-    "To do list.md",
-    "Machines/WRK2/WRK2 Enumeration.md",
     "INITIAL ACTIVE DIRECTORY ACCESS",
     "Connect to WRK2 via RDP-20240523151848275.webp",
     "Images/Connect to WRK1 via RDP-20240523151500184.webp",
     "Images/Brute force SMTP-20240518135026786.webp",
     "Images/VPN_request 1.png",
-    "Images/Brute force SMTP-20240518134435690.webp",
-    "Brute force SMTP-20240518134723113.webp",
-    "Images/nmap_mail.png",
     "PERIMETER BREACH",
     "Evolution configuration.canvas",
     "Untitled.canvas",
