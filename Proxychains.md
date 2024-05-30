@@ -57,24 +57,22 @@ Proxychains can work with various proxy types, but a common setup is using Tor a
     
     - **Uncomment the "dynamic_chain" option and comment out "strict_chain":**
     
-        `# dynamic_chain strict_chain`
+        `# dynamic_chain
         
-        Change it to:
+        Change it to
         
-        ini
-        
-        Copy code
-        
-        `dynamic_chain # strict_chain`
+        `strict_chain`
         
     - **Add or ensure the following line exists under `[ProxyList]`:**
         
-        ini
         
-        Copy code
+        `[ProxyList] 
+        `socks4  127.0.0.1 9050`
         
-        `[ProxyList] # add proxy here ... # meanwile # defaults set to "tor" socks5  127.0.0.1 9050`
-        
+
+> The default port is 9050, but any port will work as long as it matches the one we used when establishing the SSH tunnel.
+
+
 3. **Save and exit the text editor:**
     
     - Press `CTRL + X`, then `Y`, and then `ENTER` to save the changes.
@@ -84,26 +82,14 @@ Proxychains can work with various proxy types, but a common setup is using Tor a
 You can now use `proxychains` to run commands through the proxy specified in the configuration file.
 
 1. **Basic usage example:**
-    
-    sh
-    
-    Copy code
-    
+     
     `proxychains4 <command>`
     
 2. **Example with a web request:**
-    
-    sh
-    
-    Copy code
-    
+  
     `proxychains4 curl http://checkip.dyndns.org`
     
 3. **Example with `xfreerdp` as in your original command:**
-    
-    sh
-    
-    Copy code
     
     `proxychains4 xfreerdp /v:10.200.113.31 /u:svcScanning /p:Password1!`
     
@@ -114,17 +100,9 @@ If you encounter issues:
 
 1. **Check Tor status:**
     
-    sh
-    
-    Copy code
-    
     `sudo service tor status`
     
 2. **Ensure Tor is listening on port 9050:**
-    
-    sh
-    
-    Copy code
     
     `netstat -tnlp | grep 9050`
     
@@ -135,17 +113,9 @@ If you encounter issues:
 
 - **Verbose Mode:** To get more output from `proxychains` for debugging, use the `-v` flag:
     
-    sh
-    
-    Copy code
-    
     `proxychains4 -v xfreerdp /v:10.200.118.31 /u:svcScanning /p:Password1!`
     
 - **Quiet Mode:** If you want to suppress `proxychains` output, use the `-q` flag:
-    
-    sh
-    
-    Copy code
     
     `proxychains4 -q xfreerdp /v:10.200.118.31 /u:svcScanning /p:Password1!`
     
