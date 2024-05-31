@@ -9,3 +9,6 @@ There may be several paths to compromise hosts, so you could receive the same fl
 - In certain cases, your foothold may also directly provide administrative access. In these cases, make the submission for the administrative access flag and then use this level of access to make the submission for the initial low-privileged foothold as well.
 - The flags are not in any particular order. You may find that your compromise path allows you to submit flags in a different order than what is listed below.
 
+[[SSH connection to the e-Citizen#Authenticate the flag]]
+
+

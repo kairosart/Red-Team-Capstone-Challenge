@@ -2,7 +2,7 @@
 After registering you can start the OSINT research on the three public servers.
 [[ vpn.thereserve.loc | Scanning VPN]]
 [[Website web.thereserve.loc | Scanning Web]]
-[[Web mail.thereserve.loc | Scanning Webmail ]]
+[[Webmail mail.thereserve.loc| Scanning Webmail ]]
 
 ![[0x01.png]]
 

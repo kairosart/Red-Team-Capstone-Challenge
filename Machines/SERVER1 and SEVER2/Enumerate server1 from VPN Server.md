@@ -1,6 +1,5 @@
-After [[SSH (10.200.X.12)|connecting to VPN Sever]] via SSH from the Attacker Machine let's enumerate Server1.
+After [[Connect via SSH (10.200.X.12)|connecting to VPN Sever]] via SSH from the Attacker Machine let's enumerate Server1.
 
-## Enumeration
 root@ip-10-200-113-12:/home/ubuntu# `nmap -A 10.200.X.31`
 
 Starting Nmap 7.60 ( https://nmap.org ) at 2024-05-29 19:53 UTC

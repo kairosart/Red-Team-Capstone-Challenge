@@ -1,5 +1,5 @@
-**
 
+## e-citizen
 To register, you need to get in touch with the government through its e-Citizen communication portal that uses SSH for communication. Here are the SSH details provided:
 
 | SSH Username | e-citizen                |
@@ -30,14 +30,12 @@ Submit all the answers from Task1 and Task2. That way you’ll get the first IPs
 |WEB|10.200.X.13 |
 
 ## **Register
-**The following information is essential on some of the steps to carry on to get the goal.**
-```
-**ssh e-citizen@10.200.X.250**
-```
-**
 
-My account
-=======================================
+The following information is essential on some of the steps to carry on to get the goal.
+
+$ `ssh e-citizen@10.200.X.250`
+
+## My account
 
 Username: kairosdev
 
@@ -47,18 +45,13 @@ MailAddr: kairosdev@corp.th3reserve.loc
 
 IP Range: 10.200.X.0/24
 
-=======================================
-
-**
 
 ### ISSUES WITH YOUR EMIAL ACCOUNT
 1. Connect to the registration iP.
-```
-   ssh e-citizen@10.200.X.250
-```
-2. Choose (2) Authenticate.
-3. Choose (3) Verify email access.
-4. When the process had finished you'll get the following message. "Your email has been recreated. Please wait 2 minutes then try to access your inbox again. If you still encounter issues, please contact support on Discord."
+	$ `ssh e-citizen@10.200.X.250`
+1. Choose (2) Authenticate.
+2. Choose (3) Verify email access.
+3. When the process had finished you'll get the following message. "Your email has been recreated. Please wait 2 minutes then try to access your inbox again. If you still encounter issues, please contact support on Discord."
 
 .
 

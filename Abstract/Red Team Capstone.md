@@ -1,7 +1,7 @@
 ## Welcome
 This is an in-depth network challenge simulating a Red Teaming engagement. The challenge includes several phases structured around the cyber kill chain that will require you to enumerate a perimeter, breach the organisation, perform lateral movement, and finally perform goal execution to show impact. To best simulate how these engagements usually occur, there is no single right answer. Instead, there are multiple paths that can be used to achieve the final goal.
 
-### Tested Learning Objectives  
+## Tested Learning Objectives  
 
 - OSINT (Simulated)
 - Enumeration & Fuzzing
@@ -70,10 +70,7 @@ Submit all the answers from Task1 and Task2. That way you’ll get the first IPs
 
 ### **Register
 
-```
-**$ ssh e-citizen@10.200.17.250**
-```
-**
+$ `ssh e-citizen@10.200.X.250`
 
 =======================================
 
@@ -87,7 +84,7 @@ IP Range: 10.200.17.0/24
 
 =======================================
 
-**
+
 
 ## Project Scope
 **

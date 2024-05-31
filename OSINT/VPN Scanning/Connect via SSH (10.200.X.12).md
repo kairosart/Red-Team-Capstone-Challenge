@@ -98,12 +98,4 @@ Last login: Thu May  4 17:53:22 2023 from 102.132.177.54
 
 ubuntu@ip-10-200-113-12:~$ `sudo su`
 
-## Routing network traffic with proxychains
 
-Kali Machine
-
-$ `ssh -D 9050 ubuntu@10.200.X.12 -i rsa`
-
-### Test proxychains
-
-$ `proxychains4 nmap -p- 10.200.113.31 -Pn -v`
