@@ -1,3 +1,5 @@
+**NOTE:** All the following must be run from Server1.
+
 Service accounts have more privileges than normal domain users. With the `svcScanning` account, we can carry out further attacks such as dumping secrets from the AD machines.
 
 ## Dump hashes on the `Server1` machine
@@ -82,6 +84,7 @@ q9nzssaFtGHdqUV3Qv6G
 Cleaning up... 
 Stopping service RemoteRegistry
 
+## Intersting discoveries
 
 > There are a couple of things from this output that are of most interest.
 
