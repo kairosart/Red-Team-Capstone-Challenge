@@ -23,3 +23,7 @@ THM{30924538-a5c8-4499-993e-45f646f0b814}
 ## Flag-6: Administrative access to Corporate Division Tier 1 Infrastructure
 
 THM{13b800c8-b2eb-49e2-bb43-4ea1b8c4a53a}
+
+## Flag-7: Foothold on Corporate Division Tier 0 Infrastructure
+
+THM{703d2509-a6e8-4bc8-bc53-788543e6f405}
