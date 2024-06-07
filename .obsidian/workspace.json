@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "530bb97f39e6818c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58cfd3d83a90d207",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "45fed1ae773b379b",
             "type": "leaf",
             "state": {
@@ -90,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "80313787c1b5e2e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Preparing the path.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -158,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md",
+                "file": "Preparing the path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md",
+                "file": "Preparing the path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md"
+                "file": "Preparing the path.md"
               }
             }
           },
@@ -246,28 +234,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "26a1fa75d4eb0d76",
+  "active": "80313787c1b5e2e7",
   "lastOpenFiles": [
+    "Preparing the path-20240607151619249.webp",
+    "Preparing the path-20240607145323252.webp",
+    "Preparing the path-20240607144158824.webp",
+    "Preparing the path-20240607143234384.webp",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "Preparing the path.md",
+    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
+    "OSINT/VPN Scanning/Reverse Shell.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
+    "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
+    "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md",
     "Network Map after compromising CORPDC-20240604150302129.webp",
     "Flags.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
     "Project brief/SSH connection to the e-Citizen.md",
     "Project brief/Flag Submission Process.md",
     "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
-    "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
     "COMPROMISE THE ROOTDC",
     "Project brief/Flags.md",
-    "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
     "Images/Dumping secrets from CORPDC-20240604135830320.webp",
-    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
     "Dumping secrets from CORPDC-20240604140856658.webp",
     "Images/Dumping secrets from CORPDC-20240602160026969.webp",
     "Images/Dumping secrets from CORPDC-20240602155726615.webp",
     "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
     "DOMAIN ESCALATION/Active Directory Enumeration.md",
     "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
-    "OSINT/VPN Scanning/Reverse Shell.md",
     "FULL COMPROMISE OF CORP DOMAIN/Disabling the Antivirus.md",
     "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
     "Steps/0x03 - Initial Compromise of Active Directory.md",
@@ -281,11 +274,6 @@
     "Machines/SERVER1 and SEVER2/Enumerate server1 from VPN Server.md",
     "PERIMETER BREACH/Active enumeration of the 3 servers.md",
     "OSINT/WebMail Scanning/Webmail mail.thereserve.loc.md",
-    "OSINT/Web Scanning/Website web.thereserve.loc.md",
-    "Images/SSH (10.200.X.12)-20240529152448150.webp",
-    "Images/Connect to SERVER1 via RDP-20240531062731584.webp",
-    "Images/Connect to WRK2 via RDP-20240523151848275.webp",
-    "Images/Domain Escalation-20240525135655837.webp",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "Evolution configuration.canvas",
     "Machines/SERVER1 and SEVER2",
