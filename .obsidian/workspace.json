@@ -20,49 +20,13 @@
             }
           },
           {
-            "id": "f572e68bacd92d85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "09d4b5321deaa1ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f5d803cc896a4151",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26a1fa75d4eb0d76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md",
-                "mode": "source",
+                "file": "Project brief/SSH connection to the e-Citizen.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -73,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Preparing the path.md",
+                "file": "COMPROMISE THE ROOTDC/Preparing the path.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "585a751eef0b156d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -146,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Preparing the path.md",
+                "file": "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Preparing the path.md",
+                "file": "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Preparing the path.md"
+                "file": "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md"
               }
             }
           },
@@ -234,46 +210,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80313787c1b5e2e7",
+  "active": "585a751eef0b156d",
   "lastOpenFiles": [
+    "Project brief/SSH connection to the e-Citizen.md",
+    "Project brief/Flag Submission Process.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md",
+    "OSINT/VPN Scanning/Reverse Shell.md",
+    "DOMAIN ESCALATION/Active Directory Enumeration.md",
+    "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md",
+    "Golden Ticket Attack with mimikatz-20240608153405335.webp",
+    "Golden Ticket Attack with mimikatz-20240608152813146.webp",
+    "Golden Ticket Attack with mimikatz-20240608151913994.webp",
+    "Golden Ticket Attack with mimikatz-20240608145512638.webp",
+    "Golden Ticket Attack with mimikatz-20240608145025836.webp",
+    "Golden Ticket Attack with mimikatz-20240608144535552.webp",
+    "Golden Ticket Attack with mimikatz-20240608142406169.webp",
+    "COMPROMISE THE ROOTDC/Preparing the path.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
+    "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
+    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
+    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
     "Preparing the path-20240607151619249.webp",
     "Preparing the path-20240607145323252.webp",
     "Preparing the path-20240607144158824.webp",
-    "Preparing the path-20240607143234384.webp",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
-    "Preparing the path.md",
-    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
-    "OSINT/VPN Scanning/Reverse Shell.md",
     "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
     "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
-    "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md",
-    "Network Map after compromising CORPDC-20240604150302129.webp",
     "Flags.md",
-    "Project brief/SSH connection to the e-Citizen.md",
-    "Project brief/Flag Submission Process.md",
-    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
     "COMPROMISE THE ROOTDC",
     "Project brief/Flags.md",
-    "Images/Dumping secrets from CORPDC-20240604135830320.webp",
-    "Dumping secrets from CORPDC-20240604140856658.webp",
-    "Images/Dumping secrets from CORPDC-20240602160026969.webp",
-    "Images/Dumping secrets from CORPDC-20240602155726615.webp",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
-    "DOMAIN ESCALATION/Active Directory Enumeration.md",
-    "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
     "FULL COMPROMISE OF CORP DOMAIN/Disabling the Antivirus.md",
     "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
     "Steps/0x03 - Initial Compromise of Active Directory.md",
     "OSINT/WebMail Scanning/Mail access.md",
     "PERIMETER BREACH/Brute force SMTP.md",
-    "Images/Dumping secrets from CORPDC-20240601064020744.webp",
-    "Images/Network Map after Server1 and Server2 compromises-20240531144449903.webp",
     "FULL COMPROMISE OF CORP DOMAIN",
     "Machines/CORPDC/CORPDC (10.200.X.102).md",
     "Machines/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
     "Machines/SERVER1 and SEVER2/Enumerate server1 from VPN Server.md",
     "PERIMETER BREACH/Active enumeration of the 3 servers.md",
-    "OSINT/WebMail Scanning/Webmail mail.thereserve.loc.md",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "Evolution configuration.canvas",
     "Machines/SERVER1 and SEVER2",
