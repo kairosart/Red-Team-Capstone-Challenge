@@ -54,6 +54,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ffc821fe8cbe6ecf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -106,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4ed4eb02731b2fdf",
@@ -212,29 +225,32 @@
   },
   "active": "585a751eef0b156d",
   "lastOpenFiles": [
-    "Project brief/SSH connection to the e-Citizen.md",
-    "Project brief/Flag Submission Process.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
+    "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md",
+    "Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240609143953235.webp",
+    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
     "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md",
+    "COMPROMISE THE ROOTDC/Preparing the path.md",
+    "Project brief/SSH connection to the e-Citizen.md",
+    "FULL COMPROMISE OF BANK DOMAIN",
+    "Full Compromise of BANK Domain",
+    "Golden Ticket Attack with mimikatz-20240609134915452.webp",
+    "Golden Ticket Attack with mimikatz-20240609134803204.webp",
+    "Golden Ticket Attack with mimikatz-20240609134614662.webp",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "Project brief/Flag Submission Process.md",
     "OSINT/VPN Scanning/Reverse Shell.md",
     "DOMAIN ESCALATION/Active Directory Enumeration.md",
-    "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md",
     "Golden Ticket Attack with mimikatz-20240608153405335.webp",
     "Golden Ticket Attack with mimikatz-20240608152813146.webp",
     "Golden Ticket Attack with mimikatz-20240608151913994.webp",
     "Golden Ticket Attack with mimikatz-20240608145512638.webp",
     "Golden Ticket Attack with mimikatz-20240608145025836.webp",
     "Golden Ticket Attack with mimikatz-20240608144535552.webp",
-    "Golden Ticket Attack with mimikatz-20240608142406169.webp",
-    "COMPROMISE THE ROOTDC/Preparing the path.md",
     "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
     "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
     "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
     "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
-    "Preparing the path-20240607151619249.webp",
-    "Preparing the path-20240607145323252.webp",
-    "Preparing the path-20240607144158824.webp",
-    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
     "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
     "Flags.md",
     "COMPROMISE THE ROOTDC",
@@ -248,7 +264,6 @@
     "Machines/CORPDC/CORPDC (10.200.X.102).md",
     "Machines/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
     "Machines/SERVER1 and SEVER2/Enumerate server1 from VPN Server.md",
-    "PERIMETER BREACH/Active enumeration of the 3 servers.md",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "Evolution configuration.canvas",
     "Machines/SERVER1 and SEVER2",
