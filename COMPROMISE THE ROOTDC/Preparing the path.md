@@ -2,6 +2,9 @@
 
 [[Dumping secrets from CORPDC#Connect to RDP with the Administrator's credentials|Connect to CORP.DC with Administration credentials]]
 
+NOTE: If you can't connect , go to [[Dumping secrets from CORPDC]]
+
+
 
 ### Enable http.server using python and proxychains on the Attacking machine
 
@@ -22,6 +25,9 @@ $ `proxychains4 -q xfreerdp /v:10.200.113.102 /u:Administrator /p:Hacker@123`
 ## Disable CORP.DC firewall
 
 Disabled firewall.
+
+PS C:\Users\Administrator> `Set-MpPreferenca -DisableRealTimeMonitoring $true`
+
 ![[Preparing the path-20240607144158824.webp]]
 ## Disable virus protection
 

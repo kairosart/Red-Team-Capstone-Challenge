@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSINT/VPN Scanning/Reverse Shell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5d803cc896a4151",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project brief/SSH connection to the e-Citizen.md",
+                "file": "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
                 "mode": "preview",
                 "source": false
               }
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMPROMISE THE ROOTDC/Preparing the path.md",
+                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
                 "mode": "preview",
                 "source": false
               }
@@ -56,6 +44,18 @@
             }
           },
           {
+            "id": "efb9eaf3b1df86a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maintain persistence.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ffc821fe8cbe6ecf",
             "type": "leaf",
             "state": {
@@ -63,6 +63,18 @@
               "state": {
                 "file": "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34d17c770f16790b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -118,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 454.5
   },
   "right": {
     "id": "4ed4eb02731b2fdf",
@@ -135,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md",
+                "file": "Maintain persistence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md",
+                "file": "Maintain persistence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md"
+                "file": "Maintain persistence.md"
               }
             }
           },
@@ -223,47 +234,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "585a751eef0b156d",
+  "active": "efb9eaf3b1df86a6",
   "lastOpenFiles": [
     "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
+    "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
+    "Steps/0x03 - Initial Compromise of Active Directory.md",
+    "Steps/0x02 - Perimeter Breach.md",
+    "Steps/0x01 - Initial Active Directory Access.md",
+    "Steps/0x00 - OSINT.md",
+    "Maintain persistence.md",
     "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md",
-    "Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240609143953235.webp",
-    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
-    "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md",
     "COMPROMISE THE ROOTDC/Preparing the path.md",
+    "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md",
+    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
+    "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
+    "DOMAIN ESCALATION/Active Directory Enumeration.md",
+    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
     "Project brief/SSH connection to the e-Citizen.md",
+    "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
+    "OSINT/VPN Scanning/Privilege Escalation.md",
+    "OSINT/VPN Scanning/Reverse Shell.md",
+    "Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240609143953235.webp",
     "FULL COMPROMISE OF BANK DOMAIN",
     "Full Compromise of BANK Domain",
     "Golden Ticket Attack with mimikatz-20240609134915452.webp",
     "Golden Ticket Attack with mimikatz-20240609134803204.webp",
     "Golden Ticket Attack with mimikatz-20240609134614662.webp",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
     "Project brief/Flag Submission Process.md",
-    "OSINT/VPN Scanning/Reverse Shell.md",
-    "DOMAIN ESCALATION/Active Directory Enumeration.md",
     "Golden Ticket Attack with mimikatz-20240608153405335.webp",
     "Golden Ticket Attack with mimikatz-20240608152813146.webp",
     "Golden Ticket Attack with mimikatz-20240608151913994.webp",
     "Golden Ticket Attack with mimikatz-20240608145512638.webp",
     "Golden Ticket Attack with mimikatz-20240608145025836.webp",
     "Golden Ticket Attack with mimikatz-20240608144535552.webp",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
-    "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
-    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
-    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
-    "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
     "Flags.md",
     "COMPROMISE THE ROOTDC",
     "Project brief/Flags.md",
     "FULL COMPROMISE OF CORP DOMAIN/Disabling the Antivirus.md",
-    "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
-    "Steps/0x03 - Initial Compromise of Active Directory.md",
     "OSINT/WebMail Scanning/Mail access.md",
-    "PERIMETER BREACH/Brute force SMTP.md",
     "FULL COMPROMISE OF CORP DOMAIN",
-    "Machines/CORPDC/CORPDC (10.200.X.102).md",
-    "Machines/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
-    "Machines/SERVER1 and SEVER2/Enumerate server1 from VPN Server.md",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "Evolution configuration.canvas",
     "Machines/SERVER1 and SEVER2",
