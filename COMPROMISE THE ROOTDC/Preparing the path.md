@@ -26,7 +26,7 @@ $ `proxychains4 -q xfreerdp /v:10.200.113.102 /u:Administrator /p:Hacker@123`
 
 Disabled firewall.
 
-PS C:\Users\Administrator> `Set-MpPreferenca -DisableRealTimeMonitoring $true`
+PS C:\Users\Administrator> `Set-MpPreference -DisableRealTimeMonitoring $true`
 
 ![[Preparing the path-20240607144158824.webp]]
 ## Disable virus protection

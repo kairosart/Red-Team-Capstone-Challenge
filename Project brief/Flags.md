@@ -27,3 +27,16 @@ THM{13b800c8-b2eb-49e2-bb43-4ea1b8c4a53a}
 ## Flag-7: Foothold on Corporate Division Tier 0 Infrastructure
 
 THM{703d2509-a6e8-4bc8-bc53-788543e6f405}
+
+
+
+
+
+
+## Flag-15: Foothold on Parent Domain
+
+THM{ee8d8803-0551-4867-b665-e4cbf70d2652}
+
+## Flag-16: Administrative access to Parent Domain
+
+THM{354ef832-add1-42f5-aba7-677062939ada}
