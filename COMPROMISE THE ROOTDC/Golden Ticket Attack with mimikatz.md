@@ -1,3 +1,5 @@
+[Connect to CORP.DC with Administration credentials](app://obsidian.md/Dumping%20secrets%20from%20CORPDC#Connect%20to%20RDP%20with%20the%20Administrator's%20credentials)
+
 To carry out this attack you will need:
 
 - The KRBTGT password hash.
@@ -78,7 +80,7 @@ C:\Users\Administrator>`dir \\rootdc.thereserve.loc\c$`
 
 ## Get a shell on the ROOTDC
 
-### Download pstools
+### Download pstools to the attacking machine
 https://learn.microsoft.com/en-us/sysinternals/downloads/psexec
 
 - Unzip the file.

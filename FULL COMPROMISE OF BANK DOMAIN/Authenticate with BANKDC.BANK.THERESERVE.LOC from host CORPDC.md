@@ -9,7 +9,7 @@ C:\Users\Administrator>`exit`
 On the CORPDC powershell run:
 PS C:\Users\Administrator>`.\psexec.exe \\bankdc.bank.thereserve.loc cmd.exe -accepteula`
 
-![[Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240612140109795.webp]]
+![[Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240613135550530.webp]]
 
 ### Change the administrator password for ROOTDC
 

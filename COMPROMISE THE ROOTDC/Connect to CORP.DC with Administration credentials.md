@@ -1,10 +1,9 @@
-## Download mimikatz
 
 [[Dumping secrets from CORPDC#Connect to RDP with the Administrator's credentials|Connect to CORP.DC with Administration credentials]]
 
 NOTE: If you can't connect , go to [[Dumping secrets from CORPDC]]
 
-
+## Download mimikatz
 
 ### Enable http.server using python and proxychains on the Attacking machine
 
