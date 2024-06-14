@@ -77,6 +77,7 @@ Run on the shell the following command:
 C:\Users\Administrator>`dir \\rootdc.thereserve.loc\c$`
 
 ![[Golden Ticket Attack with mimikatz-20240608153405335.webp]]
+Exit the shell.
 
 ## Get a shell on the ROOTDC
 
@@ -93,6 +94,8 @@ https://learn.microsoft.com/en-us/sysinternals/downloads/psexec
 You an also issue a command prompt in the ROOTDC through PSEXEC.
 
 PS C:\Users\Administrator> `.\psexec.exe \\rootdc.thereserve.loc cmd.exe`
+
+![[Golden Ticket Attack with mimikatz-20240614145454849.webp]]
 
 ![[Golden Ticket Attack with mimikatz-20240609134614662.webp]]
 
