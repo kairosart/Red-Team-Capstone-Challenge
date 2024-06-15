@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md",
-                "mode": "source",
+                "file": "FULL COMPROMISE OF PARENT DOMAIN/Golden Ticket Attack with mimikatz.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMPROMISE THE ROOTDC/Connect to CORP.DC with Administration credentials.md",
+                "file": "FULL COMPROMISE OF PARENT DOMAIN/Connect to CORP.DC with Administration credentials.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,20 +73,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maintain persistence.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ec813faddfed2ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
-                "mode": "preview",
+                "file": "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,13 +86,13 @@
               "type": "markdown",
               "state": {
                 "file": "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -170,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
+                "file": "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
+                "file": "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md"
+                "file": "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md"
               }
             }
           },
@@ -258,17 +246,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf202b3d9f63470e",
+  "active": "d36fee0f839cbcfa",
   "lastOpenFiles": [
-    "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
-    "Maintain persistence.md",
+    "FULL COMPROMISE OF PARENT DOMAIN/Network Map after compromising CORPDC.md",
+    "FULL COMPROMISE OF PARENT DOMAIN/Golden Ticket Attack with mimikatz.md",
+    "FULL COMPROMISE OF PARENT DOMAIN/Connect to CORP.DC with Administration credentials.md",
+    "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
+    "Network Map after compromising CORPDC-20240615160020547.webp",
+    "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md",
     "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
-    "COMPROMISE THE ROOTDC/Connect to CORP.DC with Administration credentials.md",
+    "Maintain persistence-20240615154522456.webp",
     "Project brief/SSH connection to the e-Citizen.md",
-    "Project brief/Flag Submission Process.md",
     "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
-    "COMPROMISE THE ROOTDC/Golden Ticket Attack with mimikatz.md",
-    "COMPROMISE THE ROOTDC/Network Map after compromising CORPDC.md",
+    "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
+    "Project brief/Flag Submission Process.md",
     "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
     "DOMAIN ESCALATION/Active Directory Enumeration.md",
     "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
@@ -277,7 +268,6 @@
     "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
     "Golden Ticket Attack with mimikatz-20240614145454849.webp",
     "Machines/WRK2/Connect to WRK2 via RDP.md",
-    "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
     "Maintain persistence-20240613153950655.webp",
     "Maintain persistence-20240613153842909.webp",
     "Maintain persistence-20240613153305218.webp",
@@ -287,17 +277,15 @@
     "Network Map after CORPDC and ROOTDC compromises-20240612144320800.webp",
     "Project brief/Flags.md",
     "Project brief/Project Registration.md",
-    "Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240612140109795.webp",
     "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
     "Steps/0x03 - Initial Compromise of Active Directory.md",
     "Steps/0x02 - Perimeter Breach.md",
     "Steps/0x01 - Initial Active Directory Access.md",
     "Steps/0x00 - OSINT.md",
     "OSINT/VPN Scanning/Privilege Escalation.md",
-    "Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240609143953235.webp",
     "FULL COMPROMISE OF BANK DOMAIN",
     "Full Compromise of BANK Domain",
-    "COMPROMISE THE ROOTDC",
+    "FULL COMPROMISE OF PARENT DOMAIN",
     "FULL COMPROMISE OF CORP DOMAIN",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "Evolution configuration.canvas",
