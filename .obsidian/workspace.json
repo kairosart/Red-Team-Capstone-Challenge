@@ -6,6 +6,7 @@
       {
         "id": "ee2696b2b874b4ef",
         "type": "tabs",
+        "dimension": 67.0042643923241,
         "children": [
           {
             "id": "585a751eef0b156d",
@@ -15,18 +16,6 @@
               "state": {
                 "file": "FULL COMPROMISE OF PARENT DOMAIN/Golden Ticket Attack with mimikatz.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ba72f36ea5b6174",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
-                "mode": "source",
                 "source": false
               }
             }
@@ -56,19 +45,43 @@
             }
           },
           {
-            "id": "b3377544bdd42f3e",
+            "id": "d36fee0f839cbcfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project brief/SSH connection to the e-Citizen.md",
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d36fee0f839cbcfa",
+            "id": "e900ed1dafe0cb7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1219fb7b1a6a7c7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5465fd631e983ca3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,21 +91,28 @@
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "32934b65338ad831",
+        "type": "tabs",
+        "dimension": 32.99573560767591,
+        "children": [
           {
-            "id": "cf202b3d9f63470e",
+            "id": "7160986cee4501b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
-                "mode": "source",
+                "file": "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md",
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md",
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md"
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md"
               }
             }
           },
@@ -246,35 +266,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d36fee0f839cbcfa",
+  "active": "e900ed1dafe0cb7d",
   "lastOpenFiles": [
-    "FULL COMPROMISE OF PARENT DOMAIN/Network Map after compromising CORPDC.md",
-    "FULL COMPROMISE OF PARENT DOMAIN/Golden Ticket Attack with mimikatz.md",
-    "FULL COMPROMISE OF PARENT DOMAIN/Connect to CORP.DC with Administration credentials.md",
-    "FULL COMPROMISE OF BANK DOMAIN/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC.md",
-    "Network Map after compromising CORPDC-20240615160020547.webp",
     "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md",
-    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
-    "Maintain persistence-20240615154522456.webp",
-    "Project brief/SSH connection to the e-Citizen.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
+    "Create a new user on BANKDC-20240616154446455.webp",
+    "Create a new user on BANKDC-20240616154358497.webp",
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md",
     "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
-    "Project brief/Flag Submission Process.md",
-    "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
+    "FULL COMPROMISE OF PARENT DOMAIN/Golden Ticket Attack with mimikatz.md",
+    "RDP to BANKDC from host CORPDC-20240616153040546.webp",
+    "Maintain persistence-20240616151550123.webp",
+    "FULL COMPROMISE OF PARENT DOMAIN/Connect to CORP.DC with Administration credentials.md",
+    "FULL COMPROMISE OF PARENT DOMAIN/Network Map after compromising CORPDC.md",
     "DOMAIN ESCALATION/Active Directory Enumeration.md",
     "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
     "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
     "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
     "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
+    "Maintain persistence-20240616142921373.webp",
+    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
+    "Project brief/SSH connection to the e-Citizen.md",
+    "Network Map after compromising CORPDC-20240615160020547.webp",
+    "Maintain persistence-20240615154522456.webp",
+    "Project brief/Flag Submission Process.md",
+    "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
     "Golden Ticket Attack with mimikatz-20240614145454849.webp",
     "Machines/WRK2/Connect to WRK2 via RDP.md",
     "Maintain persistence-20240613153950655.webp",
     "Maintain persistence-20240613153842909.webp",
-    "Maintain persistence-20240613153305218.webp",
-    "Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240613135550530.webp",
-    "Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240612150446037.webp",
-    "Network Map after CORPDC and ROOTDC compromises-20240612144446331.webp",
-    "Network Map after CORPDC and ROOTDC compromises-20240612144320800.webp",
     "Project brief/Flags.md",
     "Project brief/Project Registration.md",
     "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
@@ -282,7 +303,6 @@
     "Steps/0x02 - Perimeter Breach.md",
     "Steps/0x01 - Initial Active Directory Access.md",
     "Steps/0x00 - OSINT.md",
-    "OSINT/VPN Scanning/Privilege Escalation.md",
     "FULL COMPROMISE OF BANK DOMAIN",
     "Full Compromise of BANK Domain",
     "FULL COMPROMISE OF PARENT DOMAIN",

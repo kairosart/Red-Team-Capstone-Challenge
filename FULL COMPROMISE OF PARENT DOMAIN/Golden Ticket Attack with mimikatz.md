@@ -91,7 +91,7 @@ https://learn.microsoft.com/en-us/sysinternals/downloads/psexec
 
 ### PowerShell session in ROOTDC
 
-You an also issue a command prompt in the ROOTDC through PSEXEC.
+You can also issue a command prompt in the ROOTDC through PSEXEC.
 
 PS C:\Users\Administrator> `.\psexec.exe \\rootdc.thereserve.loc cmd.exe`
 
@@ -109,3 +109,4 @@ PS C:\Users\Administrator> `.\psexec.exe \\rootdc.thereserve.loc cmd.exe`
 
 [[Flag Submission Process]]
 
+**Next step:** [[Maintain persistence]]
