@@ -29,9 +29,13 @@ THM{13b800c8-b2eb-49e2-bb43-4ea1b8c4a53a}
 THM{703d2509-a6e8-4bc8-bc53-788543e6f405}
 
 
+## Flag-11: Foothold on Bank Division Tier 1 Infrastructure
 
+THM{9505045e-de3c-4d82-a621-8474f8256033}
 
+## Flag-12: Administrative access to Bank Division Tier 1 Infrastructure
 
+THM{9505045e-de3c-4d82-a621-8474f8256033}
 
 ## Flag-15: Foothold on Parent Domain
 

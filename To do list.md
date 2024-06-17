@@ -1,8 +1,13 @@
 - Start the machine.
 - Connect kairosdev-redteamcapstonechallenge.ovpn.
-- Connect corpUsername.ovpn.
-- Connect hacker.ovpn.
 - Create a [[Reverse Shell]]
-- [[Privilege Escalation]]
+- [[Connect via SSH (10.200.X.12)]]
+- [[Privilege Access to CORP Tier 1 - Server1 and Server2#Routing network traffic with proxychains|Routing network traffic with proxychains]]
+- [[Dumping secrets from CORPDC]]
+- [[Maintain persistence]]
+- [[RDP to BANKDC from host CORPDC]]
+- [[Create a new user on BANKDC]]
+- [[RDP to JMP]]
+- [[RDP to WORK 1]]
 - 
 - 

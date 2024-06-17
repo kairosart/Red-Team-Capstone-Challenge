@@ -18,4 +18,4 @@ PS C:\Users\Administrator> `echo $group`
 
 ![[Create a new user on BANKDC-20240616154446455.webp]]
 
-RDP from CORPDC to any computer.
+**Next step**: [[RDP to JMP]]
