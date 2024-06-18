@@ -24,4 +24,4 @@ Computer: `10.200.X.61`
 ### Getting flags 11 and 12
 [[Flag Submission Process]]
 
-Next step: [[RDP to WORK 1]]
+**Next step:** [[RDP to WORK 1]]

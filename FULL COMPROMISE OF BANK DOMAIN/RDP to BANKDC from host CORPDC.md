@@ -25,4 +25,7 @@ Computer: `10.200.X.101`
 
     ![[RDP to BANKDC from host CORPDC-20240616153040546.webp]]
 
+### Getting flags 13 and 14
+[[Flag Submission Process]]
+
 **Next step**: [[Create a new user on BANKDC]]

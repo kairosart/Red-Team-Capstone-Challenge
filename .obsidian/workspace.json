@@ -9,48 +9,12 @@
         "dimension": 67.0042643923241,
         "children": [
           {
-            "id": "585a751eef0b156d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FULL COMPROMISE OF PARENT DOMAIN/Golden Ticket Attack with mimikatz.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "914fdaf8c63f307d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FULL COMPROMISE OF PARENT DOMAIN/Connect to CORP.DC with Administration credentials.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "00c4e6bee43dbb40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "To do list.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d36fee0f839cbcfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
+                "file": "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,43 +62,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
+                "file": "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ffd11423707029d8",
+            "id": "b09c882d9ec453a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b7f24f37890e1cc6",
+            "id": "3d88ca1a6ec99cfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
+                "file": "Project brief/SSH connection to the e-Citizen.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "52dc15833262dffe",
+            "id": "a3c3c10e03bcc1dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Network Map after BANKDC ompromises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de1bc04bb0c500f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
                 "mode": "source",
                 "source": false
               }
@@ -226,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To do list.md",
+                "file": "Project brief/Flags.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To do list.md",
+                "file": "Project brief/Flags.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To do list.md"
+                "file": "Project brief/Flags.md"
               }
             }
           },
@@ -314,24 +290,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "00c4e6bee43dbb40",
+  "active": "5465fd631e983ca3",
   "lastOpenFiles": [
-    "Project brief/Flags.md",
-    "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
-    "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
     "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md",
+    "e-citizen platform.md",
+    "SWIFT Web Access-20240618153308780.webp",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Network Map after BANKDC ompromises.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
+    "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
+    "Enumerate users CAPTURERS and APPROVERS-20240618151057753.webp",
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.md",
+    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
+    "Network Map after BANKDC ompromises-20240618145323607.webp",
+    "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
+    "Project brief/Flags.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",
+    "To do list.md",
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
+    "Project brief/SSH connection to the e-Citizen.md",
     "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "Create a new user on BANKDC-20240618142300177.webp",
     "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
     "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
     "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
-    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
-    "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
-    "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
     "FULL COMPROMISE OF PARENT DOMAIN/Network Map after compromising CORPDC.md",
     "FULL COMPROMISE OF PARENT DOMAIN/Connect to CORP.DC with Administration credentials.md",
-    "Project brief/SSH connection to the e-Citizen.md",
     "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md",
-    "To do list.md",
     "Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240612140109795.webp",
     "Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240609143953235.webp",
     "Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240612150446037.webp",
@@ -339,19 +324,11 @@
     "Chisel (Linux and Windows).md",
     "Create a new user on BANKDC-20240616154358497.webp",
     "Create a new user on BANKDC-20240616154446455.webp",
-    "Dumping secrets from CORPDC-20240604140856658.webp",
-    "Golden Ticket Attack with mimikatz-20240609134915452.webp",
-    "Golden Ticket Attack with mimikatz-20240614145454849.webp",
-    "Maintain persistence-20240613153305218.webp",
     "RDP and HTTP enabled hosts on the network.md",
     "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
     "FULL COMPROMISE OF PARENT DOMAIN/Golden Ticket Attack with mimikatz.md",
     "DOMAIN ESCALATION/Active Directory Enumeration.md",
     "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
-    "Project brief/Flag Submission Process.md",
-    "Machines/WRK2/Connect to WRK2 via RDP.md",
-    "Project brief/Project Registration.md",
-    "Steps/0X04 - Administrative access to Corporate Division Tier 2 Infrastructure.md",
     "FULL COMPROMISE OF BANK DOMAIN",
     "Full Compromise of BANK Domain",
     "FULL COMPROMISE OF PARENT DOMAIN",
@@ -362,7 +339,6 @@
     "DOMAIN ESCALATION",
     "WebMail Scanning",
     "INITIAL ACTIVE DIRECTORY ACCESS",
-    "PERIMETER BREACH",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

@@ -1,3 +1,4 @@
+Connect from BANKDC `10.200.X.101`.
 Computer: `10.200.X.51`
 
 ### Connecting from a Client Machine
@@ -12,7 +13,7 @@ Computer: `10.200.X.51`
 3. **Enter Credentials**:
     
     - When prompted, enter the username and password for the account on the host machine.
-    - Username: `kairosroot`
+    - Username: `kairosbank`
     - Password: `Capstone1@`
 1. **Optional: Save Connection Settings**:
     
@@ -21,7 +22,7 @@ Computer: `10.200.X.51`
     
     - Click **Connect** to start the remote session.
 
-### Getting flags 
+### Getting flags 9 and 10
 [[Flag Submission Process]]
 
 Next step: 
