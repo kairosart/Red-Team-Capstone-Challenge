@@ -20,8 +20,11 @@ Using these details, perform the following steps:
 3. Issue a transfer using the Source account as Sender and the Destination account as Receiver. You will have to use the corresponding account IDs.
 	![[SWIFT Web Access-20240618153308780.webp]]
 
-4. Issue the transfer for the full 10 million dollars..
+4. Issue the transfer for the full 10 million dollars.
+	![[SWIFT Web Access-20240619134837785.webp]]
 5. Once completed, request verification of your transaction here (No need to check your email once the transfer has been created). Type Y.
 
 ### Getting flag 17
 [[Flag Submission Process]]
+
+**Next step:** [[Enumerate users CAPTURERS and APPROVERS]]

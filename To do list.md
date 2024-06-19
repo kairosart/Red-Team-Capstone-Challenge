@@ -9,6 +9,6 @@
 - [[Create a new user on BANKDC]]
 - [[RDP to JMP]]
 - [[RDP to WORK 1]]
-- 
-- 
+- [[SWIFT Web Access]]
+- [[Enumerate users CAPTURERS and APPROVERS]]
 - 

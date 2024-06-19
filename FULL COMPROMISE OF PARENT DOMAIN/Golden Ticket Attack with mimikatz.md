@@ -102,7 +102,7 @@ PS C:\Users\Administrator> `.\psexec.exe \\rootdc.thereserve.loc cmd.exe`
 ![[Golden Ticket Attack with mimikatz-20240609134803204.webp]]
 ![[Golden Ticket Attack with mimikatz-20240609134915452.webp]]
 
-## Authenticate the flagS on e-citizen
+## Authenticate the flags on e-citizen
 
 > Flag 15, Foothold on Parent Domain
 > Flag 16, Administrative access to Parent Domain

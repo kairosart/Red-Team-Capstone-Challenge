@@ -1,3 +1,16 @@
+Once you have submit the flag 17 you'll get an email with the following message:
+
+![[Enumerate users CAPTURERS and APPROVERS-20240619135517810.webp]]
+
+So to break it down further:
+
+- We need a user account from `Capturers` group,
+- We need to log in with this account and capture the transaction,
+- We also need to get a user account from `Approvers` group,
+- We then need to log in as approver and complete the transaction to achieve the goal,
+
+## Connect to BANKDC via RDP and enumerate the user groups
+
 - Connect from CORPDC to BANKDC `10.200.X.101` with the following credentials:
 
 	Username: `kairosbank`
@@ -6,3 +19,14 @@
 - Enumerate the users with the Capturer and Approver Role in the Bank Domain (you can just use the **Active Directory Users and Computers** snap-in):
 	![[Enumerate users CAPTURERS and APPROVERS-20240618151057753.webp]]
 
+Notice that there are two groups that we are interested in. Check out the users in each group. You don’t need to compromise all the accounts–just o**ne account from each group** to complete the task.
+
+![[Enumerate users CAPTURERS and APPROVERS-20240619140440523.webp]]
+![[Enumerate users CAPTURERS and APPROVERS-20240619140454701.webp]]
+
+## Dump NTLM hashes for these users
+
+- [[Connect to CORPDC with Administration credentials]]
+- <span style="background:#d4b106">RDP to BANKDC with the [[Create a new user on BANKDC|new user]].   </span> 
+- Open a command on BANKDC as administrator.
+- Download `mimikatz` from the ROOTDC machine to BANKDC.

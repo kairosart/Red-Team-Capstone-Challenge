@@ -1,8 +1,10 @@
+
 Now that we are Enterprise Admins, the compromise of the other child domain should be easy. We can start by connecting through RDP into the **BANKDC** from **ROOTDC**, with our newly created user:
+
 
 Computer: `10.200.X.101`
 
-### Connecting from a Client Machine
+### RDP to BANKDC
 
 1. **Open Remote Desktop Connection**:
     
