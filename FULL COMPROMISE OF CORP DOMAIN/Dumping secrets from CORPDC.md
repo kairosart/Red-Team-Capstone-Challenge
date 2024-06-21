@@ -70,3 +70,4 @@ $ `proxychains4 -q xfreerdp /v:10.200.113.102 /u:Administrator /p:Hacker@123`
 ### Getting flag 8
 
 [[Flag Submission Process]]
+

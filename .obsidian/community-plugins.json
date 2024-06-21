@@ -3,9 +3,10 @@
   "editing-toolbar",
   "obsidian-image-toolkit",
   "obsidian-plantuml",
-  "drawio-obsidian",
   "copilot",
   "cloudinary",
   "juggl",
-  "image-converter"
+  "image-converter",
+  "obsidian-mind-map",
+  "obsidian-diagrams-net"
 ]

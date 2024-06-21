@@ -6,7 +6,7 @@
 - [[Dumping secrets from CORPDC]]
 - [[Maintain persistence]]
 - [[RDP to BANKDC from host CORPDC]]
-- [[Create a new user on BANKDC]]
+- [[Create user at BANK Forest]]
 - [[RDP to JMP]]
 - [[RDP to WORK 1]]
 - [[SWIFT Web Access]]

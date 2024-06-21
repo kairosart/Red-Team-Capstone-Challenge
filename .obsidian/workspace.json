@@ -6,7 +6,7 @@
       {
         "id": "ee2696b2b874b4ef",
         "type": "tabs",
-        "dimension": 59.21237693389592,
+        "dimension": 64.28571428571429,
         "children": [
           {
             "id": "00c4e6bee43dbb40",
@@ -38,8 +38,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md",
-                "mode": "preview",
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Create user at BANK Forest.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -51,7 +51,7 @@
               "type": "markdown",
               "state": {
                 "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -62,31 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d88ca1a6ec99cfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project brief/SSH connection to the e-Citizen.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3c3c10e03bcc1dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Create user at BANK Forest.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,14 +79,38 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c7e4ccb130a0e26b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76a083d540be3453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       },
       {
         "id": "185c81f7d3538637",
         "type": "tabs",
-        "dimension": 40.787623066104075,
+        "dimension": 35.714285714285715,
         "children": [
           {
             "id": "3cf2bdf087ef36eb",
@@ -153,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kairosroot",
+                "query": "hosts",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 454.5
+    "width": 454.5,
+    "collapsed": true
   },
   "right": {
     "id": "4ed4eb02731b2fdf",
@@ -190,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md"
+                "file": "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md"
               }
             }
           },
@@ -278,44 +279,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3cf2bdf087ef36eb",
+  "active": "c7e4ccb130a0e26b",
   "lastOpenFiles": [
-    "FULL COMPROMISE OF PARENT DOMAIN/Golden Ticket Attack with mimikatz.md",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
-    "FULL COMPROMISE OF BANK DOMAIN/Create a new user on BANKDC.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
-    "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.md",
-    "Project brief/Flags.md",
-    "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md",
-    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
-    "FULL COMPROMISE OF PARENT DOMAIN/Connect to CORP.DC with Administration credentials.md",
+    "Enumerate users CAPTURERS and APPROVERS-20240621155345848.webp",
     "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
+    "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
+    "Enumerate users CAPTURERS and APPROVERS-20240621150830988.webp",
+    "Enumerate users CAPTURERS and APPROVERS-20240621144300147.webp",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
+    "PERIMETER BREACH/Active enumeration of the 3 servers.md",
+    "PERIMETER BREACH/Brute force SMTP.md",
+    "Project brief/Project Goal.md",
+    "Project brief/Project Registration.md",
+    "Project brief/Project scope.md",
+    "Project brief/Red Team Capstone Challenge.md",
+    "Project brief/SSH connection to the e-Citizen.md",
+    "Project brief/SWIFT.md",
+    "Project brief/Trimento.md",
+    "Project brief/Welcome.md",
+    "Project brief/Untitled Diagram 1.svg",
+    "Project brief/Untitled Diagram.svg",
+    "Untitled.md",
+    "Abstract/Red Team Capstone.md",
+    "Abstract/SWIFT.md",
+    "DOMAIN ESCALATION/Active Directory Enumeration.md",
+    "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
+    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
     "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md",
-    "To do list.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Application as Capturer.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
+    "FULL COMPROMISE OF PARENT DOMAIN/Network Map after compromising CORPDC.md",
+    "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
+    "Project brief/Hosts.md",
     "Enumerate users CAPTURERS and APPROVERS-20240619140454701.webp",
     "Enumerate users CAPTURERS and APPROVERS-20240619140440523.webp",
     "Enumerate users CAPTURERS and APPROVERS-20240619135517810.webp",
-    "Project brief/SSH connection to the e-Citizen.md",
     "SWIFT Web Access-20240619134837785.webp",
     "SWIFT Application as Capturer-20240619134101947.webp",
-    "SWIFT Application as Capturer-20240619131355323.webp",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Network Map after BANKDC ompromises.md",
-    "e-citizen platform.md",
-    "SWIFT Web Access-20240618153308780.webp",
-    "Enumerate users CAPTURERS and APPROVERS-20240618151057753.webp",
-    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
-    "Network Map after BANKDC ompromises-20240618145323607.webp",
-    "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",
-    "Create a new user on BANKDC-20240618142300177.webp",
-    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
-    "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
-    "FULL COMPROMISE OF PARENT DOMAIN/Network Map after compromising CORPDC.md",
-    "Chisel (Linux and Windows).md",
-    "RDP and HTTP enabled hosts on the network.md",
     "FULL COMPROMISE OF BANK DOMAIN",
     "Full Compromise of BANK Domain",
     "FULL COMPROMISE OF PARENT DOMAIN",

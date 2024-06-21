@@ -30,4 +30,4 @@ Computer: `10.200.X.101`
 ### Getting flags 13 and 14
 [[Flag Submission Process]]
 
-**Next step**: [[Create a new user on BANKDC]]
+**Next step**: [[Create user at BANK Forest]]
