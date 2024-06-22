@@ -11,7 +11,7 @@ Source Funds:           $ 10 000 000
 Destination Email:      kairosdev@destination.loc
 Destination Password:   Wl4r7AIox51Xng
 Destination AccountID:  6671df70599a22670d98b588
-Destination Funds:      $ 10
+Destination Funds:      $ 10 000 000
 
 
 Using these details, perform the following steps:

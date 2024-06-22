@@ -11,4 +11,5 @@
 - [[RDP to WORK 1]]
 - [[SWIFT Web Access]]
 - [[Enumerate users CAPTURERS and APPROVERS]]
+- [[SWIFT Web Capturer Access]]
 - 

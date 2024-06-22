@@ -31,3 +31,7 @@ THM{703d2509-a6e8-4bc8-bc53-788543e6f405}
 ## Flag-8: Administrative access to Corporate Division Tier 0 Infrastructure
 
 THM{bd4f60cd-57a9-4cd5-88b9-0957e08c0df3}
+
+## Flag-18: Access to SWIFT application as capturer
+
+THM{204768b4-0d1d-4e0d-82b5-6015ec81f548}

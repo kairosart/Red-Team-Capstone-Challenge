@@ -3,8 +3,10 @@
 
 
 
-| Source | Target | User            |
-| ------ | ------ | --------------- |
-| VPN    | CORPDC | CORP\kairos     |
-| CORPDC | BANKDC | BANK\kairosbank |
-| BANKDC | JMP    | BANK\kairosroot |
+| Source | Target | User            | Password   |
+| ------ | ------ | --------------- | ---------- |
+| VPN    | CORPDC | CORP\kairos     | K41r@s123  |
+| CORPDC | BANKDC | BANK\kairosbank | Capstone1@ |
+| BANKDC | JMP    | BANK\kairosroot | Capstone1@ |
+| BANKDC | WORK1  | g.watson        | Hacker@123 |
+| BANKDC | JMP*   | BANK\kairosbank | Capstone1@ |
