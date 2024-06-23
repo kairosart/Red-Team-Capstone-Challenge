@@ -66,3 +66,10 @@ THM{354ef832-add1-42f5-aba7-677062939ada}
 
 THM{6bc2f0f0-1eda-47bd-9eb2-8abff4a5d4d1}
 
+## Flag-18: Access to SWIFT application as capturer
+
+THM{204768b4-0d1d-4e0d-82b5-6015ec81f548}
+
+## Flag-19: Access to SWIFT application as approver
+
+THM{e53f46e8-389b-4edb-bb44-34f87993969e}

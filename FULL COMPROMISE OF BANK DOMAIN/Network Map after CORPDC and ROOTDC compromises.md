@@ -9,4 +9,5 @@
 | CORPDC | BANKDC | BANK\kairosbank | Capstone1@ |
 | BANKDC | JMP    | BANK\kairosroot | Capstone1@ |
 | BANKDC | WORK1  | g.watson        | Hacker@123 |
-| BANKDC | JMP*   | BANK\kairosbank | Capstone1@ |
+| BANKDC | JMP    | BANK\kairosbank | Capstone1@ |
+| BANKDC | JMP    | a.holt          | Hacker@123 |
