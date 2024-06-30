@@ -20,6 +20,8 @@ To get instructions on how to proceed, you can go to the [[SSH connection to the
 	- PS C:\Windows\system32> `net user a.holt Hacker@123 /domain`
 
 ## Rdp from BANKDC to JMP as a.holt
+
+Computer: `10.200.113.61`
 - Checking the folders contents you'll find a note for the approver.
 - Go to `C:\Users\a.holt\Documents\Swift`.
 - Open the swift file.
@@ -40,7 +42,10 @@ To get instructions on how to proceed, you can go to the [[SSH connection to the
 - Once completed, request verification of your transaction. Type Y.
 - Check your email to get the flag.
 
-### Getting flag 19
+## Authenticate the flags on e-citizen
+
+> Flag 19, Access to SWIFT application as approver  
+
 [[Flag Submission Process]]
 
 **Next step:** [[SWIFT PAYMENT MADE]]

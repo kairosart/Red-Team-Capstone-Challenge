@@ -21,7 +21,11 @@ Computer: `10.200.X.61`
     
     - Click **Connect** to start the remote session.
 
-### Getting flags 11 and 12
+## Authenticate the flags on e-citizen
+
+> Flag 11, Foothold on Bank Division Tier 1 Infrastructure
+> Flag 12, Administrative access to Bank Division Tier 1 Infrastructure
+
 [[Flag Submission Process]]
 
 **Next step:** [[RDP to WORK 1]]

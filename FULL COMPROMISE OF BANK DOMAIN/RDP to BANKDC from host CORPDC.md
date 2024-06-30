@@ -27,7 +27,12 @@ Computer: `10.200.X.101`
 
     ![[RDP to BANKDC from host CORPDC-20240616153040546.webp]]
 
-### Getting flags 13 and 14
+## Authenticate the flags on e-citizen
+
+> Flag 13, Foothold on Bank Division Tier 0 Infrastructure 
+> Flag 14, Administrative access to Bank Division Tier 0 Infrastructure
+
+
 [[Flag Submission Process]]
 
 **Next step**: [[Create user at BANK Forest]]

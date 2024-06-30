@@ -4,8 +4,8 @@ To get instructions on how to proceed, you can go to the [[SSH connection to the
 
 *Please look for a transaction with these details:*
 
-*FROM:   `631f60a3311625c0d29f5b32`*
-*TO:     `6671df6e599a22670d98b587`*
+*FROM:   631f60a3311625c0d29f5b32*
+*TO:     6681b270599a225dac152823*
 
 *Look for this transfer and capture (forward) the transaction.*
 
@@ -19,8 +19,9 @@ Using these details, perform the following steps:
 
 4. You'll get an email with the flag.
 
-### Getting flag 18
-[[Flag Submission Process]]
+## Authenticate the flags on e-citizen
+
+> Flag 18, Access to SWIFT application as capturer  
 
 **Next step:** [[SWIFT Web Approver Access]]
 

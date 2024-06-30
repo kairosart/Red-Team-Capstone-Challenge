@@ -4,14 +4,15 @@ In order to proof that you have access to the SWIFT system, dummy accounts have 
 
 Account Details:
 Source Email:           kairosdev@source.loc
-Source Password:        FxWW_7dM4TITEA
-Source AccountID:       6671df6e599a22670d98b587
+Source Password:        KgnjFAnaTqXPug
+Source AccountID:       6681b270599a225dac152823
 Source Funds:           $ 10 000 000
 
 Destination Email:      kairosdev@destination.loc
-Destination Password:   Wl4r7AIox51Xng
-Destination AccountID:  6671df70599a22670d98b588
-Destination Funds:      $ 10 000 000
+Destination Password:   bT4sEFrRdgDB6Q
+Destination AccountID:  6681b273599a225dac152824
+Destination Funds:      $ 10
+
 
 
 Using these details, perform the following steps:
@@ -22,9 +23,13 @@ Using these details, perform the following steps:
 
 4. Issue the transfer for the full 10 million dollars.
 	![[SWIFT Web Access-20240619134837785.webp]]
-5. Once completed, request verification of your transaction here (No need to check your email once the transfer has been created). Type Y.
+5. Once completed, request verification of your transaction here. Type Y.
+6. Check your email once the transfer has been created and you'll get the PIN for your transaction and the flag.
 
-### Getting flag 17
+## Authenticate the flags on e-citizen
+
+> Flag 17, Access to SWIFT application 
+
 [[Flag Submission Process]]
 
 **Next step:** [[Enumerate users CAPTURERS and APPROVERS]]
