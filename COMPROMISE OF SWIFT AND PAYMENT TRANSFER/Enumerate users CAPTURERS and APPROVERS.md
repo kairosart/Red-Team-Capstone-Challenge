@@ -21,8 +21,11 @@ So to break it down further:
 
 Notice that there are two groups that we are interested in. Check out the users in each group. You don’t need to compromise all the accounts–just **one account from each group** to complete the task.
 
-![[Enumerate users CAPTURERS and APPROVERS-20240619140440523.webp]]
+`![[Enumerate users CAPTURERS and APPROVERS-20240619140440523.webp]]``
 ![[Enumerate users CAPTURERS and APPROVERS-20240619140454701.webp]]
+
+
+
 
 **Next step:** [[SWIFT Web Capturer Access]]
 

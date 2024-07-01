@@ -1,4 +1,4 @@
-To get instructions on how to proceed, you can go to the [[SSH connection to the e-Citizen]] and select **option 18** as supposed to you are submitting the proof of compromise. You'll get the below instructions.
+To get instructions on how to proceed, you can go to the [[SSH connection to the e-Citizen]] and select **option 19** as supposed to you are submitting the proof of compromise. You'll get the below instructions.
 
 *In order to proof that you have approver access to the SWIFT system, a dummy transaction has been created for you.*
 
