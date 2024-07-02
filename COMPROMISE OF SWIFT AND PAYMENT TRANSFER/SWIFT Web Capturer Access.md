@@ -1,4 +1,4 @@
-After submitting the SWIFT Web Access, got yu'll get an email saying:
+After submitting the SWIFT Web Access, got you'll get an email saying:
 
 ![[SWIFT Application as Capturer-20240619131355323.webp]]
 
@@ -8,8 +8,8 @@ To get instructions on how to proceed, you can go to the [[SSH connection to the
 
 *Please look for a transaction with these details:*
 
-From: 631f60a3311625c0d29f5b31
-To: 6682fa22599a226d03485319
+FROM:   631f60a3311625c0d29f5b32
+TO:     66844812599a227ad2a8eee7
 
 *Look for this transfer and capture (forward) the transaction.*
 
@@ -20,12 +20,14 @@ To: 6682fa22599a226d03485319
 From [[Enumerate users CAPTURERS and APPROVERS]] you can see the users with therir properties.
 The users of “Payement Capturers” can log in to only **WORK1**.
 
-### Change the a.barker's password
+### Change the g.watson's password
 
 - On BANKDC powershell run:
 	PS C:\Windows\system32>`net user g.watson Hacker@123 /domain`
 
 - Log in to **WORK1** as user **g.watson**.
+	Username: `g.watson`
+    Password: `Hacker@123`
 - Open the C:\Users\g.watson\Documents\SWIFT document which contains a password.
 	![[SWIFT Application as Capturer-20240622134650494.webp]]
 

@@ -4,23 +4,25 @@ In order to proof that you have access to the SWIFT system, dummy accounts have 
 
 Account Details:
 Source Email:           kairosdev@source.loc
-Source Password:        B1oo5zmdslb33A
-Source AccountID:       6682eaae599a226bf66fcb60
+Source Password:        xxjskPcgtohnGg
+Source AccountID:       66844812599a227ad2a8eee7
 Source Funds:           $ 10 000 000
 
 Destination Email:      kairosdev@destination.loc
-Destination Password:   VKWBGwEubZ1DUQ
-Destination AccountID:  6682eaaf599a226bf66fcb61
+Destination Password:   H2Tu6LyGAqtIiw
+Destination AccountID:  66844814599a227ad2a8eee8
 Destination Funds:      $ 10
 
 
 
-
 Using these details, perform the following steps:
-1. Go to the [SWIFT web application](http://swift.bank.thereserve.loc/)
-2. Log in with the Source Email.
-3. Navigate to the **Make a Transaction page**.
-4. Issue a transfer using the Source account as Sender and the Destination account as Receiver. You will have to use the corresponding account IDs.
+1. [[RDP to JMP]] 
+	Username: `kairosbank`
+	Password: `Capstone1@`
+3. Go to the [SWIFT web application](http://swift.bank.thereserve.loc/)
+4. Log in with the Source Email.
+5. Navigate to the **Make a Transaction page**.
+6. Issue a transfer using the Source account as Sender and the Destination account as Receiver. You will have to use the corresponding account IDs.
 	![[SWIFT Web Access-20240618153308780.webp]]
 
 4. Issue the transfer for the full 10 million dollars.

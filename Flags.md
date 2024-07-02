@@ -35,3 +35,11 @@ THM{bd4f60cd-57a9-4cd5-88b9-0957e08c0df3}
 ## Flag-18: Access to SWIFT application as capturer
 
 THM{204768b4-0d1d-4e0d-82b5-6015ec81f548}
+
+## Flag-19: Access to SWIFT application as approver 
+
+THM{e53f46e8-389b-4edb-bb44-34f87993969e}
+
+## Flag-20: Simulated fraudulent transfer made
+
+THM{fd1ad4d0-b01d-455d-a17c-5a4b046e5361}

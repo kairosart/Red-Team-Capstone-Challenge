@@ -4,14 +4,15 @@ To get instructions on how to proceed, you can go to the [[SSH connection to the
 
 *Please look for a transaction with these details:*
 
-*FROM:   631f60a3311625c0d29f5b31*
-*TO:     6671df6e599a22670d98b587*
+FROM:   631f60a3311625c0d29f5b31
+TO:     66844812599a227ad2a8eee7
+
 
 *Look for this transfer and approve (forward) the transaction.*
 
 *Once you have approved the provided transaction, please enter Y to verify your access.*
 
-## Rdp as BANK\\kairosbank.
+## Rdp to BANKDC as BANK\\kairosbank.
 - Check for groups in JMP on powershell.
 - PS C:\Windows\system32> `net groups /domain`
 	![[SWIFT Web Approver Access-20240622153349232.webp]]
@@ -34,7 +35,7 @@ Computer: `10.200.113.61`
 ## Navigate to [SWIFT web application](http://swift.bank.thereserve.loc/)
 
 - Notice that when trying to log in to the bank application using Google Chrome, the username and password fields get auto-filled! On checking the Settings in the browser, we see that credentials are saved for the site! We can log in now and approve the transaction.
-	![[SWIFT Web Approver Access-20240623154143575.webp]]
+	- ![[SWIFT Web Approver Access-20240623154143575.webp]]
 
 - Go to Transactions and approve your last transaction.
 	![[SWIFT Web Approver Access-20240623154427457.webp]]
