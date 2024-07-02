@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
-                "mode": "preview",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md"
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md"
               }
             }
           },
@@ -231,6 +231,8 @@
   },
   "active": "00c4e6bee43dbb40",
   "lastOpenFiles": [
+    "SWIFT PAYMENT MADE-20240702155255889.webp",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
     "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
     "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
@@ -248,7 +250,6 @@
     "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Network Map after BANKDC ompromises.md",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Connect to WRK1.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
     "SWIFT Application as Capturer-20240619131355323.webp",
     "SWIFT Application as Capturer-20240622135930453.webp",
     "SWIFT Web Access-20240618153308780.webp",
@@ -266,7 +267,6 @@
     "Project brief/Flag Submission Process.md",
     "OSINT/VPN Scanning/Steps.md",
     "FULL COMPROMISE OF PARENT DOMAIN/Maintain persistence.md",
-    "FULL COMPROMISE OF PARENT DOMAIN/Golden Ticket Attack with mimikatz.md",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",
     "FULL COMPROMISE OF BANK DOMAIN",
     "Full Compromise of BANK Domain",

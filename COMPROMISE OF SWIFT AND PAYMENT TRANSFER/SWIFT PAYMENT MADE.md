@@ -12,3 +12,5 @@ Once done, follow these steps:
 > Flag 20, Simulated fraudulent transfer made  
 
 [[Flag Submission Process]]
+
+![[SWIFT PAYMENT MADE-20240702155255889.webp]]
