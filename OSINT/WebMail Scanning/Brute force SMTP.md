@@ -53,8 +53,10 @@ cat smtp-results.txt
 
 ![[Brute force SMTP-20240518135026786.webp]]
 
-login: laura.wood@corp.thereserve.loc   
-password: Password1@
+Email: laura.wood@corp.thereserve.loc   
+Password: Password1@
 
-login: mohammad.ahmed@corp.thereserve.loc   
-password: Password1!
+Email: mohammad.ahmed@corp.thereserve.loc   
+Password: Password1!
+
+**Next step:** [[Reverse Shell]]

@@ -5,3 +5,5 @@ Accessing the hostname defined for the mail page, we get a server error with an 
 Checking the IP address, we get a default IIS page, which means that we might need the correct path in order to access the email application:
 
 ![[desktopwindows.png]]
+
+**Next step:** [[OSINT/WebMail Scanning/Technologies of the website|Technologies of the website]]

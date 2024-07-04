@@ -41,7 +41,7 @@ default            10.0.2.2           0.0.0.0                   UG        0     
 10.0.2.0           0.0.0.0            255.255.255.0       U          0       0             0      eth0
 10.50.118.0      0.0.0.0            255.255.255.0       U          0       0             0      capstone
 10.200.121.0    10.50.118.1      255.255.255.0       UG       0       0             0      capstone
-1**0.200.121.22  10.50.118.43   255.255.255.255  UGH     0       0             0      capstone**
+**10.200.121.22  10.50.118.43   255.255.255.255  UGH     0       0             0      capstone**
 172.17.0.0        0.0.0.0             255.255.0.0           U          0       0             0      docker0
 
 > In the context of network routing, the "UGH" flags typically appear in the output of the `netstat -rn` command on Unix-like operating systems. Each flag represents a specific attribute of a route entry in the routing table. Here's what "UGH" stands for:

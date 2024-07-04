@@ -5,6 +5,9 @@ Once done, follow these steps:
 
 - Using your [[SWIFT Web Capturer Access|capturer access]], capture the verified transaction.
 - Using your [[SWIFT Web Approver Access|approver access]], approve the captured transaction.
+- Check the email for the final flag.
+
+![[SWIFT PAYMENT MADE-20240702155752898.webp]]
 
 
 ## Authenticate the flags on e-citizen

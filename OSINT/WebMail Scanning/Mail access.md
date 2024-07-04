@@ -4,5 +4,7 @@ URL: http://mail.thereserve.loc/index.php
 
 ![[roundcube.png]]
 
-MailAddr: kairosdev@corp.th3reserve.loc
+Email: kairosdev@corp.th3reserve.loc
 Password: URL_5f-Pg1jKyPEp
+
+**Next step:** [[Brute force SMTP]]
