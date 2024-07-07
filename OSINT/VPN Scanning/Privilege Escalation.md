@@ -25,3 +25,5 @@ ubuntu@ip-10-200-10-12:~$ `sudo su`
 
 ### You are root
 root@ip-10-200-10-12:/etc#
+
+**Next step:** [[Scanning other hosts]]

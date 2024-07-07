@@ -6,7 +6,7 @@
       {
         "id": "ee2696b2b874b4ef",
         "type": "tabs",
-        "dimension": 63.37953091684435,
+        "dimension": 85.93530239099859,
         "children": [
           {
             "id": "00c4e6bee43dbb40",
@@ -38,19 +38,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machines/WRK1/Connect to WRK1 via RDP.md",
+                "file": "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8ca90822c5443f22",
+            "id": "1bcc6548df337cd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSINT/VPN Scanning/Privilege Escalation.md",
+                "file": "OSINT/VPN Scanning/Pivoting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8890ce4a3514de7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project brief/Flags.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +74,7 @@
       {
         "id": "185c81f7d3538637",
         "type": "tabs",
-        "dimension": 36.62046908315565,
+        "dimension": 14.064697609001406,
         "children": [
           {
             "id": "3cf2bdf087ef36eb",
@@ -70,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PERIMETER BREACH/Active enumeration of the 3 servers.md",
+                "file": "OSINT/Active enumeration of the 3 servers.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machines/WRK1/Connect to WRK1 via RDP.md",
+                "file": "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machines/WRK1/Connect to WRK1 via RDP.md",
+                "file": "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machines/WRK1/Connect to WRK1 via RDP.md"
+                "file": "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md"
               }
             }
           },
@@ -232,43 +244,43 @@
   },
   "active": "9943816aa45704e1",
   "lastOpenFiles": [
-    "Machines/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
-    "Machines/SERVER1 and SEVER2/Enumerate server1 from VPN Server.md",
+    "OSINT/VPN Scanning/Pivoting.md",
+    "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
+    "PERIMETER BREACH/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
+    "Pivoting overview.md",
+    "OSINT/VPN Scanning/Scanning other hosts.md",
+    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
     "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
     "OSINT/VPN Scanning/Privilege Escalation.md",
+    "OSINT/VPN Scanning/ovpn file.md",
     "OSINT/VPN Scanning/Reverse Shell.md",
+    "OSINT/VPN Scanning/vpn.thereserve.loc.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md",
+    "Machines/SERVER1 and SEVER2/Enumerate server1 from VPN Server.md",
+    "OSINT/VPN Scanning/Routing.md",
+    "Machines/WRK1/WRK1 Enumeration/SSH (22).md",
+    "Machines/WRK1/WRK1 Enumeration/SMB (135.139.445).md",
+    "Machines/WRK1/WRK1 Enumeration/RDP (3389).md",
+    "PERIMETER BREACH/WRK1/Connect to WRK1 via RDP.md",
+    "Machines/WRK1/WRK1 Flag submission.md",
+    "Machines/WRK1/Flag-1 Breaching the Perimeter.md",
+    "Project brief/Flags.md",
+    "OSINT/Active enumeration of the 3 servers.md",
+    "Proxychains.md",
+    "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
+    "DOMAIN ESCALATION/Active Directory Enumeration.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Connect to WRK1.md",
     "Connect via SSH (10.200.X.12)-20240704145204304.webp",
-    "OSINT/WebMail Scanning/Brute force SMTP.md",
     "Reverse Shell-20240704142326775.webp",
     "Reverse Shell-20240704141754872.webp",
     "Reverse Shell-20240704141057592.webp",
     "Reverse Shell-20240704140643435.webp",
     "Images/Reverse Shell-20240704140243868.webp",
     "Images/Enumerate users CAPTURERS and APPROVERS-20240619140454701.webp",
-    "PERIMETER BREACH/Active enumeration of the 3 servers.md",
     "Images/Enumerate users CAPTURERS and APPROVERS-20240619140440523.webp",
     "Images/Enumerate users CAPTURERS and APPROVERS-20240619135517810.webp",
     "Images/Enumerate users CAPTURERS and APPROVERS-20240618151057753.webp",
-    "OSINT/WebMail Scanning/Mail access.md",
-    "OSINT/WebMail Scanning/Technologies of the website.md",
-    "OSINT/WebMail Scanning/Webmail mail.thereserve.loc.md",
-    "Project brief/Project Registration.md",
-    "OSINT/Web Scanning/October CMS.md",
-    "OSINT/VPN Scanning/Scanning other hosts.md",
-    "OSINT/Web Scanning/Technologies of the website.md",
-    "OSINT/Web Scanning/Website web.thereserve.loc.md",
-    "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
-    "OSINT/VPN Scanning/Enumeration.md",
-    "OSINT/Web Scanning/Enumeration.md",
-    "To do list.md",
-    "OSINT/VPN Scanning/ovpn file.md",
-    "OSINT/VPN Scanning/Routing.md",
-    "OSINT/VPN Scanning/vpn.thereserve.loc.md",
-    "Machines/CORPDC/CORPDC (10.200.X.102).md",
-    "Machines/WRK2/Connect to WRK2 via RDP.md",
-    "INITIAL ACTIVE DIRECTORY ACCESS/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
-    "Project brief/Flags.md",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",
     "FULL COMPROMISE OF BANK DOMAIN",
     "Full Compromise of BANK Domain",

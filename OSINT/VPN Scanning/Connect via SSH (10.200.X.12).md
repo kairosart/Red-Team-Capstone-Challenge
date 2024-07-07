@@ -65,9 +65,7 @@ $  `ssh ubuntu@10.200.10.12 -i rsa`
 
 ![[Connect via SSH (10.200.X.12)-20240704145204304.webp]]
 
-## Getting root
-
-ubuntu@ip-10-200-113-12:~$ `sudo su`
+**Next step:** [[Privilege Escalation]]
 
 
 

@@ -61,3 +61,5 @@ Nmap scan report for ip-10-200-10-250.eu-west-1.compute.internal
 Host is up (-0.10s latency).
 MAC Address: 02:59:99:DD:4B:BD (Unknown)
 Nmap scan report for ip-10-200-10-12.eu-west-1.compute.internal (10.200.10.12)
+
+**Next step:** [[Pivoting overview]]
