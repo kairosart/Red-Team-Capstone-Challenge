@@ -1,5 +1,5 @@
 ## Connect to WRK2
-- [[Connect to WRK2 via RDP]]
+- [[Connect to 10.200.X.22 via RDP]]
 - Open a command shell.
 - Look at the "C:\Users\laura.wood\Downloads>" directory.
 - There's a nc.exe file. (Netcat)

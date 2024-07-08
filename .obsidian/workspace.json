@@ -6,7 +6,7 @@
       {
         "id": "ee2696b2b874b4ef",
         "type": "tabs",
-        "dimension": 85.93530239099859,
+        "dimension": 65.68213783403657,
         "children": [
           {
             "id": "00c4e6bee43dbb40",
@@ -33,24 +33,12 @@
             }
           },
           {
-            "id": "9943816aa45704e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1bcc6548df337cd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSINT/VPN Scanning/Pivoting.md",
+                "file": "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,27 +50,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project brief/Flags.md",
+                "file": "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "314012d474985498",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
-        "id": "185c81f7d3538637",
+        "id": "5364189fca336535",
         "type": "tabs",
-        "dimension": 14.064697609001406,
+        "dimension": 34.31786216596343,
         "children": [
           {
-            "id": "3cf2bdf087ef36eb",
+            "id": "5178d5f4e41983d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSINT/Active enumeration of the 3 servers.md",
+                "file": "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "kerber",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
+                "file": "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
+                "file": "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md"
+                "file": "PERIMETER BREACH/Credentials recovery through Kerberosting.md"
               }
             }
           },
@@ -242,34 +242,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9943816aa45704e1",
+  "active": "314012d474985498",
   "lastOpenFiles": [
-    "OSINT/VPN Scanning/Pivoting.md",
-    "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
     "PERIMETER BREACH/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
+    "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
+    "Machines/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
+    "Machines/SERVER1 and SEVER2/Enumerate server1 from VPN Server.md",
+    "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.md",
+    "PERIMETER BREACH/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
+    "PERIMETER BREACH/WRK2/Flag-3 Foothold on Corporate Division Tier 2 Infrastructure.md",
+    "PERIMETER BREACH/WRK2/Flag-2 Breaching Active Directory.md",
+    "PERIMETER BREACH/WRK2/Enumerate 10.200.X.22.md",
+    "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.md",
+    "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
+    "Enumerate 10.200.X.22-20240708142843067.webp",
+    "Enumerate 10.200.X.21-20240708142444665.webp",
+    "Project brief/SSH connection to the e-Citizen.md",
+    "Project brief/Flag Submission Process.md",
+    "Project brief/Flags.md",
+    "OSINT/VPN Scanning/Pivoting.md",
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
+    "OSINT/VPN Scanning/Privilege Escalation.md",
+    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
+    "Steps/0x00 - OSINT.md",
+    "OSINT/Active enumeration of the 3 servers.md",
     "Pivoting overview.md",
     "OSINT/VPN Scanning/Scanning other hosts.md",
     "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
-    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
-    "OSINT/VPN Scanning/Privilege Escalation.md",
     "OSINT/VPN Scanning/ovpn file.md",
     "OSINT/VPN Scanning/Reverse Shell.md",
     "OSINT/VPN Scanning/vpn.thereserve.loc.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md",
-    "Machines/SERVER1 and SEVER2/Enumerate server1 from VPN Server.md",
-    "OSINT/VPN Scanning/Routing.md",
-    "Machines/WRK1/WRK1 Enumeration/SSH (22).md",
-    "Machines/WRK1/WRK1 Enumeration/SMB (135.139.445).md",
-    "Machines/WRK1/WRK1 Enumeration/RDP (3389).md",
-    "PERIMETER BREACH/WRK1/Connect to WRK1 via RDP.md",
-    "Machines/WRK1/WRK1 Flag submission.md",
-    "Machines/WRK1/Flag-1 Breaching the Perimeter.md",
-    "Project brief/Flags.md",
-    "OSINT/Active enumeration of the 3 servers.md",
-    "Proxychains.md",
-    "DOMAIN ESCALATION/Credentials recovery through Kerberosting.md",
-    "DOMAIN ESCALATION/Active Directory Enumeration.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Connect to WRK1.md",
     "Connect via SSH (10.200.X.12)-20240704145204304.webp",
     "Reverse Shell-20240704142326775.webp",
     "Reverse Shell-20240704141754872.webp",
@@ -278,8 +280,6 @@
     "Images/Reverse Shell-20240704140243868.webp",
     "Images/Enumerate users CAPTURERS and APPROVERS-20240619140454701.webp",
     "Images/Enumerate users CAPTURERS and APPROVERS-20240619140440523.webp",
-    "Images/Enumerate users CAPTURERS and APPROVERS-20240619135517810.webp",
-    "Images/Enumerate users CAPTURERS and APPROVERS-20240618151057753.webp",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",
     "FULL COMPROMISE OF BANK DOMAIN",

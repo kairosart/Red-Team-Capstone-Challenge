@@ -16,4 +16,6 @@ Please make a selection:
 1. Register
 2. Authenticate
 3. Exit
-Selection:[[]]
+Selection:[[2]]
+
+Follow the steps.
