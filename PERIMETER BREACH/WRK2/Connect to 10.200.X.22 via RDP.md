@@ -11,5 +11,5 @@ $ `xfreerdp /u:laura.wood /p:Password1@ /v:10.200.X.22 +clipboard`
 >Flag-3 Foothold on Corporate Division Tier 2 Infrastructure
 >Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure
 
-**Next step:**
+**Next step:** [[Credentials recovery through Kerberosting]]
 

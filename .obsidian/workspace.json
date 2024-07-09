@@ -6,7 +6,7 @@
       {
         "id": "ee2696b2b874b4ef",
         "type": "tabs",
-        "dimension": 65.68213783403657,
+        "dimension": 51.61744022503516,
         "children": [
           {
             "id": "00c4e6bee43dbb40",
@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
+                "file": "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
       {
         "id": "5364189fca336535",
         "type": "tabs",
-        "dimension": 34.31786216596343,
+        "dimension": 48.38255977496484,
         "children": [
           {
             "id": "5178d5f4e41983d5",
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
+                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
+                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
+                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PERIMETER BREACH/Credentials recovery through Kerberosting.md"
+                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md"
               }
             }
           },
@@ -242,13 +242,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "314012d474985498",
+  "active": "5178d5f4e41983d5",
   "lastOpenFiles": [
-    "PERIMETER BREACH/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
-    "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
-    "Machines/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
-    "Machines/SERVER1 and SEVER2/Enumerate server1 from VPN Server.md",
+    "Dumping secrets from the AD machines-20240709152217555.webp",
+    "Dumping secrets from the AD machines-20240709152204682.webp",
+    "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
+    "Machines/CORPDC/CORPDC (10.200.X.102).md",
     "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.md",
+    "PERIMETER BREACH/SERVER1 and SEVER2/Enumerate 10.200.X.31 and 32.md",
+    "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
+    "PERIMETER BREACH/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
     "PERIMETER BREACH/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
     "PERIMETER BREACH/WRK2/Flag-3 Foothold on Corporate Division Tier 2 Infrastructure.md",
     "PERIMETER BREACH/WRK2/Flag-2 Breaching Active Directory.md",
@@ -267,11 +273,6 @@
     "Steps/0x00 - OSINT.md",
     "OSINT/Active enumeration of the 3 servers.md",
     "Pivoting overview.md",
-    "OSINT/VPN Scanning/Scanning other hosts.md",
-    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
-    "OSINT/VPN Scanning/ovpn file.md",
-    "OSINT/VPN Scanning/Reverse Shell.md",
-    "OSINT/VPN Scanning/vpn.thereserve.loc.md",
     "Connect via SSH (10.200.X.12)-20240704145204304.webp",
     "Reverse Shell-20240704142326775.webp",
     "Reverse Shell-20240704141754872.webp",
@@ -279,7 +280,6 @@
     "Reverse Shell-20240704140643435.webp",
     "Images/Reverse Shell-20240704140243868.webp",
     "Images/Enumerate users CAPTURERS and APPROVERS-20240619140454701.webp",
-    "Images/Enumerate users CAPTURERS and APPROVERS-20240619140440523.webp",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",
     "FULL COMPROMISE OF BANK DOMAIN",
@@ -287,7 +287,7 @@
     "FULL COMPROMISE OF PARENT DOMAIN",
     "FULL COMPROMISE OF CORP DOMAIN",
     "Evolution configuration.canvas",
-    "Machines/SERVER1 and SEVER2",
+    "PERIMETER BREACH/SERVER1 and SEVER2",
     "DOMAIN ESCALATION",
     "WebMail Scanning",
     "INITIAL ACTIVE DIRECTORY ACCESS",
