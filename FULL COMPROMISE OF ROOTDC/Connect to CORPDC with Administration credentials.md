@@ -8,7 +8,7 @@ NOTE: If you can't connect , go to [[Dumping secrets from CORPDC]]
 ### Enable http.server using python and proxychains on the Attacking machine
 
 
-~/…/red_team_recon/Capstone_Challenge/Capstone_Challenge_Resources/Tools/mimikatz_trunk/x64$  `proxychains -q python3 -m http.server`
+~/…/red_team_recon/Capstone_Challenge/Capstone_Challenge_Resources/Tools/mimikatz_trunk/x64$  `proxychains4 -q python3 -m http.server`
 
 ### Get mimikatz
 On the tools provided on Capstone challenge folder you can find mimikatz.
