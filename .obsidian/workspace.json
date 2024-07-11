@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF ROOTDC/Connect to CORPDC with Administration credentials.md",
+                "file": "FULL COMPROMISE OF ROOTDC/Maintain persistence.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
+                "file": "FULL COMPROMISE OF ROOTDC/Golden Ticket Attack with mimikatz.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
+                "file": "FULL COMPROMISE OF ROOTDC/Maintain persistence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
+                "file": "FULL COMPROMISE OF ROOTDC/Maintain persistence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md"
+                "file": "FULL COMPROMISE OF ROOTDC/Maintain persistence.md"
               }
             }
           },
@@ -242,17 +242,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5178d5f4e41983d5",
+  "active": "314012d474985498",
   "lastOpenFiles": [
-    "FULL COMPROMISE OF ROOTDC/Connect to CORPDC with Administration credentials.md",
+    "FULL COMPROMISE OF ROOTDC/Golden Ticket Attack with mimikatz.md",
+    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.md",
+    "DOMAIN ESCALATION/Active Directory Enumeration.md",
+    "FULL COMPROMISE OF ROOTDC/Download mimikatz.md",
+    "RDP to CORPDC with the Administrator's credentials-20240711140249092.webp",
+    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC.md",
+    "Connect CORPDC with evil-winrm-20240711134633470.webp",
+    "Connect CORPDC with evil-winrm-20240711134533300.webp",
+    "Connect CORPDC with evil-winrm-20240711134443095.webp",
+    "Connect CORPDC with evil-winrm-20240711134239749.webp",
     "FULL COMPROMISE OF ROOTDC/Network Map after compromising CORPDC.md",
     "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
-    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC.md",
-    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
     "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
     "Change Administrator's password.md",
     "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
@@ -272,14 +279,7 @@
     "Enumerate 10.200.X.22-20240708142843067.webp",
     "Enumerate 10.200.X.21-20240708142444665.webp",
     "Project brief/SSH connection to the e-Citizen.md",
-    "Project brief/Flag Submission Process.md",
-    "Project brief/Flags.md",
     "Connect via SSH (10.200.X.12)-20240704145204304.webp",
-    "Reverse Shell-20240704142326775.webp",
-    "Reverse Shell-20240704141754872.webp",
-    "Reverse Shell-20240704141057592.webp",
-    "Reverse Shell-20240704140643435.webp",
-    "Images/Reverse Shell-20240704140243868.webp",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",
     "FULL COMPROMISE OF BANK DOMAIN",

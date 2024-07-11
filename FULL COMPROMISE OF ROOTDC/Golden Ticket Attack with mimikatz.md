@@ -1,4 +1,6 @@
-[Connect to CORP.DC with Administration credentials](app://obsidian.md/Dumping%20secrets%20from%20CORPDC#Connect%20to%20RDP%20with%20the%20Administrator's%20credentials)
+
+[[Dumping secrets from CORPDC#Connect to RDP with the Administrator's credentials|Connect to CORP.DC with Administration credentials]]
+
 
 To carry out this attack you will need:
 
@@ -114,7 +116,5 @@ PS C:\Users\Administrator> `.\psexec.exe \\rootdc.thereserve.loc cmd.exe`
 
 > Flag 15, Foothold on Parent Domain
 > Flag 16, Administrative access to Parent Domain
-
-[[Flag Submission Process]]
 
 **Next step:** [[Maintain persistence]]

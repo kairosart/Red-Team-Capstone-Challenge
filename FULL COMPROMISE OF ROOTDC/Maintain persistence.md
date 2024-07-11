@@ -2,7 +2,7 @@ In order to maintain persistence, and allowing us to login without creating tick
 
 ## Connect to CORPDC with Administration credentials
 
-[[Connect to CORPDC with Administration credentials]]
+[[Download mimikatz]]
 
 ## Adding a new user as an Enterprise Admin
 

