@@ -43,7 +43,7 @@ Computer: `10.200.X.100`
     
     - Press `Win + R`, type `mstsc`, and press `Enter`.
     - ![[Maintain persistence-20240615154522456.webp]]
-1. **Enter the Host Machine’s Name or IP Address**:
+2. **Enter the Host Machine’s Name or IP Address**:
     
     - In the Remote Desktop Connection window, enter the computer name or IP address of the host machine.
 3. **Enter Credentials**:

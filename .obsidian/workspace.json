@@ -62,8 +62,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF ROOTDC/Maintain persistence.md",
-                "mode": "source",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FULL COMPROMISE OF ROOTDC/Golden Ticket Attack with mimikatz.md",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kerber",
+                "query": "flag 14",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FULL COMPROMISE OF ROOTDC/Maintain persistence.md",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FULL COMPROMISE OF ROOTDC/Maintain persistence.md",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FULL COMPROMISE OF ROOTDC/Maintain persistence.md"
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md"
               }
             }
           },
@@ -242,14 +242,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "314012d474985498",
+  "active": "5178d5f4e41983d5",
   "lastOpenFiles": [
-    "FULL COMPROMISE OF ROOTDC/Golden Ticket Attack with mimikatz.md",
-    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
+    "Project brief/Flag Submission Process.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Change g.watson's password and RDP to WRK1.md",
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Network Map after BANKDC compromise.md",
     "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.md",
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
+    "FULL COMPROMISE OF BANK DOMAIN/Create user at BANKDC.md",
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
+    "FULL COMPROMISE OF ROOTDC/Golden Ticket Attack with mimikatz.md",
+    "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
+    "FULL COMPROMISE OF ROOTDC/Maintain persistence.md",
+    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
     "DOMAIN ESCALATION/Active Directory Enumeration.md",
     "FULL COMPROMISE OF ROOTDC/Download mimikatz.md",
     "RDP to CORPDC with the Administrator's credentials-20240711140249092.webp",
@@ -265,20 +277,8 @@
     "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
     "Dumping secrets from the AD machines-20240709152217555.webp",
     "Dumping secrets from the AD machines-20240709152204682.webp",
-    "Machines/CORPDC/CORPDC (10.200.X.102).md",
-    "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.md",
-    "PERIMETER BREACH/SERVER1 and SEVER2/Enumerate 10.200.X.31 and 32.md",
-    "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
-    "PERIMETER BREACH/Privilege Access to CORP Tier 2 - WRK1 and wrk2.md",
-    "PERIMETER BREACH/WRK2/Flag-4 Administrative access to Corporate Division Tier 2 Infrastructure.md",
-    "PERIMETER BREACH/WRK2/Flag-3 Foothold on Corporate Division Tier 2 Infrastructure.md",
-    "PERIMETER BREACH/WRK2/Flag-2 Breaching Active Directory.md",
-    "PERIMETER BREACH/WRK2/Enumerate 10.200.X.22.md",
-    "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.md",
-    "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
     "Enumerate 10.200.X.22-20240708142843067.webp",
     "Enumerate 10.200.X.21-20240708142444665.webp",
-    "Project brief/SSH connection to the e-Citizen.md",
     "Connect via SSH (10.200.X.12)-20240704145204304.webp",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",

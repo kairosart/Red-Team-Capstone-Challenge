@@ -117,4 +117,6 @@ PS C:\Users\Administrator> `.\psexec.exe \\rootdc.thereserve.loc cmd.exe`
 > Flag 15, Foothold on Parent Domain
 > Flag 16, Administrative access to Parent Domain
 
+[[Flag Submission Process]]
+
 **Next step:** [[Maintain persistence]]

@@ -35,4 +35,4 @@ Computer: `10.200.X.101`
 
 [[Flag Submission Process]]
 
-**Next step**: [[Create user at BANK Forest]]
+**Next step**: [[Create user at BANKDC]]

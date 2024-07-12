@@ -1,4 +1,4 @@
-### Change g.watson's password and RDP to WRK1
+
 
 - From BANKDC rdp to WRK1.
 - Open powershell as Administrator.
