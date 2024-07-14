@@ -10,13 +10,4 @@
 	![[SWIFT Application as Capturer-20240622134650494.webp]]
 
 
-## Log in into Swift portal as Capturer using provided password
-
-- From WRK1 computer Chrome browser go to http://swift.bank.thereserve.loc/.
-- Log in as :
-	Username: g.watson@bank.thereserve.loc
-	Password: Corrected1996
-	![[SWIFT Application as Capturer-20240622135930453.webp]]
-
-[[SWIFT Web Capturer Access]]
-
+**Next step:** [[Log in into Swift portal as Capturer using provided password]]

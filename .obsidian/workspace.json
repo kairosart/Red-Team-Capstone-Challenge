@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md",
                 "mode": "preview",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Log in into Swift portal as Capturer using provided password.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md"
+                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md"
               }
             }
           },
@@ -242,19 +242,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5178d5f4e41983d5",
+  "active": "314012d474985498",
   "lastOpenFiles": [
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
-    "Project brief/Flag Submission Process.md",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Log in into Swift portal as Capturer using provided password.md",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Change g.watson's password and RDP to WRK1.md",
     "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Network Map after BANKDC compromise.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.md",
     "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
     "FULL COMPROMISE OF BANK DOMAIN/Create user at BANKDC.md",
     "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md",
+    "Project brief/Flag Submission Process.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Network Map after BANKDC compromise.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.md",
     "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.md",
     "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
     "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
@@ -274,7 +275,6 @@
     "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
     "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
     "Change Administrator's password.md",
-    "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
     "Dumping secrets from the AD machines-20240709152217555.webp",
     "Dumping secrets from the AD machines-20240709152204682.webp",
     "Enumerate 10.200.X.22-20240708142843067.webp",

@@ -4,16 +4,16 @@ After submitting the SWIFT Web Access, got you'll get an email saying:
 
 To get instructions on how to proceed, you can go to the [[SSH connection to the e-Citizen]] and select **option 18** as supposed to you are submitting the proof of compromise. You'll get the below instructions.
 
-*In order to proof that you have capturer access to the SWIFT system, a dummy transaction has been created for you.*
+`In order to proof that you have capturer access to the SWIFT system, a dummy transaction has been created for you.`
 
-*Please look for a transaction with these details:*
+`Please look for a transaction with these details:`
 
-FROM:   631f60a3311625c0d29f5b32
-TO:     66844812599a227ad2a8eee7
+`FROM:   631f60a3311625c0d29f5b32`
+`TO:     66844812599a227ad2a8eee7`
 
-*Look for this transfer and capture (forward) the transaction.*
+`Look for this transfer and capture (forward) the transaction.`
 
-*Once you have captured the provided transaction, please enter Y to verify your access.*
+`Once you have captured the provided transaction, please enter Y to verify your access.`
 
 ## Compromise capturer in a position to make transfers
 

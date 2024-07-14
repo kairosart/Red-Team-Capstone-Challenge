@@ -1,17 +1,17 @@
 To get instructions on how to proceed, you can go to the [[SSH connection to the e-Citizen]] and select **option 17** as supposed to you are submitting the proof of compromise. You'll get the below instructions.
 
-In order to proof that you have access to the SWIFT system, dummy accounts have been created for you and you will have to perform the following steps to prove access.
+`In order to proof that you have access to the SWIFT system, dummy accounts have been created for you and you will have to perform the following steps to prove access.`
 
-Account Details:
-Source Email:           kairosdev@source.loc
-Source Password:        xxjskPcgtohnGg
-Source AccountID:       66844812599a227ad2a8eee7
-Source Funds:           $ 10 000 000
+`Account Details:`
+`Source Email:           kairosdev@source.loc`
+`Source Password:        xxjskPcgtohnGg`
+`Source AccountID:       66844812599a227ad2a8eee7`
+`Source Funds:           $ 10 000 000`
 
-Destination Email:      kairosdev@destination.loc
-Destination Password:   H2Tu6LyGAqtIiw
-Destination AccountID:  66844814599a227ad2a8eee8
-Destination Funds:      $ 10
+`Destination Email:      kairosdev@destination.loc`
+`Destination Password:   H2Tu6LyGAqtIiw`
+`Destination AccountID:  66844814599a227ad2a8eee8`
+`Destination Funds:      $ 10`
 
 
 
