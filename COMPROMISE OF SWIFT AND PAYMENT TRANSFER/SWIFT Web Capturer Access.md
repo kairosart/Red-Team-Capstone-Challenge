@@ -20,26 +20,13 @@ To get instructions on how to proceed, you can go to the [[SSH connection to the
 From [[Enumerate users CAPTURERS and APPROVERS]] you can see the users with therir properties.
 The users of “Payement Capturers” can log in to only **WORK1**.
 
-### Change the g.watson's password
 
-- On BANKDC powershell run:
-	PS C:\Windows\system32>`net user g.watson Hacker@123 /domain`
-
-- Log in to **WORK1** as user **g.watson**.
-	Username: `g.watson`
-    Password: `Hacker@123`
-- Open the C:\Users\g.watson\Documents\SWIFT document which contains a password.
-	![[SWIFT Application as Capturer-20240622134650494.webp]]
-
-
-## Navigate to [SWIFT web application](http://swift.bank.thereserve.loc/)
-
+- Navigate to [SWIFT web application](http://swift.bank.thereserve.loc/)
 - Log in as g.watson@bank.thereserve.loc:Corrected1996
 - Go to Transactions and approve your last transaction.  
-    ![SWIFT Web Approver Access-20240623154427457.webp](app://7e9b693e1be8380628bc863b9de3e1fc772f/media/sf_obsidian/Red%20Team%20Capstone%20Challenge/SWIFT%20Web%20Approver%20Access-20240623154427457.webp?1719171867435)
+  ![[SWIFT Web Capturer Access-20240715134751952.webp]]
     
 - Once completed, request verification of your transaction. Type Y.
-    
 - Check your email to get the flag.
 
 

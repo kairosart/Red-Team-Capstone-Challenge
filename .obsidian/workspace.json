@@ -38,8 +38,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.md",
-                "mode": "source",
+                "file": "To do list.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -60,16 +60,24 @@
             "id": "314012d474985498",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md",
-                "mode": "preview",
-                "source": false
+                "file": "Images/RDP to CORPDC with the Administrator's credentials-20240711140249092.webp"
+              }
+            }
+          },
+          {
+            "id": "2bbc9a15ad49701f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Reverse Shell-20240704140643435.webp"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "5364189fca336535",
@@ -82,7 +90,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Log in into Swift portal as Capturer using provided password.md",
+                "file": "Project brief/Project scope.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md",
+                "file": "To do list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md",
+                "file": "To do list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md"
+                "file": "To do list.md"
               }
             }
           },
@@ -242,44 +250,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "314012d474985498",
+  "active": "1bcc6548df337cd2",
   "lastOpenFiles": [
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
+    "_Index_of_Red Team Capstone Challenge.md",
+    "To do list.md",
+    "DOMAIN ESCALATION/_Index_of_DOMAIN ESCALATION.md",
+    "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/_Index_of_COMPROMISE OF SWIFT AND PAYMENT TRANSFER.md",
+    "FULL COMPROMISE OF BANK DOMAIN/_Index_of_FULL COMPROMISE OF BANK DOMAIN.md",
+    "FULL COMPROMISE OF CORP DOMAIN/_Index_of_FULL COMPROMISE OF CORP DOMAIN.md",
+    "FULL COMPROMISE OF ROOTDC/_Index_of_FULL COMPROMISE OF ROOTDC.md",
+    "OSINT/VPN Scanning/_Index_of_VPN Scanning.md",
+    "OSINT/Web Scanning/_Index_of_Web Scanning.md",
+    "OSINT/_Index_of_OSINT.md",
+    "OSINT/WebMail Scanning/_Index_of_WebMail Scanning.md",
+    "PERIMETER BREACH/SERVER1 and SEVER2/_Index_of_SERVER1 and SEVER2.md",
+    "PERIMETER BREACH/WRK1/_Index_of_WRK1.md",
+    "PERIMETER BREACH/_Index_of_PERIMETER BREACH.md",
+    "PERIMETER BREACH/WRK2/_Index_of_WRK2.md",
+    "Project brief/_Index_of_Project brief.md",
+    "Images/RDP to CORPDC with the Administrator's credentials-20240711140249092.webp",
+    "Images/Reverse Shell-20240704140643435.webp",
+    "Project brief/Project scope.md",
+    "Project brief/Red Team Capstone Challenge.md",
+    "Project brief/SSH connection to the e-Citizen.md",
+    "Project brief/SWIFT.md",
+    "Project brief/Trimento.md",
+    "Project brief/Welcome.md",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Log in into Swift portal as Capturer using provided password.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Change g.watson's password and RDP to WRK1.md",
-    "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.md",
-    "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
-    "FULL COMPROMISE OF BANK DOMAIN/Create user at BANKDC.md",
-    "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md",
-    "Project brief/Flag Submission Process.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Network Map after BANKDC compromise.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
-    "FULL COMPROMISE OF ROOTDC/Golden Ticket Attack with mimikatz.md",
-    "FULL COMPROMISE OF BANK DOMAIN/Network Map after CORPDC and ROOTDC compromises.md",
-    "FULL COMPROMISE OF ROOTDC/Maintain persistence.md",
-    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
-    "DOMAIN ESCALATION/Active Directory Enumeration.md",
-    "FULL COMPROMISE OF ROOTDC/Download mimikatz.md",
-    "RDP to CORPDC with the Administrator's credentials-20240711140249092.webp",
-    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC.md",
-    "Connect CORPDC with evil-winrm-20240711134633470.webp",
-    "Connect CORPDC with evil-winrm-20240711134533300.webp",
-    "Connect CORPDC with evil-winrm-20240711134443095.webp",
-    "Connect CORPDC with evil-winrm-20240711134239749.webp",
-    "FULL COMPROMISE OF ROOTDC/Network Map after compromising CORPDC.md",
-    "FULL COMPROMISE OF CORP DOMAIN/Network Map after Server1 and Server2 compromises.md",
-    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
-    "Change Administrator's password.md",
-    "Dumping secrets from the AD machines-20240709152217555.webp",
-    "Dumping secrets from the AD machines-20240709152204682.webp",
-    "Enumerate 10.200.X.22-20240708142843067.webp",
-    "Enumerate 10.200.X.21-20240708142444665.webp",
-    "Connect via SSH (10.200.X.12)-20240704145204304.webp",
+    "Abstract/Red Team Capstone.md",
+    "Abstract/SWIFT.md",
+    "Images/Reverse Shell-20240704141057592.webp",
+    "Images/Connect CORPDC with evil-winrm-20240711134239749.webp",
+    "Images/SWIFT Web Capturer Access-20240715134751952.webp",
+    "Images/Connect CORPDC with evil-winrm-20240711134633470.webp",
+    "Images/Connect CORPDC with evil-winrm-20240711134533300.webp",
+    "Images/Connect CORPDC with evil-winrm-20240711134443095.webp",
+    "Images/Dumping secrets from the AD machines-20240709152217555.webp",
+    "Images/Dumping secrets from the AD machines-20240709152204682.webp",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",
     "FULL COMPROMISE OF BANK DOMAIN",

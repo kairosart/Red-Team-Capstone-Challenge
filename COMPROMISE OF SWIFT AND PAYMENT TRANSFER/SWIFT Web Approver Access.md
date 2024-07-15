@@ -12,7 +12,7 @@ TO:     66844812599a227ad2a8eee7
 
 *Once you have approved the provided transaction, please enter Y to verify your access.*
 
-## Rdp to BANKDC as BANK\\kairosbank.
+## Rdp to BANKDC as BANK\\kairosbank
 - Check for groups in JMP on powershell.
 - PS C:\Windows\system32> `net groups /domain`
 	![[SWIFT Web Approver Access-20240622153349232.webp]]
@@ -35,7 +35,7 @@ Computer: `10.200.113.61`
 ## Navigate to [SWIFT web application](http://swift.bank.thereserve.loc/)
 
 - Notice that when trying to log in to the bank application using Google Chrome, the username and password fields get auto-filled! On checking the Settings in the browser, we see that credentials are saved for the site! We can log in now and approve the transaction.
-	- ![[SWIFT Web Approver Access-20240623154143575.webp]]
+	![[SWIFT Web Approver Access-20240623154143575.webp]]
 
 - Go to Transactions and approve your last transaction.
 	![[SWIFT Web Approver Access-20240623154427457.webp]]
