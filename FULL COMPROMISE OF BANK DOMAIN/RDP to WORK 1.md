@@ -29,4 +29,4 @@ Computer: `10.200.X.51`
 
 [[Flag Submission Process]]
 
-**Next step:** [[Change g.watson's password and RDP to WRK1]]
+**Next step:** [[Network Map after CORPDC and ROOTDC compromises]]

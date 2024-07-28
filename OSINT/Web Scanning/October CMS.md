@@ -10,3 +10,4 @@ https://octobercms.com/features
 http://web.thereserve.loc/october/index.php/backend/backend/auth/signin
 ![[octobercms_admin_panel 1.png]]
 
+**Next step:** [[Website web.thereserve.loc]]

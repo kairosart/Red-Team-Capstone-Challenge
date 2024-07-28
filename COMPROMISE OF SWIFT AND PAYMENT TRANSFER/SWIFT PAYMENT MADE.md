@@ -16,4 +16,4 @@ Once done, follow these steps:
 
 [[Flag Submission Process]]
 
-![[SWIFT PAYMENT MADE-20240702155255889.webp]]
+**Next step: [[Network Map after BANKDC compromise]]

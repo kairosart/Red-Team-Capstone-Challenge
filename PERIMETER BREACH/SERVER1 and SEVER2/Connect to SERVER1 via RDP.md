@@ -11,4 +11,4 @@ $ `proxychains -q xfreerdp /v:10.200.X.31 /u:svcScanning /p:Password1!`
 >Flag-5, Foothold on Corporate Division Tier 1 Infrastructure
 >Flag-6, Administrative access to Corporate Division Tier 1 Infrastructure
 
-**Next step:** [[Dumping secrets from the AD machines]]
+**Next step:** [[Network Map after Server1 and Server2 compromises]]

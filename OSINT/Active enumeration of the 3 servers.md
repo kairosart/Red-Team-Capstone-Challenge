@@ -29,4 +29,4 @@ nmap -sC -sV -Pn 10.200.121.11
 
 
 ![[nmap_mail.png|939]]
-
+**Next step:** [[Gobuster]]

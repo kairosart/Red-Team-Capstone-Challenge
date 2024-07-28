@@ -21,3 +21,5 @@ $ sudo openvpn redteamcapstonechallenge.ovpn
 The message "Initialization Sequence Completed" tells you that you are now connected to the network. Return to your access page. You can verify you are connected by looking on your access page. Refresh the page, and you should see a green tick next to Connected. It will also show you your internal IP address.
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/6093e17fa004d20049b6933e/room-content/0a924f67f23923031c343eebb572607b.png)
+
+**Next step:** [[Servers]]

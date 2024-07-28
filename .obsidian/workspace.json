@@ -4,93 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "ee2696b2b874b4ef",
+        "id": "f4be7a1c68b11f2a",
         "type": "tabs",
-        "dimension": 51.61744022503516,
         "children": [
           {
-            "id": "00c4e6bee43dbb40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b09c882d9ec453a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1bcc6548df337cd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To do list.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8890ce4a3514de7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "314012d474985498",
+            "id": "ae4c02fdead10410",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "Images/RDP to CORPDC with the Administrator's credentials-20240711140249092.webp"
+                "file": "Images/Final Network Map-20240728152736002.webp"
               }
             }
           },
           {
-            "id": "2bbc9a15ad49701f",
+            "id": "d61def620d76be63",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/Reverse Shell-20240704140643435.webp"
+                "file": "Project brief/Project Goal.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
-        "id": "5364189fca336535",
+        "id": "84aee8bf44bd1a7d",
         "type": "tabs",
-        "dimension": 48.38255977496484,
         "children": [
           {
-            "id": "5178d5f4e41983d5",
+            "id": "7838c3e8c1328f63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project brief/Project scope.md",
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4197c900b6696cbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project brief/Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,11 +89,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "flag 14",
+                "query": "SUMMAR",
                 "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -162,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To do list.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To do list.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To do list.md"
+                "file": "index.md"
               }
             }
           },
@@ -250,44 +214,83 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bcc6548df337cd2",
+  "floating": {
+    "id": "278bcaa4105b527d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "b89154d239cb9442",
+        "type": "window",
+        "children": [
+          {
+            "id": "0c49d75b03b32506",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b3d088d892c06bd1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Project brief/Welcome.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 448,
+        "y": 98,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7838c3e8c1328f63",
   "lastOpenFiles": [
-    "_Index_of_Red Team Capstone Challenge.md",
-    "To do list.md",
-    "DOMAIN ESCALATION/_Index_of_DOMAIN ESCALATION.md",
-    "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/_Index_of_COMPROMISE OF SWIFT AND PAYMENT TRANSFER.md",
-    "FULL COMPROMISE OF BANK DOMAIN/_Index_of_FULL COMPROMISE OF BANK DOMAIN.md",
-    "FULL COMPROMISE OF CORP DOMAIN/_Index_of_FULL COMPROMISE OF CORP DOMAIN.md",
-    "FULL COMPROMISE OF ROOTDC/_Index_of_FULL COMPROMISE OF ROOTDC.md",
-    "OSINT/VPN Scanning/_Index_of_VPN Scanning.md",
-    "OSINT/Web Scanning/_Index_of_Web Scanning.md",
-    "OSINT/_Index_of_OSINT.md",
-    "OSINT/WebMail Scanning/_Index_of_WebMail Scanning.md",
-    "PERIMETER BREACH/SERVER1 and SEVER2/_Index_of_SERVER1 and SEVER2.md",
-    "PERIMETER BREACH/WRK1/_Index_of_WRK1.md",
-    "PERIMETER BREACH/_Index_of_PERIMETER BREACH.md",
-    "PERIMETER BREACH/WRK2/_Index_of_WRK2.md",
-    "Project brief/_Index_of_Project brief.md",
-    "Images/RDP to CORPDC with the Administrator's credentials-20240711140249092.webp",
-    "Images/Reverse Shell-20240704140643435.webp",
+    "FULL COMPROMISE OF ROOTDC/Network Map after CORPDC and ROOTDC compromises.md",
+    "index.md",
+    "Project brief/Project Goal.md",
+    "FIRST THINS TO DO/Servers.md",
+    "Project brief/Connect to tryhackme VPN.md",
+    "Project brief/Project Tools.md",
     "Project brief/Project scope.md",
-    "Project brief/Red Team Capstone Challenge.md",
-    "Project brief/SSH connection to the e-Citizen.md",
     "Project brief/SWIFT.md",
     "Project brief/Trimento.md",
     "Project brief/Welcome.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
-    "Abstract/Red Team Capstone.md",
-    "Abstract/SWIFT.md",
-    "Images/Reverse Shell-20240704141057592.webp",
-    "Images/Connect CORPDC with evil-winrm-20240711134239749.webp",
-    "Images/SWIFT Web Capturer Access-20240715134751952.webp",
-    "Images/Connect CORPDC with evil-winrm-20240711134633470.webp",
-    "Images/Connect CORPDC with evil-winrm-20240711134533300.webp",
-    "Images/Connect CORPDC with evil-winrm-20240711134443095.webp",
-    "Images/Dumping secrets from the AD machines-20240709152217555.webp",
-    "Images/Dumping secrets from the AD machines-20240709152204682.webp",
+    "APPENDIX/Hosts.md",
+    "APPENDIX/Flag Submission Process.md",
+    "Project brief/Summary.md",
+    "APPENDIX/Pivoting overview.md",
+    "Red Team Capstone Challenge.md",
+    "To do list.md",
+    "Images/Final Network Map-20240728152736002.webp",
+    "APPENDIX",
+    "Images/Log in into Swift portal as Capturer using provided password-20240728151338058.webp",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md",
+    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
+    "DOMAIN ESCALATION/DOMAIN ESCALATION.md",
+    "DOMAIN ESCALATION/Active Directory Enumeration.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Final Network Map.md",
+    "Final Network Map-20240728152644906.webp",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/COMPROMISE OF SWIFT AND PAYMENT TRANSFER.md",
+    "FULL COMPROMISE OF BANK DOMAIN/Network Map after BANKDC compromise.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Change g.watson's password and RDP to WRK1.md",
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Approver Access.md",
+    "Images/TheReserve(1).png",
+    "Images/thereserve 2.png",
+    "Images/thereserve 1 1.png",
+    "Images/thereserve 1.png",
+    "Images/thereserve.png",
+    "Images/the_team 1.png",
+    "Images/Gobuster-20240728142151997.webp",
+    "FIRST THINS TO DO",
     "Red Team Capstone Network - Azkrath Write-Up.pdf",
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",
     "FULL COMPROMISE OF BANK DOMAIN",
@@ -297,8 +300,6 @@
     "Evolution configuration.canvas",
     "PERIMETER BREACH/SERVER1 and SEVER2",
     "DOMAIN ESCALATION",
-    "WebMail Scanning",
-    "INITIAL ACTIVE DIRECTORY ACCESS",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

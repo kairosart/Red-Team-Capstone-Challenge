@@ -28,15 +28,3 @@ Notice that there are two groups that we are interested in. Check out the users 
 
 
 **Next step:** [[SWIFT Web Capturer Access]]
-
-
-`In order to proof that you have approver access to the SWIFT system, a dummy transaction has been created for you.`
-
-`Please look for a transaction with these details:`
-
-`FROM: 631f60a3311625c0d29f5b31`
-`TO: 66844812599a227ad2a8eee7`
-
-`Look for this transfer and approve (forward) the transaction.`
-
-`Once you have approved the provided transaction, please enter Y to verify your access.`

@@ -71,4 +71,4 @@ www-data@ip-10-200-113-12:/var/www/html$ sudo -l
 User www-data may run the following commands on ip-10-200-113-12:  
 (root) NOPASSWD: /home/ubuntu/openvpn-createuser.sh, **/bin/cp**
 
-Next step: [[Connect via SSH (10.200.X.12)]]
+**Next step:** [[Connect via SSH (10.200.X.12)]]

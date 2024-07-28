@@ -61,4 +61,4 @@ Computer: `10.200.X.100`
     ![[Maintain persistence-20240616151550123.webp]]
 
 
-**Next step:** [[RDP to BANKDC from host CORPDC]]
+**Next step:** [[Network Map after compromising CORPDC]]

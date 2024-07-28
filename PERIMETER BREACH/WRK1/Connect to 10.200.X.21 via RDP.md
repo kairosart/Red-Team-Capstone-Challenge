@@ -10,4 +10,4 @@ $ `xfreerdp /u:laura.wood /p:Password1@ /v:10.200.X.21`
 
 > Flag 1, Breaching the perimeter
 
-**Next step:** [[Connect to 10.200.X.22 via RDP]]
+**Next step:** [[Enumerate 10.200.X.22]]

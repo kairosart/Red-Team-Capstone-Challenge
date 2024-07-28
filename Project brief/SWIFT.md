@@ -1,9 +1,8 @@
 **SWIFT (Society for Worldwide Interbank Financial Telecommunications) is the actual system that is used by banks for backend transfers. In this assessment, a core backend system has been created. However, for security reasons, intentional inaccuracies have been introduced into this process.**
 
-[Swift/](https://www.swift.com/)
 
 ---
-**
+
 
 SWIFT backend exposes an internal web application at [http://swift.bank.thereserve.loc/,](http://swift.bank.thereserve.loc/,) which TheReserve uses to facilitate transfers. The government has provided a general process for transfers. To transfer funds:
 
@@ -20,4 +19,5 @@ SWIFT backend exposes an internal web application at [http://swift.bank.thereser
 
 Separation of duties is performed to ensure that no single employee can both capture and approve the same transfer.
 
-**
+**Next step:** [[Project Goal]]
+
