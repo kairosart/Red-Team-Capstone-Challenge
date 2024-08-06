@@ -1,0 +1,1512 @@
+{
+  "vaultName": "Borderlands",
+  "lastExport": 1722966591494,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "APPENDIX/Flag Submission Process.md",
+    "APPENDIX/Flags.md",
+    "APPENDIX/Hosts.md",
+    "APPENDIX/Pivoting overview.md",
+    "APPENDIX/Proxychains.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Change g.watson's password and RDP to WRK1.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Final Network Map.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Log in into Swift portal as Capturer using provided password.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Approver Access.md",
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md",
+    "FIRST THINS TO DO/Project Registration.md",
+    "FIRST THINS TO DO/Servers.md",
+    "FULL COMPROMISE OF BANK DOMAIN/Create user at BANKDC.md",
+    "FULL COMPROMISE OF BANK DOMAIN/Network Map after BANKDC compromise.md",
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md",
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md",
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md",
+    "FULL COMPROMISE OF CORP DOMAIN/Network Map after compromising CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC.md",
+    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md",
+    "FULL COMPROMISE OF ROOTDC/Golden Ticket Attack with mimikatz.md",
+    "FULL COMPROMISE OF ROOTDC/Maintain persistence.md",
+    "FULL COMPROMISE OF ROOTDC/Network Map after CORPDC and ROOTDC compromises.md",
+    "Images/0x01.png",
+    "Images/0x02.png",
+    "Images/0x03.png",
+    "Images/403error.png",
+    "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240609143953235.webp",
+    "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240612140109795.webp",
+    "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240612150446037.webp",
+    "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240613135550530.webp",
+    "Images/Brute force SMTP-20240518134435690.webp",
+    "Images/Brute force SMTP-20240518135026786.webp",
+    "Images/burp_vpn.png",
+    "Images/chisel.png.png",
+    "Images/clear_database.png",
+    "Images/Connect CORPDC with evil-winrm-20240711134239749.webp",
+    "Images/Connect CORPDC with evil-winrm-20240711134443095.webp",
+    "Images/Connect CORPDC with evil-winrm-20240711134533300.webp",
+    "Images/Connect CORPDC with evil-winrm-20240711134633470.webp",
+    "Images/Connect to SERVER1 via RDP-20240531062731584.webp",
+    "Images/Connect to WRK1 via RDP-20240523151500184.webp",
+    "Images/Connect to WRK2 via RDP-20240523151848275.webp",
+    "Images/Connect via SSH (10.200.X.12)-20240704145204304.webp",
+    "Images/corpusernamevpn.png",
+    "Images/Create a new user on BANKDC-20240616154358497.webp",
+    "Images/Create a new user on BANKDC-20240616154446455.webp",
+    "Images/Create a new user on BANKDC-20240618142300177.webp",
+    "Images/desktopwindows.png",
+    "Images/Domain Escalation-20240525135655837.webp",
+    "Images/Domain Escalation-20240525151453289.webp",
+    "Images/Dumping secrets from CORPDC-20240601064020744.webp",
+    "Images/Dumping secrets from CORPDC-20240602155726615.webp",
+    "Images/Dumping secrets from CORPDC-20240602160026969.webp",
+    "Images/Dumping secrets from CORPDC-20240604135830320.webp",
+    "Images/Dumping secrets from CORPDC-20240604140856658.webp",
+    "Images/Dumping secrets from the AD machines-20240709152204682.webp",
+    "Images/Dumping secrets from the AD machines-20240709152217555.webp",
+    "Images/Enumerate 10.200.X.21-20240708142444665.webp",
+    "Images/Enumerate 10.200.X.22-20240708142843067.webp",
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240618151057753.webp",
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240619135517810.webp",
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240619140440523.webp",
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240619140454701.webp",
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240621144300147.webp",
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240621150830988.webp",
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240621155345848.webp",
+    "Images/Final Network Map-20240728152736002.webp",
+    "Images/Gobuster-20240728142151997.webp",
+    "Images/Golden Ticket Attack with mimikatz-20240608142406169.webp",
+    "Images/Golden Ticket Attack with mimikatz-20240608144535552.webp",
+    "Images/Golden Ticket Attack with mimikatz-20240608145025836.webp",
+    "Images/Golden Ticket Attack with mimikatz-20240608145512638.webp",
+    "Images/Golden Ticket Attack with mimikatz-20240608151913994.webp",
+    "Images/Golden Ticket Attack with mimikatz-20240608152813146.webp",
+    "Images/Golden Ticket Attack with mimikatz-20240608153405335.webp",
+    "Images/Golden Ticket Attack with mimikatz-20240609134614662.webp",
+    "Images/Golden Ticket Attack with mimikatz-20240609134803204.webp",
+    "Images/Golden Ticket Attack with mimikatz-20240609134915452.webp",
+    "Images/Golden Ticket Attack with mimikatz-20240614145454849.webp",
+    "Images/images.png",
+    "Images/images 1.png",
+    "Images/index-20240725150248390.webp",
+    "Images/kerberos_accounts.png",
+    "Images/Log in into Swift portal as Capturer using provided password-20240728151338058.webp",
+    "Images/Maintain persistence-20240613153305218.webp",
+    "Images/Maintain persistence-20240613153842909.webp",
+    "Images/Maintain persistence-20240613153950655.webp",
+    "Images/Maintain persistence-20240615154522456.webp",
+    "Images/Maintain persistence-20240616142921373.webp",
+    "Images/Maintain persistence-20240616151550123.webp",
+    "Images/Network Map after BANKDC ompromises-20240618145323607.webp",
+    "Images/Network Map after compromising CORPDC-20240604150302129.webp",
+    "Images/Network Map after compromising CORPDC-20240615160020547.webp",
+    "Images/Network Map after CORPDC and ROOTDC compromises-20240612144320800.webp",
+    "Images/Network Map after CORPDC and ROOTDC compromises-20240612144446331.webp",
+    "Images/Network Map after Server1 and Server2 compromises-20240531144449903.webp",
+    "Images/network_scheme1.png",
+    "Images/nmap_mail.png",
+    "Images/nmap_vpn.png",
+    "Images/nmap_vpn 1.png",
+    "Images/nmap_web.png",
+    "Images/octobercms_admin_panel.png",
+    "Images/octobercms_admin_panel 1.png",
+    "Images/Pasted image 20240309051550.png",
+    "Images/Pasted image 20240309052117.png",
+    "Images/perimeter.png",
+    "Images/Preparing the path-20240607143234384.webp",
+    "Images/Preparing the path-20240607144158824.webp",
+    "Images/Preparing the path-20240607145323252.webp",
+    "Images/Preparing the path-20240607151619249.webp",
+    "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630150958209.webp",
+    "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630150959019.webp",
+    "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630151034676.webp",
+    "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630151247545.webp",
+    "Images/RDP and HTTP enabled hosts on the network-20240528144613713.webp",
+    "Images/RDP enabled hosts on the network-20240528143911389.webp",
+    "Images/RDP to BANKDC from host CORPDC-20240616153040546.webp",
+    "Images/RDP to CORPDC with the Administrator's credentials-20240711140249092.webp",
+    "Images/Reverse Shell-20240704140243868.webp",
+    "Images/Reverse Shell-20240704140643435.webp",
+    "Images/Reverse Shell-20240704141057592.webp",
+    "Images/Reverse Shell-20240704141754872.webp",
+    "Images/Reverse Shell-20240704142326775.webp",
+    "Images/roundcube.png",
+    "Images/Servers-20240728063003494.webp",
+    "Images/SSH (10.200.X.12)-20240529152448150.webp",
+    "Images/SWIFT Application as Capturer-20240619131355323.webp",
+    "Images/SWIFT Application as Capturer-20240619134101947.webp",
+    "Images/SWIFT Application as Capturer-20240622134650494.webp",
+    "Images/SWIFT Application as Capturer-20240622135930453.webp",
+    "Images/SWIFT PAYMENT MADE-20240702155255889.webp",
+    "Images/SWIFT PAYMENT MADE-20240702155752898.webp",
+    "Images/SWIFT Web Access-20240618153308780.webp",
+    "Images/SWIFT Web Access-20240619134837785.webp",
+    "Images/SWIFT Web Access-20240701135015979.webp",
+    "Images/SWIFT Web Access-20240701135136648.webp",
+    "Images/SWIFT Web Approver Access-20240622153349232.webp",
+    "Images/SWIFT Web Approver Access-20240623144300738.webp",
+    "Images/SWIFT Web Approver Access-20240623144545968.webp",
+    "Images/SWIFT Web Approver Access-20240623154143575.webp",
+    "Images/SWIFT Web Approver Access-20240623154427457.webp",
+    "Images/SWIFT Web Capturer Access-20240622141500664.webp",
+    "Images/SWIFT Web Capturer Access-20240622141604581.webp",
+    "Images/SWIFT Web Capturer Access-20240622142050571.webp",
+    "Images/SWIFT Web Capturer Access-20240715134751952.webp",
+    "Images/techwebmail.png",
+    "Images/the_team.png",
+    "Images/the_team 1.png",
+    "Images/thereserve.png",
+    "Images/thereserve 1.png",
+    "Images/thereserve 1 1.png",
+    "Images/thereserve 2.png",
+    "Images/TheReserve(1).png",
+    "Images/vpn_dirb.png",
+    "Images/VPN_request.png",
+    "Images/VPN_request 1.png",
+    "Images/wappalyzer.png",
+    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md",
+    "OSINT/VPN Scanning/Pivoting.md",
+    "OSINT/VPN Scanning/Privilege Escalation.md",
+    "OSINT/VPN Scanning/Reverse Shell.md",
+    "OSINT/VPN Scanning/Scanning other hosts.md",
+    "OSINT/Web Scanning/Gobuster.md",
+    "OSINT/Web Scanning/October CMS.md",
+    "OSINT/Web Scanning/Technologies of the website.md",
+    "OSINT/Web Scanning/Website web.thereserve.loc.md",
+    "OSINT/WebMail Scanning/Brute force SMTP.md",
+    "OSINT/WebMail Scanning/Mail access.md",
+    "OSINT/WebMail Scanning/Technologies of the website.md",
+    "OSINT/WebMail Scanning/Webmail mail.thereserve.loc.md",
+    "OSINT/Active enumeration of the 3 servers.md",
+    "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
+    "PERIMETER BREACH/SERVER1 and SEVER2/Enumerate 10.200.X.31 and 32.md",
+    "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.md",
+    "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
+    "PERIMETER BREACH/WRK1/WRK1.md",
+    "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.md",
+    "PERIMETER BREACH/WRK2/Enumerate 10.200.X.22.md",
+    "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
+    "PERIMETER BREACH/Network Map after Server1 and Server2 compromises.md",
+    "Project brief/Connect to tryhackme VPN.md",
+    "Project brief/Project Goal.md",
+    "Project brief/Project scope.md",
+    "Project brief/Project Tools.md",
+    "Project brief/SSH connection to the e-Citizen.md",
+    "Project brief/Summary.md",
+    "Project brief/SWIFT.md",
+    "Project brief/Trimento.md",
+    "Project brief/Welcome.md",
+    "index.md",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg"
+  ],
+  "mainDependencies": [
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg"
+  ],
+  "fileInfo": {
+    "index.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 2271,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "APPENDIX/Flag Submission Process.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1516,
+      "exportedPath": "APPENDIX/Flag Submission Process.html",
+      "dependencies": []
+    },
+    "APPENDIX/Flags.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1141,
+      "exportedPath": "APPENDIX/Flags.html",
+      "dependencies": []
+    },
+    "APPENDIX/Hosts.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 755,
+      "exportedPath": "APPENDIX/Hosts.html",
+      "dependencies": []
+    },
+    "APPENDIX/Pivoting overview.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1436,
+      "exportedPath": "APPENDIX/Pivoting overview.html",
+      "dependencies": []
+    },
+    "APPENDIX/Proxychains.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 4345,
+      "exportedPath": "APPENDIX/Proxychains.html",
+      "dependencies": []
+    },
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Change g.watson's password and RDP to WRK1.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 387,
+      "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Change g.watson's password and RDP to WRK1.html",
+      "dependencies": []
+    },
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1248,
+      "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.html",
+      "dependencies": []
+    },
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Final Network Map.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 45,
+      "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Final Network Map.html",
+      "dependencies": []
+    },
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Log in into Swift portal as Capturer using provided password.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 376,
+      "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Log in into Swift portal as Capturer using provided password.html",
+      "dependencies": []
+    },
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 793,
+      "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.html",
+      "dependencies": []
+    },
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1831,
+      "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.html",
+      "dependencies": []
+    },
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Approver Access.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 2160,
+      "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Approver Access.html",
+      "dependencies": []
+    },
+    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1457,
+      "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.html",
+      "dependencies": []
+    },
+    "FIRST THINS TO DO/Project Registration.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1954,
+      "exportedPath": "FIRST THINS TO DO/Project Registration.html",
+      "dependencies": []
+    },
+    "FIRST THINS TO DO/Servers.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 305,
+      "exportedPath": "FIRST THINS TO DO/Servers.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF BANK DOMAIN/Create user at BANKDC.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 907,
+      "exportedPath": "FULL COMPROMISE OF BANK DOMAIN/Create user at BANKDC.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF BANK DOMAIN/Network Map after BANKDC compromise.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 428,
+      "exportedPath": "FULL COMPROMISE OF BANK DOMAIN/Network Map after BANKDC compromise.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1280,
+      "exportedPath": "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1024,
+      "exportedPath": "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1095,
+      "exportedPath": "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 265,
+      "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1411,
+      "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 487,
+      "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1050,
+      "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF CORP DOMAIN/Network Map after compromising CORPDC.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 2834,
+      "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/Network Map after compromising CORPDC.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 225,
+      "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 862,
+      "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF ROOTDC/Golden Ticket Attack with mimikatz.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 4864,
+      "exportedPath": "FULL COMPROMISE OF ROOTDC/Golden Ticket Attack with mimikatz.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF ROOTDC/Maintain persistence.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 2138,
+      "exportedPath": "FULL COMPROMISE OF ROOTDC/Maintain persistence.html",
+      "dependencies": []
+    },
+    "FULL COMPROMISE OF ROOTDC/Network Map after CORPDC and ROOTDC compromises.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 539,
+      "exportedPath": "FULL COMPROMISE OF ROOTDC/Network Map after CORPDC and ROOTDC compromises.html",
+      "dependencies": []
+    },
+    "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 3829,
+      "exportedPath": "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).html",
+      "dependencies": []
+    },
+    "OSINT/VPN Scanning/Pivoting.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 594,
+      "exportedPath": "OSINT/VPN Scanning/Pivoting.html",
+      "dependencies": []
+    },
+    "OSINT/VPN Scanning/Privilege Escalation.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 769,
+      "exportedPath": "OSINT/VPN Scanning/Privilege Escalation.html",
+      "dependencies": []
+    },
+    "OSINT/VPN Scanning/Reverse Shell.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 2717,
+      "exportedPath": "OSINT/VPN Scanning/Reverse Shell.html",
+      "dependencies": []
+    },
+    "OSINT/VPN Scanning/Scanning other hosts.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 2899,
+      "exportedPath": "OSINT/VPN Scanning/Scanning other hosts.html",
+      "dependencies": []
+    },
+    "OSINT/Web Scanning/Gobuster.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 398,
+      "exportedPath": "OSINT/Web Scanning/Gobuster.html",
+      "dependencies": []
+    },
+    "OSINT/Web Scanning/October CMS.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 333,
+      "exportedPath": "OSINT/Web Scanning/October CMS.html",
+      "dependencies": []
+    },
+    "OSINT/Web Scanning/Technologies of the website.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 383,
+      "exportedPath": "OSINT/Web Scanning/Technologies of the website.html",
+      "dependencies": []
+    },
+    "OSINT/Web Scanning/Website web.thereserve.loc.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1714,
+      "exportedPath": "OSINT/Web Scanning/Website web.thereserve.loc.html",
+      "dependencies": []
+    },
+    "OSINT/WebMail Scanning/Brute force SMTP.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1127,
+      "exportedPath": "OSINT/WebMail Scanning/Brute force SMTP.html",
+      "dependencies": []
+    },
+    "OSINT/WebMail Scanning/Mail access.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 465,
+      "exportedPath": "OSINT/WebMail Scanning/Mail access.html",
+      "dependencies": []
+    },
+    "OSINT/WebMail Scanning/Technologies of the website.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 199,
+      "exportedPath": "OSINT/WebMail Scanning/Technologies of the website.html",
+      "dependencies": []
+    },
+    "OSINT/WebMail Scanning/Webmail mail.thereserve.loc.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 402,
+      "exportedPath": "OSINT/WebMail Scanning/Webmail mail.thereserve.loc.html",
+      "dependencies": []
+    },
+    "OSINT/Active enumeration of the 3 servers.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 847,
+      "exportedPath": "OSINT/Active enumeration of the 3 servers.html",
+      "dependencies": []
+    },
+    "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 408,
+      "exportedPath": "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.html",
+      "dependencies": []
+    },
+    "PERIMETER BREACH/SERVER1 and SEVER2/Enumerate 10.200.X.31 and 32.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 841,
+      "exportedPath": "PERIMETER BREACH/SERVER1 and SEVER2/Enumerate 10.200.X.31 and 32.html",
+      "dependencies": []
+    },
+    "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 275,
+      "exportedPath": "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.html",
+      "dependencies": []
+    },
+    "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 274,
+      "exportedPath": "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.html",
+      "dependencies": []
+    },
+    "PERIMETER BREACH/WRK1/WRK1.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 349,
+      "exportedPath": "PERIMETER BREACH/WRK1/WRK1.html",
+      "dependencies": []
+    },
+    "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 442,
+      "exportedPath": "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.html",
+      "dependencies": []
+    },
+    "PERIMETER BREACH/WRK2/Enumerate 10.200.X.22.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 274,
+      "exportedPath": "PERIMETER BREACH/WRK2/Enumerate 10.200.X.22.html",
+      "dependencies": []
+    },
+    "PERIMETER BREACH/Credentials recovery through Kerberosting.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 5349,
+      "exportedPath": "PERIMETER BREACH/Credentials recovery through Kerberosting.html",
+      "dependencies": []
+    },
+    "PERIMETER BREACH/Network Map after Server1 and Server2 compromises.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 135,
+      "exportedPath": "PERIMETER BREACH/Network Map after Server1 and Server2 compromises.html",
+      "dependencies": []
+    },
+    "Project brief/Connect to tryhackme VPN.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1564,
+      "exportedPath": "Project brief/Connect to tryhackme VPN.html",
+      "dependencies": []
+    },
+    "Project brief/Project Goal.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 757,
+      "exportedPath": "Project brief/Project Goal.html",
+      "dependencies": []
+    },
+    "Project brief/Project scope.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 697,
+      "exportedPath": "Project brief/Project scope.html",
+      "dependencies": []
+    },
+    "Project brief/Project Tools.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 811,
+      "exportedPath": "Project brief/Project Tools.html",
+      "dependencies": []
+    },
+    "Project brief/SSH connection to the e-Citizen.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 464,
+      "exportedPath": "Project brief/SSH connection to the e-Citizen.html",
+      "dependencies": []
+    },
+    "Project brief/Summary.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1374,
+      "exportedPath": "Project brief/Summary.html",
+      "dependencies": []
+    },
+    "Project brief/SWIFT.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1262,
+      "exportedPath": "Project brief/SWIFT.html",
+      "dependencies": []
+    },
+    "Project brief/Trimento.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 715,
+      "exportedPath": "Project brief/Trimento.html",
+      "dependencies": []
+    },
+    "Project brief/Welcome.md": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 4108,
+      "exportedPath": "Project brief/Welcome.html",
+      "dependencies": []
+    },
+    "Images/0x01.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 67279,
+      "exportedPath": "Images/0x01.png",
+      "dependencies": []
+    },
+    "Images/0x02.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 77203,
+      "exportedPath": "Images/0x02.png",
+      "dependencies": []
+    },
+    "Images/0x03.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 171146,
+      "exportedPath": "Images/0x03.png",
+      "dependencies": []
+    },
+    "Images/403error.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 82226,
+      "exportedPath": "Images/403error.png",
+      "dependencies": []
+    },
+    "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240609143953235.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 5870,
+      "exportedPath": "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240609143953235.webp",
+      "dependencies": []
+    },
+    "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240612140109795.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 14670,
+      "exportedPath": "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240612140109795.webp",
+      "dependencies": []
+    },
+    "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240612150446037.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 3262,
+      "exportedPath": "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240612150446037.webp",
+      "dependencies": []
+    },
+    "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240613135550530.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 14322,
+      "exportedPath": "Images/Authenticate with BANKDC.BANK.THERESERVE.LOC from host CORPDC-20240613135550530.webp",
+      "dependencies": []
+    },
+    "Images/Brute force SMTP-20240518134435690.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 31100,
+      "exportedPath": "Images/Brute force SMTP-20240518134435690.webp",
+      "dependencies": []
+    },
+    "Images/Brute force SMTP-20240518135026786.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 29736,
+      "exportedPath": "Images/Brute force SMTP-20240518135026786.webp",
+      "dependencies": []
+    },
+    "Images/burp_vpn.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 40910,
+      "exportedPath": "Images/burp_vpn.png",
+      "dependencies": []
+    },
+    "Images/chisel.png.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 124528,
+      "exportedPath": "Images/chisel.png.png",
+      "dependencies": []
+    },
+    "Images/clear_database.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 11239,
+      "exportedPath": "Images/clear_database.png",
+      "dependencies": []
+    },
+    "Images/Connect CORPDC with evil-winrm-20240711134239749.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 91630,
+      "exportedPath": "Images/Connect CORPDC with evil-winrm-20240711134239749.webp",
+      "dependencies": []
+    },
+    "Images/Connect CORPDC with evil-winrm-20240711134443095.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 29036,
+      "exportedPath": "Images/Connect CORPDC with evil-winrm-20240711134443095.webp",
+      "dependencies": []
+    },
+    "Images/Connect CORPDC with evil-winrm-20240711134533300.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 11678,
+      "exportedPath": "Images/Connect CORPDC with evil-winrm-20240711134533300.webp",
+      "dependencies": []
+    },
+    "Images/Connect CORPDC with evil-winrm-20240711134633470.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 12350,
+      "exportedPath": "Images/Connect CORPDC with evil-winrm-20240711134633470.webp",
+      "dependencies": []
+    },
+    "Images/Connect to SERVER1 via RDP-20240531062731584.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 54062,
+      "exportedPath": "Images/Connect to SERVER1 via RDP-20240531062731584.webp",
+      "dependencies": []
+    },
+    "Images/Connect to WRK1 via RDP-20240523151500184.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 9828,
+      "exportedPath": "Images/Connect to WRK1 via RDP-20240523151500184.webp",
+      "dependencies": []
+    },
+    "Images/Connect to WRK2 via RDP-20240523151848275.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 9914,
+      "exportedPath": "Images/Connect to WRK2 via RDP-20240523151848275.webp",
+      "dependencies": []
+    },
+    "Images/Connect via SSH (10.200.X.12)-20240704145204304.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 51816,
+      "exportedPath": "Images/Connect via SSH (10.200.X.12)-20240704145204304.webp",
+      "dependencies": []
+    },
+    "Images/corpusernamevpn.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 93718,
+      "exportedPath": "Images/corpusernamevpn.png",
+      "dependencies": []
+    },
+    "Images/Create a new user on BANKDC-20240616154358497.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 16152,
+      "exportedPath": "Images/Create a new user on BANKDC-20240616154358497.webp",
+      "dependencies": []
+    },
+    "Images/Create a new user on BANKDC-20240616154446455.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 14292,
+      "exportedPath": "Images/Create a new user on BANKDC-20240616154446455.webp",
+      "dependencies": []
+    },
+    "Images/Create a new user on BANKDC-20240618142300177.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 14054,
+      "exportedPath": "Images/Create a new user on BANKDC-20240618142300177.webp",
+      "dependencies": []
+    },
+    "Images/desktopwindows.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 107341,
+      "exportedPath": "Images/desktopwindows.png",
+      "dependencies": []
+    },
+    "Images/Domain Escalation-20240525135655837.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 5136,
+      "exportedPath": "Images/Domain Escalation-20240525135655837.webp",
+      "dependencies": []
+    },
+    "Images/Domain Escalation-20240525151453289.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 1554,
+      "exportedPath": "Images/Domain Escalation-20240525151453289.webp",
+      "dependencies": []
+    },
+    "Images/Dumping secrets from CORPDC-20240601064020744.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 29772,
+      "exportedPath": "Images/Dumping secrets from CORPDC-20240601064020744.webp",
+      "dependencies": []
+    },
+    "Images/Dumping secrets from CORPDC-20240602155726615.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 26710,
+      "exportedPath": "Images/Dumping secrets from CORPDC-20240602155726615.webp",
+      "dependencies": []
+    },
+    "Images/Dumping secrets from CORPDC-20240602160026969.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 10196,
+      "exportedPath": "Images/Dumping secrets from CORPDC-20240602160026969.webp",
+      "dependencies": []
+    },
+    "Images/Dumping secrets from CORPDC-20240604135830320.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 29240,
+      "exportedPath": "Images/Dumping secrets from CORPDC-20240604135830320.webp",
+      "dependencies": []
+    },
+    "Images/Dumping secrets from CORPDC-20240604140856658.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 33304,
+      "exportedPath": "Images/Dumping secrets from CORPDC-20240604140856658.webp",
+      "dependencies": []
+    },
+    "Images/Dumping secrets from the AD machines-20240709152204682.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 13882,
+      "exportedPath": "Images/Dumping secrets from the AD machines-20240709152204682.webp",
+      "dependencies": []
+    },
+    "Images/Dumping secrets from the AD machines-20240709152217555.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 5344,
+      "exportedPath": "Images/Dumping secrets from the AD machines-20240709152217555.webp",
+      "dependencies": []
+    },
+    "Images/Enumerate 10.200.X.21-20240708142444665.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 76726,
+      "exportedPath": "Images/Enumerate 10.200.X.21-20240708142444665.webp",
+      "dependencies": []
+    },
+    "Images/Enumerate 10.200.X.22-20240708142843067.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 85370,
+      "exportedPath": "Images/Enumerate 10.200.X.22-20240708142843067.webp",
+      "dependencies": []
+    },
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240618151057753.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 37496,
+      "exportedPath": "Images/Enumerate users CAPTURERS and APPROVERS-20240618151057753.webp",
+      "dependencies": []
+    },
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240619135517810.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 17908,
+      "exportedPath": "Images/Enumerate users CAPTURERS and APPROVERS-20240619135517810.webp",
+      "dependencies": []
+    },
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240619140440523.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 37188,
+      "exportedPath": "Images/Enumerate users CAPTURERS and APPROVERS-20240619140440523.webp",
+      "dependencies": []
+    },
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240619140454701.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 37066,
+      "exportedPath": "Images/Enumerate users CAPTURERS and APPROVERS-20240619140454701.webp",
+      "dependencies": []
+    },
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240621144300147.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 29094,
+      "exportedPath": "Images/Enumerate users CAPTURERS and APPROVERS-20240621144300147.webp",
+      "dependencies": []
+    },
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240621150830988.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 15422,
+      "exportedPath": "Images/Enumerate users CAPTURERS and APPROVERS-20240621150830988.webp",
+      "dependencies": []
+    },
+    "Images/Enumerate users CAPTURERS and APPROVERS-20240621155345848.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 11176,
+      "exportedPath": "Images/Enumerate users CAPTURERS and APPROVERS-20240621155345848.webp",
+      "dependencies": []
+    },
+    "Images/Final Network Map-20240728152736002.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 41040,
+      "exportedPath": "Images/Final Network Map-20240728152736002.webp",
+      "dependencies": []
+    },
+    "Images/Gobuster-20240728142151997.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 20582,
+      "exportedPath": "Images/Gobuster-20240728142151997.webp",
+      "dependencies": []
+    },
+    "Images/Golden Ticket Attack with mimikatz-20240608142406169.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 14698,
+      "exportedPath": "Images/Golden Ticket Attack with mimikatz-20240608142406169.webp",
+      "dependencies": []
+    },
+    "Images/Golden Ticket Attack with mimikatz-20240608144535552.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 26662,
+      "exportedPath": "Images/Golden Ticket Attack with mimikatz-20240608144535552.webp",
+      "dependencies": []
+    },
+    "Images/Golden Ticket Attack with mimikatz-20240608145025836.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 25730,
+      "exportedPath": "Images/Golden Ticket Attack with mimikatz-20240608145025836.webp",
+      "dependencies": []
+    },
+    "Images/Golden Ticket Attack with mimikatz-20240608145512638.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 8946,
+      "exportedPath": "Images/Golden Ticket Attack with mimikatz-20240608145512638.webp",
+      "dependencies": []
+    },
+    "Images/Golden Ticket Attack with mimikatz-20240608151913994.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 15338,
+      "exportedPath": "Images/Golden Ticket Attack with mimikatz-20240608151913994.webp",
+      "dependencies": []
+    },
+    "Images/Golden Ticket Attack with mimikatz-20240608152813146.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 15884,
+      "exportedPath": "Images/Golden Ticket Attack with mimikatz-20240608152813146.webp",
+      "dependencies": []
+    },
+    "Images/Golden Ticket Attack with mimikatz-20240608153405335.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 23738,
+      "exportedPath": "Images/Golden Ticket Attack with mimikatz-20240608153405335.webp",
+      "dependencies": []
+    },
+    "Images/Golden Ticket Attack with mimikatz-20240609134614662.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 12580,
+      "exportedPath": "Images/Golden Ticket Attack with mimikatz-20240609134614662.webp",
+      "dependencies": []
+    },
+    "Images/Golden Ticket Attack with mimikatz-20240609134803204.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 2904,
+      "exportedPath": "Images/Golden Ticket Attack with mimikatz-20240609134803204.webp",
+      "dependencies": []
+    },
+    "Images/Golden Ticket Attack with mimikatz-20240609134915452.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 3516,
+      "exportedPath": "Images/Golden Ticket Attack with mimikatz-20240609134915452.webp",
+      "dependencies": []
+    },
+    "Images/Golden Ticket Attack with mimikatz-20240614145454849.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 21364,
+      "exportedPath": "Images/Golden Ticket Attack with mimikatz-20240614145454849.webp",
+      "dependencies": []
+    },
+    "Images/images.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 139487,
+      "exportedPath": "Images/images.png",
+      "dependencies": []
+    },
+    "Images/images 1.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 139487,
+      "exportedPath": "Images/images 1.png",
+      "dependencies": []
+    },
+    "Images/index-20240725150248390.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 11388,
+      "exportedPath": "Images/index-20240725150248390.webp",
+      "dependencies": []
+    },
+    "Images/kerberos_accounts.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 82900,
+      "exportedPath": "Images/kerberos_accounts.png",
+      "dependencies": []
+    },
+    "Images/Log in into Swift portal as Capturer using provided password-20240728151338058.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 10192,
+      "exportedPath": "Images/Log in into Swift portal as Capturer using provided password-20240728151338058.webp",
+      "dependencies": []
+    },
+    "Images/Maintain persistence-20240613153305218.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 31908,
+      "exportedPath": "Images/Maintain persistence-20240613153305218.webp",
+      "dependencies": []
+    },
+    "Images/Maintain persistence-20240613153842909.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 17054,
+      "exportedPath": "Images/Maintain persistence-20240613153842909.webp",
+      "dependencies": []
+    },
+    "Images/Maintain persistence-20240613153950655.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 16138,
+      "exportedPath": "Images/Maintain persistence-20240613153950655.webp",
+      "dependencies": []
+    },
+    "Images/Maintain persistence-20240615154522456.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 9842,
+      "exportedPath": "Images/Maintain persistence-20240615154522456.webp",
+      "dependencies": []
+    },
+    "Images/Maintain persistence-20240616142921373.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 15634,
+      "exportedPath": "Images/Maintain persistence-20240616142921373.webp",
+      "dependencies": []
+    },
+    "Images/Maintain persistence-20240616151550123.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 21754,
+      "exportedPath": "Images/Maintain persistence-20240616151550123.webp",
+      "dependencies": []
+    },
+    "Images/Network Map after BANKDC ompromises-20240618145323607.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 45540,
+      "exportedPath": "Images/Network Map after BANKDC ompromises-20240618145323607.webp",
+      "dependencies": []
+    },
+    "Images/Network Map after compromising CORPDC-20240604150302129.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 33852,
+      "exportedPath": "Images/Network Map after compromising CORPDC-20240604150302129.webp",
+      "dependencies": []
+    },
+    "Images/Network Map after compromising CORPDC-20240615160020547.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 39798,
+      "exportedPath": "Images/Network Map after compromising CORPDC-20240615160020547.webp",
+      "dependencies": []
+    },
+    "Images/Network Map after CORPDC and ROOTDC compromises-20240612144320800.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 31826,
+      "exportedPath": "Images/Network Map after CORPDC and ROOTDC compromises-20240612144320800.webp",
+      "dependencies": []
+    },
+    "Images/Network Map after CORPDC and ROOTDC compromises-20240612144446331.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 34954,
+      "exportedPath": "Images/Network Map after CORPDC and ROOTDC compromises-20240612144446331.webp",
+      "dependencies": []
+    },
+    "Images/Network Map after Server1 and Server2 compromises-20240531144449903.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 30426,
+      "exportedPath": "Images/Network Map after Server1 and Server2 compromises-20240531144449903.webp",
+      "dependencies": []
+    },
+    "Images/network_scheme1.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 78806,
+      "exportedPath": "Images/network_scheme1.png",
+      "dependencies": []
+    },
+    "Images/nmap_mail.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 109811,
+      "exportedPath": "Images/nmap_mail.png",
+      "dependencies": []
+    },
+    "Images/nmap_vpn.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 93467,
+      "exportedPath": "Images/nmap_vpn.png",
+      "dependencies": []
+    },
+    "Images/nmap_vpn 1.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 93467,
+      "exportedPath": "Images/nmap_vpn 1.png",
+      "dependencies": []
+    },
+    "Images/nmap_web.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 95722,
+      "exportedPath": "Images/nmap_web.png",
+      "dependencies": []
+    },
+    "Images/octobercms_admin_panel.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 24651,
+      "exportedPath": "Images/octobercms_admin_panel.png",
+      "dependencies": []
+    },
+    "Images/octobercms_admin_panel 1.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 24651,
+      "exportedPath": "Images/octobercms_admin_panel 1.png",
+      "dependencies": []
+    },
+    "Images/Pasted image 20240309051550.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 207160,
+      "exportedPath": "Images/Pasted image 20240309051550.png",
+      "dependencies": []
+    },
+    "Images/Pasted image 20240309052117.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 204305,
+      "exportedPath": "Images/Pasted image 20240309052117.png",
+      "dependencies": []
+    },
+    "Images/perimeter.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 77203,
+      "exportedPath": "Images/perimeter.png",
+      "dependencies": []
+    },
+    "Images/Preparing the path-20240607143234384.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 32136,
+      "exportedPath": "Images/Preparing the path-20240607143234384.webp",
+      "dependencies": []
+    },
+    "Images/Preparing the path-20240607144158824.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 39008,
+      "exportedPath": "Images/Preparing the path-20240607144158824.webp",
+      "dependencies": []
+    },
+    "Images/Preparing the path-20240607145323252.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 47184,
+      "exportedPath": "Images/Preparing the path-20240607145323252.webp",
+      "dependencies": []
+    },
+    "Images/Preparing the path-20240607151619249.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 15546,
+      "exportedPath": "Images/Preparing the path-20240607151619249.webp",
+      "dependencies": []
+    },
+    "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630150958209.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 17780,
+      "exportedPath": "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630150958209.webp",
+      "dependencies": []
+    },
+    "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630150959019.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 17780,
+      "exportedPath": "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630150959019.webp",
+      "dependencies": []
+    },
+    "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630151034676.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 17780,
+      "exportedPath": "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630151034676.webp",
+      "dependencies": []
+    },
+    "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630151247545.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 28882,
+      "exportedPath": "Images/Privilege Access to CORP Tier 2 - WRK1 and wrk2-20240630151247545.webp",
+      "dependencies": []
+    },
+    "Images/RDP and HTTP enabled hosts on the network-20240528144613713.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 39342,
+      "exportedPath": "Images/RDP and HTTP enabled hosts on the network-20240528144613713.webp",
+      "dependencies": []
+    },
+    "Images/RDP enabled hosts on the network-20240528143911389.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 34170,
+      "exportedPath": "Images/RDP enabled hosts on the network-20240528143911389.webp",
+      "dependencies": []
+    },
+    "Images/RDP to BANKDC from host CORPDC-20240616153040546.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 18270,
+      "exportedPath": "Images/RDP to BANKDC from host CORPDC-20240616153040546.webp",
+      "dependencies": []
+    },
+    "Images/RDP to CORPDC with the Administrator's credentials-20240711140249092.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 39008,
+      "exportedPath": "Images/RDP to CORPDC with the Administrator's credentials-20240711140249092.webp",
+      "dependencies": []
+    },
+    "Images/Reverse Shell-20240704140243868.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 12848,
+      "exportedPath": "Images/Reverse Shell-20240704140243868.webp",
+      "dependencies": []
+    },
+    "Images/Reverse Shell-20240704140643435.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 7494,
+      "exportedPath": "Images/Reverse Shell-20240704140643435.webp",
+      "dependencies": []
+    },
+    "Images/Reverse Shell-20240704141057592.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 26838,
+      "exportedPath": "Images/Reverse Shell-20240704141057592.webp",
+      "dependencies": []
+    },
+    "Images/Reverse Shell-20240704141754872.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 26838,
+      "exportedPath": "Images/Reverse Shell-20240704141754872.webp",
+      "dependencies": []
+    },
+    "Images/Reverse Shell-20240704142326775.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 29636,
+      "exportedPath": "Images/Reverse Shell-20240704142326775.webp",
+      "dependencies": []
+    },
+    "Images/roundcube.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 20768,
+      "exportedPath": "Images/roundcube.png",
+      "dependencies": []
+    },
+    "Images/Servers-20240728063003494.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 9010,
+      "exportedPath": "Images/Servers-20240728063003494.webp",
+      "dependencies": []
+    },
+    "Images/SSH (10.200.X.12)-20240529152448150.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 12864,
+      "exportedPath": "Images/SSH (10.200.X.12)-20240529152448150.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Application as Capturer-20240619131355323.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 17340,
+      "exportedPath": "Images/SWIFT Application as Capturer-20240619131355323.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Application as Capturer-20240619134101947.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 13444,
+      "exportedPath": "Images/SWIFT Application as Capturer-20240619134101947.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Application as Capturer-20240622134650494.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 15968,
+      "exportedPath": "Images/SWIFT Application as Capturer-20240622134650494.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Application as Capturer-20240622135930453.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 10896,
+      "exportedPath": "Images/SWIFT Application as Capturer-20240622135930453.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT PAYMENT MADE-20240702155255889.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 38000,
+      "exportedPath": "Images/SWIFT PAYMENT MADE-20240702155255889.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT PAYMENT MADE-20240702155752898.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 17710,
+      "exportedPath": "Images/SWIFT PAYMENT MADE-20240702155752898.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Access-20240618153308780.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 12970,
+      "exportedPath": "Images/SWIFT Web Access-20240618153308780.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Access-20240619134837785.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 17104,
+      "exportedPath": "Images/SWIFT Web Access-20240619134837785.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Access-20240701135015979.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 12044,
+      "exportedPath": "Images/SWIFT Web Access-20240701135015979.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Access-20240701135136648.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 8106,
+      "exportedPath": "Images/SWIFT Web Access-20240701135136648.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Approver Access-20240622153349232.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 21292,
+      "exportedPath": "Images/SWIFT Web Approver Access-20240622153349232.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Approver Access-20240623144300738.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 7100,
+      "exportedPath": "Images/SWIFT Web Approver Access-20240623144300738.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Approver Access-20240623144545968.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 26240,
+      "exportedPath": "Images/SWIFT Web Approver Access-20240623144545968.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Approver Access-20240623154143575.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 36004,
+      "exportedPath": "Images/SWIFT Web Approver Access-20240623154143575.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Approver Access-20240623154427457.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 6510,
+      "exportedPath": "Images/SWIFT Web Approver Access-20240623154427457.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Capturer Access-20240622141500664.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 12962,
+      "exportedPath": "Images/SWIFT Web Capturer Access-20240622141500664.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Capturer Access-20240622141604581.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 12940,
+      "exportedPath": "Images/SWIFT Web Capturer Access-20240622141604581.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Capturer Access-20240622142050571.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 9098,
+      "exportedPath": "Images/SWIFT Web Capturer Access-20240622142050571.webp",
+      "dependencies": []
+    },
+    "Images/SWIFT Web Capturer Access-20240715134751952.webp": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 37578,
+      "exportedPath": "Images/SWIFT Web Capturer Access-20240715134751952.webp",
+      "dependencies": []
+    },
+    "Images/techwebmail.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 75582,
+      "exportedPath": "Images/techwebmail.png",
+      "dependencies": []
+    },
+    "Images/the_team.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 171028,
+      "exportedPath": "Images/the_team.png",
+      "dependencies": []
+    },
+    "Images/the_team 1.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 171028,
+      "exportedPath": "Images/the_team 1.png",
+      "dependencies": []
+    },
+    "Images/thereserve.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 28773,
+      "exportedPath": "Images/thereserve.png",
+      "dependencies": []
+    },
+    "Images/thereserve 1.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 39276,
+      "exportedPath": "Images/thereserve 1.png",
+      "dependencies": []
+    },
+    "Images/thereserve 1 1.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 39276,
+      "exportedPath": "Images/thereserve 1 1.png",
+      "dependencies": []
+    },
+    "Images/thereserve 2.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 28773,
+      "exportedPath": "Images/thereserve 2.png",
+      "dependencies": []
+    },
+    "Images/TheReserve(1).png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 42994,
+      "exportedPath": "Images/TheReserve(1).png",
+      "dependencies": []
+    },
+    "Images/vpn_dirb.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 4288,
+      "exportedPath": "Images/vpn_dirb.png",
+      "dependencies": []
+    },
+    "Images/VPN_request.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 45160,
+      "exportedPath": "Images/VPN_request.png",
+      "dependencies": []
+    },
+    "Images/VPN_request 1.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 45160,
+      "exportedPath": "Images/VPN_request 1.png",
+      "dependencies": []
+    },
+    "Images/wappalyzer.png": {
+      "modifiedTime": 1722966591494,
+      "sourceSize": 41079,
+      "exportedPath": "Images/wappalyzer.png",
+      "dependencies": []
+    }
+  }
+}

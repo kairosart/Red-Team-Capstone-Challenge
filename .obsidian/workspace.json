@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "84aee8bf44bd1a7d",
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Images/Final Network Map-20240728152736002.webp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Images/Final Network Map-20240728152736002.webp",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Images/Final Network Map-20240728152736002.webp"
               }
             }
           },
@@ -211,95 +210,59 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "278bcaa4105b527d",
-    "type": "floating",
-    "children": [
-      {
-        "id": "b89154d239cb9442",
-        "type": "window",
-        "children": [
-          {
-            "id": "0c49d75b03b32506",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b3d088d892c06bd1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Project brief/Welcome.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 98,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "7838c3e8c1328f63",
+  "active": "ae4c02fdead10410",
   "lastOpenFiles": [
-    "FULL COMPROMISE OF ROOTDC/Network Map after CORPDC and ROOTDC compromises.md",
     "index.md",
-    "Project brief/Project Goal.md",
-    "FIRST THINS TO DO/Servers.md",
-    "Project brief/Connect to tryhackme VPN.md",
+    "Project brief/Trimento.md",
+    "Project brief/SWIFT.md",
+    "Project brief/Summary.md",
+    "Project brief/SSH connection to the e-Citizen.md",
     "Project brief/Project Tools.md",
     "Project brief/Project scope.md",
-    "Project brief/SWIFT.md",
-    "Project brief/Trimento.md",
-    "Project brief/Welcome.md",
-    "APPENDIX/Hosts.md",
-    "APPENDIX/Flag Submission Process.md",
-    "Project brief/Summary.md",
-    "APPENDIX/Pivoting overview.md",
-    "Red Team Capstone Challenge.md",
-    "To do list.md",
+    "Project brief/Connect to tryhackme VPN.md",
+    "PERIMETER BREACH/Network Map after Server1 and Server2 compromises.md",
+    "PERIMETER BREACH/Credentials recovery through Kerberosting.md",
+    "PERIMETER BREACH/WRK2/Enumerate 10.200.X.22.md",
+    "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.md",
+    "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md",
+    "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.md",
+    "PERIMETER BREACH/SERVER1 and SEVER2/Enumerate 10.200.X.31 and 32.md",
+    "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md",
+    "OSINT/Active enumeration of the 3 servers.md",
+    "OSINT/WebMail Scanning/Webmail mail.thereserve.loc.md",
+    "OSINT/WebMail Scanning/Technologies of the website.md",
+    "OSINT/WebMail Scanning/Mail access.md",
+    "OSINT/WebMail Scanning/Brute force SMTP.md",
+    "OSINT/Web Scanning/Website web.thereserve.loc.md",
+    "OSINT/Web Scanning/Technologies of the website.md",
+    "OSINT/Web Scanning/October CMS.md",
+    "OSINT/Web Scanning/Gobuster.md",
+    "OSINT/VPN Scanning/Reverse Shell.md",
     "Images/Final Network Map-20240728152736002.webp",
-    "APPENDIX",
-    "Images/Log in into Swift portal as Capturer using provided password-20240728151338058.webp",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md",
-    "DOMAIN ESCALATION/Privilege Access to CORP Tier 1 - Server1 and Server2.md",
-    "DOMAIN ESCALATION/DOMAIN ESCALATION.md",
-    "DOMAIN ESCALATION/Active Directory Enumeration.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Final Network Map.md",
-    "Final Network Map-20240728152644906.webp",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/COMPROMISE OF SWIFT AND PAYMENT TRANSFER.md",
-    "FULL COMPROMISE OF BANK DOMAIN/Network Map after BANKDC compromise.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Change g.watson's password and RDP to WRK1.md",
-    "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Approver Access.md",
-    "Images/TheReserve(1).png",
-    "Images/thereserve 2.png",
-    "Images/thereserve 1 1.png",
-    "Images/thereserve 1.png",
-    "Images/thereserve.png",
-    "Images/the_team 1.png",
-    "Images/Gobuster-20240728142151997.webp",
-    "FIRST THINS TO DO",
-    "Red Team Capstone Network - Azkrath Write-Up.pdf",
-    "COMPROMISE OF SWIFT AND PAYMENT TRANSFER",
-    "FULL COMPROMISE OF BANK DOMAIN",
-    "Full Compromise of BANK Domain",
-    "FULL COMPROMISE OF ROOTDC",
-    "FULL COMPROMISE OF CORP DOMAIN",
+    "docs/Images/wappalyzer.png",
+    "docs/Images/VPN_request 1.png",
+    "docs/Images/VPN_request.png",
+    "docs/Images/vpn_dirb.png",
+    "docs/Images/TheReserve(1).png",
+    "docs/Images/thereserve 2.png",
+    "docs/Images/thereserve 1 1.png",
+    "docs/Images/thereserve 1.png",
+    "docs/Images/thereserve.png",
+    "docs/Images",
+    "docs/docs/docs/docs/docs/docs/index.html",
+    "docs/docs/docs/docs/docs/docs/Project brief/Welcome.html",
+    "docs/docs/docs/docs/docs/docs/Project brief/Trimento.html",
+    "docs/docs/docs/docs/docs/docs/Project brief/SWIFT.html",
+    "docs/docs/docs/docs/docs/docs/Project brief/Summary.html",
+    "docs/docs/docs/docs/docs/docs/Project brief/SSH connection to the e-Citizen.html",
+    "docs/docs/docs/docs/docs/docs/Project brief/Project Tools.html",
+    "docs/docs/docs/docs/docs/docs/Project brief/Project scope.html",
+    "docs/docs/docs/docs/docs/docs/Project brief/Project Goal.html",
     "Evolution configuration.canvas",
-    "PERIMETER BREACH/SERVER1 and SEVER2",
-    "DOMAIN ESCALATION",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
