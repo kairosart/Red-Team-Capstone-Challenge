@@ -22,4 +22,5 @@ PS C:\Users\Administrator> `echo $group`
 ![[Create a new user on BANKDC-20240616154446455.webp]]
 
 
-**Next step**: [[RDP to JMP]]
+**Next step**: [[SWIFT Web Access]]
+
