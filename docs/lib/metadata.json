@@ -1,6 +1,6 @@
 {
   "vaultName": "Borderlands",
-  "lastExport": 1725013681661,
+  "lastExport": 1728073495929,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -101,466 +101,466 @@
     "lib/media/874d8b8e340f75575caa.svg"
   ],
   "fileInfo": {
-    "index.md": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 2271,
-      "exportedPath": "index.html",
-      "dependencies": []
-    },
-    "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 66800,
-      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
-      "dependencies": []
-    },
-    "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 104232,
-      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 104332,
-      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 98868,
-      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 106876,
-      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 105804,
-      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 106108,
-      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 111708,
-      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 192740,
-      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 161376,
-      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 191568,
-      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 155288,
-      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 7876,
-      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1725013681661,
-      "sourceSize": 317,
-      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
     "APPENDIX/Flag Submission Process.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1516,
       "exportedPath": "APPENDIX/Flag Submission Process.html",
       "dependencies": []
     },
     "APPENDIX/Flags.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1141,
       "exportedPath": "APPENDIX/Flags.html",
       "dependencies": []
     },
     "APPENDIX/Hosts.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 755,
       "exportedPath": "APPENDIX/Hosts.html",
       "dependencies": []
     },
     "APPENDIX/Pivoting overview.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1436,
       "exportedPath": "APPENDIX/Pivoting overview.html",
       "dependencies": []
     },
     "APPENDIX/Proxychains.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 4345,
       "exportedPath": "APPENDIX/Proxychains.html",
       "dependencies": []
     },
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Change g.watson's password and RDP to WRK1.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 387,
       "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Change g.watson's password and RDP to WRK1.html",
       "dependencies": []
     },
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1248,
       "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Enumerate users CAPTURERS and APPROVERS.html",
       "dependencies": []
     },
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Final Network Map.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 45,
       "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Final Network Map.html",
       "dependencies": []
     },
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Log in into Swift portal as Capturer using provided password.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 376,
       "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/Log in into Swift portal as Capturer using provided password.html",
       "dependencies": []
     },
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 793,
       "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT PAYMENT MADE.html",
       "dependencies": []
     },
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1831,
       "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Access.html",
       "dependencies": []
     },
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Approver Access.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 2160,
       "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Approver Access.html",
       "dependencies": []
     },
     "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1457,
       "exportedPath": "COMPROMISE OF SWIFT AND PAYMENT TRANSFER/SWIFT Web Capturer Access.html",
       "dependencies": []
     },
     "FIRST THINS TO DO/Project Registration.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1954,
       "exportedPath": "FIRST THINS TO DO/Project Registration.html",
       "dependencies": []
     },
     "FIRST THINS TO DO/Servers.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 305,
       "exportedPath": "FIRST THINS TO DO/Servers.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF BANK DOMAIN/Create user at BANKDC.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 914,
       "exportedPath": "FULL COMPROMISE OF BANK DOMAIN/Create user at BANKDC.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF BANK DOMAIN/Network Map after BANKDC compromise.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 428,
       "exportedPath": "FULL COMPROMISE OF BANK DOMAIN/Network Map after BANKDC compromise.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1280,
       "exportedPath": "FULL COMPROMISE OF BANK DOMAIN/RDP to BANKDC from host CORPDC.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1024,
       "exportedPath": "FULL COMPROMISE OF BANK DOMAIN/RDP to JMP.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1095,
       "exportedPath": "FULL COMPROMISE OF BANK DOMAIN/RDP to WORK 1.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 265,
       "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/Change Administrator's password.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1411,
       "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/Connect CORPDC with evil-winrm.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 487,
       "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from CORPDC.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1050,
       "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/Dumping secrets from the AD machines.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF CORP DOMAIN/Network Map after compromising CORPDC.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 2834,
       "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/Network Map after compromising CORPDC.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 225,
       "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 862,
       "exportedPath": "FULL COMPROMISE OF CORP DOMAIN/RDP to CORPDC with the Administrator's credentials.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF ROOTDC/Golden Ticket Attack with mimikatz.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 4864,
       "exportedPath": "FULL COMPROMISE OF ROOTDC/Golden Ticket Attack with mimikatz.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF ROOTDC/Maintain persistence.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 2138,
       "exportedPath": "FULL COMPROMISE OF ROOTDC/Maintain persistence.html",
       "dependencies": []
     },
     "FULL COMPROMISE OF ROOTDC/Network Map after CORPDC and ROOTDC compromises.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 539,
       "exportedPath": "FULL COMPROMISE OF ROOTDC/Network Map after CORPDC and ROOTDC compromises.html",
       "dependencies": []
     },
     "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 3829,
       "exportedPath": "OSINT/VPN Scanning/Connect via SSH (10.200.X.12).html",
       "dependencies": []
     },
     "OSINT/VPN Scanning/Pivoting.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 594,
       "exportedPath": "OSINT/VPN Scanning/Pivoting.html",
       "dependencies": []
     },
     "OSINT/VPN Scanning/Privilege Escalation.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 769,
       "exportedPath": "OSINT/VPN Scanning/Privilege Escalation.html",
       "dependencies": []
     },
     "OSINT/VPN Scanning/Reverse Shell.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 2717,
       "exportedPath": "OSINT/VPN Scanning/Reverse Shell.html",
       "dependencies": []
     },
     "OSINT/VPN Scanning/Scanning other hosts.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 2899,
       "exportedPath": "OSINT/VPN Scanning/Scanning other hosts.html",
       "dependencies": []
     },
     "OSINT/Web Scanning/Gobuster.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 398,
       "exportedPath": "OSINT/Web Scanning/Gobuster.html",
       "dependencies": []
     },
     "OSINT/Web Scanning/October CMS.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 333,
       "exportedPath": "OSINT/Web Scanning/October CMS.html",
       "dependencies": []
     },
     "OSINT/Web Scanning/Technologies of the website.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 383,
       "exportedPath": "OSINT/Web Scanning/Technologies of the website.html",
       "dependencies": []
     },
     "OSINT/Web Scanning/Website web.thereserve.loc.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1714,
       "exportedPath": "OSINT/Web Scanning/Website web.thereserve.loc.html",
       "dependencies": []
     },
     "OSINT/WebMail Scanning/Brute force SMTP.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1127,
       "exportedPath": "OSINT/WebMail Scanning/Brute force SMTP.html",
       "dependencies": []
     },
     "OSINT/WebMail Scanning/Mail access.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 465,
       "exportedPath": "OSINT/WebMail Scanning/Mail access.html",
       "dependencies": []
     },
     "OSINT/WebMail Scanning/Technologies of the website.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 199,
       "exportedPath": "OSINT/WebMail Scanning/Technologies of the website.html",
       "dependencies": []
     },
     "OSINT/WebMail Scanning/Webmail mail.thereserve.loc.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 402,
       "exportedPath": "OSINT/WebMail Scanning/Webmail mail.thereserve.loc.html",
       "dependencies": []
     },
     "OSINT/Active enumeration of the 3 servers.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 847,
       "exportedPath": "OSINT/Active enumeration of the 3 servers.html",
       "dependencies": []
     },
     "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 408,
       "exportedPath": "PERIMETER BREACH/SERVER1 and SEVER2/Connect to SERVER1 via RDP.html",
       "dependencies": []
     },
     "PERIMETER BREACH/SERVER1 and SEVER2/Enumerate 10.200.X.31 and 32.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 841,
       "exportedPath": "PERIMETER BREACH/SERVER1 and SEVER2/Enumerate 10.200.X.31 and 32.html",
       "dependencies": []
     },
     "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 275,
       "exportedPath": "PERIMETER BREACH/WRK1/Connect to 10.200.X.21 via RDP.html",
       "dependencies": []
     },
     "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 274,
       "exportedPath": "PERIMETER BREACH/WRK1/Enumerate 10.200.X.21.html",
       "dependencies": []
     },
     "PERIMETER BREACH/WRK1/WRK1.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 349,
       "exportedPath": "PERIMETER BREACH/WRK1/WRK1.html",
       "dependencies": []
     },
     "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 442,
       "exportedPath": "PERIMETER BREACH/WRK2/Connect to 10.200.X.22 via RDP.html",
       "dependencies": []
     },
     "PERIMETER BREACH/WRK2/Enumerate 10.200.X.22.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 274,
       "exportedPath": "PERIMETER BREACH/WRK2/Enumerate 10.200.X.22.html",
       "dependencies": []
     },
     "PERIMETER BREACH/Credentials recovery through Kerberosting.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 5349,
       "exportedPath": "PERIMETER BREACH/Credentials recovery through Kerberosting.html",
       "dependencies": []
     },
     "PERIMETER BREACH/Network Map after Server1 and Server2 compromises.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 135,
       "exportedPath": "PERIMETER BREACH/Network Map after Server1 and Server2 compromises.html",
       "dependencies": []
     },
     "Project brief/Connect to tryhackme VPN.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1564,
       "exportedPath": "Project brief/Connect to tryhackme VPN.html",
       "dependencies": []
     },
     "Project brief/Project Goal.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 757,
       "exportedPath": "Project brief/Project Goal.html",
       "dependencies": []
     },
     "Project brief/Project scope.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 697,
       "exportedPath": "Project brief/Project scope.html",
       "dependencies": []
     },
     "Project brief/Project Tools.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 811,
       "exportedPath": "Project brief/Project Tools.html",
       "dependencies": []
     },
     "Project brief/SSH connection to the e-Citizen.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 464,
       "exportedPath": "Project brief/SSH connection to the e-Citizen.html",
       "dependencies": []
     },
     "Project brief/Summary.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1374,
       "exportedPath": "Project brief/Summary.html",
       "dependencies": []
     },
     "Project brief/SWIFT.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 1262,
       "exportedPath": "Project brief/SWIFT.html",
       "dependencies": []
     },
     "Project brief/Trimento.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 715,
       "exportedPath": "Project brief/Trimento.html",
       "dependencies": []
     },
     "Project brief/Welcome.md": {
-      "modifiedTime": 1725013681661,
+      "modifiedTime": 1728073495929,
       "sourceSize": 4108,
       "exportedPath": "Project brief/Welcome.html",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 2271,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1728073495929,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     }
   }
